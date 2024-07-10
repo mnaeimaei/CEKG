@@ -26,6 +26,7 @@ print(multiLoc)
 
 
 
+
 def seve_jpegCKEG(request):
     savingTxt = multiLoc + "/" + "CEKG.txt"
 

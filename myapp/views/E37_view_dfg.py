@@ -9,7 +9,7 @@ logging.basicConfig(filename='myapp.log', level=logging.INFO)
 logger = logging.getLogger("myapp")
 
 
-confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+confDirectory = "./myapp/Data/0_DataConf"
 confPath = os.path.realpath(confDirectory)
 
 # Additional view to handle the PDF serving

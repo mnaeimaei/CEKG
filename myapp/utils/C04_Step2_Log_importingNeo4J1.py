@@ -186,6 +186,7 @@ if step_createLog:
     with driver.session() as session:
         session.execute_write(cl5.createLogNode, dataSet,graphviz_QueryLocationQ4)
 
+
     if selenium==True:
         print("\n Neo4J Query to SVG:")
         runingQuery = f'''
