@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/B5_csv_otherEntities.css">
+</head>
+
+<body>
+<h1>Please select the related column that describes each value:</h1>
+
+<div class="container">
+
+    <div class="excel-preview">
+        <div class="table">
+            {{ html_OtherEntities|safe }}
+        </div>
+
+    </div>
+
+
+    <div class="configuration">
+        <form id="allFormB5" method="post">
+
+
+            <div id="EnP_Origin" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ oen_origin_form.as_p }}
+            </div>
+
+
+            <div id="EnP_ID" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ oen_id_form.as_p }}
+            </div>
+
+            <div id="EnP_Name" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ oen_name_form.as_p }}
+            </div>
+
+
+            <div id="EnP_Value" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ oen_value_form.as_p }}
+            </div>
+
+
+            <div id="EnP_Category" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ oen_category_form.as_p }}
+            </div>
+
+
+            <div id="optionsContainer" data-options-b5='{{ button_lists_b5|safe }}'></div>
+            <div id="optionsContainerDefault" data-options-default-b5='{{ options_to_show_default_b5|safe }}'></div>
+
+
+            <a>Click to go the next page:</a>
+
+            <div id="nextButton3Div" style="display:block;">
+                {% csrf_token %}
+                {{ nextButton.as_p }}
+            </div>
+
+
+            <script src="../static/js/B5_csv_otherEntities.js" type="module"></script>
+        </form>
+
+
+    </div>
+</div>
+
+</body>
+</html>

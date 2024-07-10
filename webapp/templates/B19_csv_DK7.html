@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/B19_csv_DK7.css">
+</head>
+
+<body>
+<h1>Please select the related column that describes each value:</h1>
+
+<div class="container">
+
+    <div class="excel-preview">
+        <div class="table">
+            {{ html_DK7|safe }}
+        </div>
+
+    </div>
+
+
+    <div class="configuration">
+        <form id="allFormB19" method="post">
+
+
+        <div id="DK7_Activity_Value_ID" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ dk7_activity_value_id_form.as_p }}
+        </div>
+
+
+        <div id="DK7_Disorders" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ dk7_disorders_form.as_p }}
+        </div>
+
+
+<div id="optionsContainer" data-options-b19='{{ button_lists_b19 |safe }}'></div>
+        <div id="optionsContainerDefault" data-options-default-b19='{{ options_to_show_default_b19|safe }}'></div>
+
+            <a>Click to go the next page:</a>
+        <div id="nextButton3Div" style="display:block;">
+            {% csrf_token %}
+            {{ nextButton.as_p }}
+        </div>
+
+        <script src="../static/js/B19_csv_DK7.js" type="module"></script>
+                </form>
+
+
+    </div>
+</div>
+
+</body>
+</html>

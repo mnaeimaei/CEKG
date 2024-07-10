@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/B8_csv_Domain.css">
+</head>
+
+<body>
+<h1>Please select the related column that describes each value:</h1>
+
+<div class="container">
+
+    <div class="excel-preview">
+        <div class="table">
+            {{ html_Domain|safe }}
+        </div>
+
+    </div>
+
+
+    <div class="configuration">
+        <form id="allFormB8" method="post">
+
+
+        <div id="ACT_Domain" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ domain_form.as_p }}
+        </div>
+
+
+
+<div id="optionsContainer" data-options-b8='{{ button_lists_b8 |safe }}'></div>
+        <div id="optionsContainerDefault" data-options-default-b8='{{ options_to_show_default_b8|safe }}'></div>
+
+            <a>Click to go the next page:</a>
+        <div id="nextButton3Div" style="display:block;">
+            {% csrf_token %}
+            {{ nextButton.as_p }}
+        </div>
+
+        <script src="../static/js/B8_csv_Domain.js" type="module"></script>
+                </form>
+
+
+    </div>
+</div>
+
+</body>
+</html>

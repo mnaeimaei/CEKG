@@ -1,0 +1,6 @@
+//link_log_events
+
+            MATCH (e:Event {Log: "EventLog" }) 
+            MATCH (l:Log {ID: "EventLog" }) 
+            CREATE (l)-[:HAS]->(e);
+

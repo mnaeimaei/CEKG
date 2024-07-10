@@ -1,0 +1,42 @@
+//admNotTreated_Value
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)-[:INCLUDED]->(t:untreatedMorbids) 
+            where a.ID="11"
+            SET t.Value = "UNK"
+            
+
+//admNotTreated_Value
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)-[:INCLUDED]->(t:untreatedMorbids) 
+            where a.ID="12"
+            SET t.Value = "D05,D07"
+            
+
+//admNotTreated_Value
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)-[:INCLUDED]->(t:untreatedMorbids) 
+            where a.ID="13"
+            SET t.Value = "D06,D09,D11"
+            
+
+//admNotTreated_Value
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)-[:INCLUDED]->(t:untreatedMorbids) 
+            where a.ID="14"
+            SET t.Value = "UNK"
+            
+
+//admNotTreated_Value
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)-[:INCLUDED]->(t:untreatedMorbids) 
+            where a.ID="15"
+            SET t.Value = "D09,D34,D40"
+            
+
+//admNotTreated_Value
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)-[:INCLUDED]->(t:untreatedMorbids) 
+            where a.ID="16"
+            SET t.Value = "D05,D07,D08"
+            
+

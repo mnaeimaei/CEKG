@@ -1,0 +1,42 @@
+//admNew_Fun
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)-[:INCLUDED]->(t:newMorbids) where a.ID="11"
+            MATCH (d:Disorder) where d.Name="D02"
+            CREATE (t)-[:INCLUDED {Type:"last"}]->(d);
+            
+
+//admNew_Fun
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)-[:INCLUDED]->(t:newMorbids) where a.ID="12"
+            MATCH (d:Disorder) where d.Name="Nothing"
+            CREATE (t)-[:INCLUDED {Type:"last"}]->(d);
+            
+
+//admNew_Fun
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)-[:INCLUDED]->(t:newMorbids) where a.ID="13"
+            MATCH (d:Disorder) where d.Name="UNK"
+            CREATE (t)-[:INCLUDED {Type:"last"}]->(d);
+            
+
+//admNew_Fun
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)-[:INCLUDED]->(t:newMorbids) where a.ID="14"
+            MATCH (d:Disorder) where d.Name="Nothing"
+            CREATE (t)-[:INCLUDED {Type:"last"}]->(d);
+            
+
+//admNew_Fun
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)-[:INCLUDED]->(t:newMorbids) where a.ID="15"
+            MATCH (d:Disorder) where d.Name="Nothing"
+            CREATE (t)-[:INCLUDED {Type:"last"}]->(d);
+            
+
+//admNew_Fun
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)-[:INCLUDED]->(t:newMorbids) where a.ID="16"
+            MATCH (d:Disorder) where d.Name="UNK"
+            CREATE (t)-[:INCLUDED {Type:"last"}]->(d);
+            
+

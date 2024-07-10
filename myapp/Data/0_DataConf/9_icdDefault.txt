@@ -1,0 +1,4 @@
+CE_ClinicalEntity=ClinicalEntity
+CE_icd_code=icd_code
+CE_icd_version=icd_version
+CE_icd_code_title=icd_code_title

@@ -1,0 +1,16 @@
+eventLogDiv=C_Log
+otherEntitiesDiv=D_OtherEntities
+otherEntitiesRelDiv=D_EntityRel
+activitiesValueDiv=E_Activity_Properties
+domainDiv=F_Domain
+iCDDiv=H_ICD
+snomedCtRelNodeDiv=I_OCT_Node
+snomedCtRelDiv=I_OCT_REL
+dk1Div=C_Log
+dk2Div=K_DK2
+dk3Div=L_DK3
+dk4Div=M_DK4
+dk5Div=N_DK5
+dk61Div=O_DK6_1
+dk62Div=O_DK6_2
+dk7Div=P_DK7

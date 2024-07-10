@@ -1,0 +1,511 @@
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="3812"
+            MATCH ( n:Concept ) where n.conceptId=266096002
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="389"
+            MATCH ( n:Concept ) where n.conceptId=91302008
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="4111"
+            MATCH ( n:Concept ) where n.conceptId=127331000119101
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="7999"
+            MATCH ( n:Concept ) where n.conceptId=34014006
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="1121"
+            MATCH ( n:Concept ) where n.conceptId=1085006
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="1744"
+            MATCH ( n:Concept ) where n.conceptId=188154003
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="1963"
+            MATCH ( n:Concept ) where n.conceptId=94181007
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="25000"
+            MATCH ( n:Concept ) where n.conceptId=44054006
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="2761"
+            MATCH ( n:Concept ) where n.conceptId=277547006
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="2763"
+            MATCH ( n:Concept ) where n.conceptId=21420006
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="27800"
+            MATCH ( n:Concept ) where n.conceptId=414916001
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="27801"
+            MATCH ( n:Concept ) where n.conceptId=238136002
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="2809"
+            MATCH ( n:Concept ) where n.conceptId=87522002
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="2811"
+            MATCH ( n:Concept ) where n.conceptId=735452003
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="28529"
+            MATCH ( n:Concept ) where n.conceptId=234347009
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="29680"
+            MATCH ( n:Concept ) where n.conceptId=13746004
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="29690"
+            MATCH ( n:Concept ) where n.conceptId=94921000119107
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="30183"
+            MATCH ( n:Concept ) where n.conceptId=20010003
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="30781"
+            MATCH ( n:Concept ) where n.conceptId=398057008
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="30981"
+            MATCH ( n:Concept ) where n.conceptId=47505003
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="311"
+            MATCH ( n:Concept ) where n.conceptId=35489007
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="32723"
+            MATCH ( n:Concept ) where n.conceptId=78275009
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="33394"
+            MATCH ( n:Concept ) where n.conceptId=32914008
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="4019"
+            MATCH ( n:Concept ) where n.conceptId=59621000
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="41519"
+            MATCH ( n:Concept ) where n.conceptId=441746000
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="4259"
+            MATCH ( n:Concept ) where n.conceptId=195029002
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="4538"
+            MATCH ( n:Concept ) where n.conceptId=111293003
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="49320"
+            MATCH ( n:Concept ) where n.conceptId=111293003
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="49390"
+            MATCH ( n:Concept ) where n.conceptId=195967001
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="5070"
+            MATCH ( n:Concept ) where n.conceptId=196033004
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="51881"
+            MATCH ( n:Concept ) where n.conceptId=65710008
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="53081"
+            MATCH ( n:Concept ) where n.conceptId=249496004
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="5609"
+            MATCH ( n:Concept ) where n.conceptId=81060008
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="5990"
+            MATCH ( n:Concept ) where n.conceptId=68566005
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="6820"
+            MATCH ( n:Concept ) where n.conceptId=200645004
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="6929"
+            MATCH ( n:Concept ) where n.conceptId=40275004
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="6961"
+            MATCH ( n:Concept ) where n.conceptId=9014002
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="7197"
+            MATCH ( n:Concept ) where n.conceptId=1156409003
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="7280"
+            MATCH ( n:Concept ) where n.conceptId=29689003
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="73620"
+            MATCH ( n:Concept ) where n.conceptId=26517000
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="78552"
+            MATCH ( n:Concept ) where n.conceptId=76571007
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="78659"
+            MATCH ( n:Concept ) where n.conceptId=59021001
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="78830"
+            MATCH ( n:Concept ) where n.conceptId=236667007
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="83400"
+            MATCH ( n:Concept ) where n.conceptId=69834004
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="88100"
+            MATCH ( n:Concept ) where n.conceptId=125649002
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="99592"
+            MATCH ( n:Concept ) where n.conceptId=449084002
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="99664"
+            MATCH ( n:Concept ) where n.conceptId=473092007
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="99731"
+            MATCH ( n:Concept ) where n.conceptId=429271009
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="99931"
+            MATCH ( n:Concept ) where n.conceptId=736152001
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="A047"
+            MATCH ( n:Concept ) where n.conceptId=43752006
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="C50912"
+            MATCH ( n:Concept ) where n.conceptId=372064008
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="C778"
+            MATCH ( n:Concept ) where n.conceptId=303201005
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="C779"
+            MATCH ( n:Concept ) where n.conceptId=94392001
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="C7800"
+            MATCH ( n:Concept ) where n.conceptId=94391008
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="C787"
+            MATCH ( n:Concept ) where n.conceptId=93870000
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="C7951"
+            MATCH ( n:Concept ) where n.conceptId=94222008
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="D684"
+            MATCH ( n:Concept ) where n.conceptId=25904003
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="D688"
+            MATCH ( n:Concept ) where n.conceptId=267272006
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="E039"
+            MATCH ( n:Concept ) where n.conceptId=40930008
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="E46"
+            MATCH ( n:Concept ) where n.conceptId=238107002
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="E669"
+            MATCH ( n:Concept ) where n.conceptId=414916001
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="E8339"
+            MATCH ( n:Concept ) where n.conceptId=87049008
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="E860"
+            MATCH ( n:Concept ) where n.conceptId=34095006
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="E871"
+            MATCH ( n:Concept ) where n.conceptId=267447008
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="H532"
+            MATCH ( n:Concept ) where n.conceptId=24982008
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="I10"
+            MATCH ( n:Concept ) where n.conceptId=59621000
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="I427"
+            MATCH ( n:Concept ) where n.conceptId=72972005
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="I5022"
+            MATCH ( n:Concept ) where n.conceptId=441481004
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="J45909"
+            MATCH ( n:Concept ) where n.conceptId=195967001
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="K7290"
+            MATCH ( n:Concept ) where n.conceptId=59927004
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="K7469"
+            MATCH ( n:Concept ) where n.conceptId=19943007
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="K8020"
+            MATCH ( n:Concept ) where n.conceptId=235919008
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+
+//Potential_OCPS
+ 
+            MATCH ( s:Clinical ) where s.icdCode="L409"
+            MATCH ( n:Concept ) where n.conceptId=9014002
+            CREATE ( s ) -[:CONNECTED_TO]-> ( n )
+            
+

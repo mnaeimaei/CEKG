@@ -1,0 +1,3 @@
+//createConstraint
+CREATE CONSTRAINT FOR (n:Clinical) REQUIRE n.ID IS UNIQUE;
+

@@ -1,0 +1,32 @@
+//DFC_based_on_Origins
+     
+                            MATCH (c1:ActivityPropery {Type:"ActivityPropery"}) -[df:DF_C {Category:"wProperty"}]-> (c2:ActivityPropery {Type:"ActivityPropery"})
+                            match (c1:ActivityPropery) 
+                            match (c2:ActivityPropery) 
+                            WHERE df.count >= 1 and df.Type = "AllProperty" and df.En1="Patient" and df.En1_ID="0"
+                            return c1,df,c2   
+                        
+
+//DFC_based_on_Origins
+     
+                            MATCH (c1:ActivityPropery {Type:"ActivityPropery"}) -[df:DF_C {Category:"wProperty"}]-> (c2:ActivityPropery {Type:"ActivityPropery"})
+                            match (c1:ActivityPropery) 
+                            match (c2:ActivityPropery) 
+                            WHERE df.count >= 1 and df.Type = "AllProperty" and df.En1="Admission" and df.En1_ID="0"
+                            return c1,df,c2   
+                        
+
+//DFC_Adding_Entities
+     
+                            MATCH (c1:ActivityPropery {Type:"ActivityPropery"}) -[df:DF_C {Category:"wProperty"}]-> (c2:ActivityPropery {Type:"ActivityPropery"})
+                            WHERE df.count >= 1 and df.Type = "AllProperty" and df.En1="Patient" and df.En1_ID="0"
+                            return c1,df,c2
+                        
+
+//DFC_Adding_Entities
+     
+                            MATCH (c1:ActivityPropery {Type:"ActivityPropery"}) -[df:DF_C {Category:"wProperty"}]-> (c2:ActivityPropery {Type:"ActivityPropery"})
+                            WHERE df.count >= 1 and df.Type = "AllProperty" and df.En1="Admission" and df.En1_ID="0"
+                            return c1,df,c2
+                        
+

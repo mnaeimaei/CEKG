@@ -1,0 +1,17 @@
+//loadOCPSConcepts
+ LOAD CSV WITH HEADERS FROM "file:///I_OCT_Node_Neo4j.csv" as line 
+    CALL { 
+    with line 
+            CREATE (s:Concept {Log: "SNOMED_CT",
+            idx: toInteger(line.idx), 
+            conceptId: toInteger(line.conceptId), 
+            conceptCode: toInteger(line.conceptCode), 
+            termA: line.termA, 
+            termB: line.termB, 
+            Semanti_tags: line.Semanti_tags, 
+            ConceptType: line.ConceptType, 
+            level: line.level 
+          })
+    } IN TRANSACTIONS ;
+    
+

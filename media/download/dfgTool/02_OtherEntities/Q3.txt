@@ -1,0 +1,21 @@
+//createConstraint
+CREATE CONSTRAINT FOR (n:Multimorbidity) REQUIRE n.ID IS UNIQUE;
+
+//createConstraint
+CREATE CONSTRAINT FOR (n:age) REQUIRE n.ID IS UNIQUE;
+
+//createConstraint
+CREATE CONSTRAINT FOR (n:untreatedMorbids) REQUIRE n.ID IS UNIQUE;
+
+//createConstraint
+CREATE CONSTRAINT FOR (n:gender) REQUIRE n.ID IS UNIQUE;
+
+//createConstraint
+CREATE CONSTRAINT FOR (n:Disorder) REQUIRE n.ID IS UNIQUE;
+
+//createConstraint
+CREATE CONSTRAINT FOR (n:newMorbids) REQUIRE n.ID IS UNIQUE;
+
+//createConstraint
+CREATE CONSTRAINT FOR (n:treatedMorbids) REQUIRE n.ID IS UNIQUE;
+

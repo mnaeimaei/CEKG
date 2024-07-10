@@ -1,0 +1,4 @@
+DK5_Activity=Activity
+DK5_Activity_Synonym=Activity_Synonym
+DK5_OTC=OTC
+DK5_SCTCode=SCTCode

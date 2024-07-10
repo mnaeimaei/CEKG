@@ -1,0 +1,1 @@
+{'1': 'Event', '2': 'timestamp', '3': 'Entity1_Origin', '4': 'Entity1_ID', '5': 'Entity2_Origin', '6': 'Entity2_ID', '7': 'Activity', '8': 'Activity_Synonym', '9': 'Activity_Value_ID', '10': 'Activity_Properties_ID'}

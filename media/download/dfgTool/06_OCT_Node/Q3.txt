@@ -1,0 +1,3 @@
+//createConstraint
+CREATE CONSTRAINT FOR (n:Concept) REQUIRE n.ID IS UNIQUE;
+

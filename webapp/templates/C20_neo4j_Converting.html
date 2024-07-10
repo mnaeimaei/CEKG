@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/C20_neo4j_Converting.css">
+</head>
+
+<body>
+<h1>Building the Clinical Event Knowledge graph:</h1>
+
+<div class="jpeg-preview">
+    <img src="{% url 'seve_jpegCKEG_name' %}" alt="Generated Graph" style="width:40%; height:auto;">
+</div>
+
+<div class="container">
+
+
+        <form id="allFormC20" method="post">
+
+
+            <div id="progressBarContainer" class="progress-container">
+                <div id="progressBar" class="progress-bar">0%</div>
+            </div>
+
+
+            <div id="nextButtonC20Div" style="display:block;">
+                {% csrf_token %}
+                {{ nextButton.as_p }}
+            </div>
+
+            <script src="../static/js/C20_neo4j_Converting.js" type="module"></script>
+        </form>
+
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/B14_csv_DK3.css">
+</head>
+
+<body>
+<h1>Please select the related column that describes each value:</h1>
+
+<div class="container">
+
+    <div class="excel-preview">
+        <div class="table">
+            {{ html_DK3|safe }}
+        </div>
+
+    </div>
+
+
+    <div class="configuration">
+        <form id="allFormB14" method="post">
+
+
+            <div id="DK3_Disorders" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ dk3_disorders_form.as_p }}
+            </div>
+
+
+            <div id="DK3_icd_code" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ dk3_icd_code_form.as_p }}
+            </div>
+
+
+            <div id="optionsContainer" data-options-b14='{{ button_lists_b14 |safe }}'></div>
+            <div id="optionsContainerDefault" data-options-default-b14='{{ options_to_show_default_b14|safe }}'></div>
+
+            <a>Click to go the next page:</a>
+            <div id="nextButton3Div" style="display:block;">
+                {% csrf_token %}
+                {{ nextButton.as_p }}
+            </div>
+
+            <script src="../static/js/B14_csv_DK3.js" type="module"></script>
+        </form>
+
+
+    </div>
+</div>
+
+</body>
+</html>

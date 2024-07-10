@@ -1,0 +1,140 @@
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission)<-[:DF_E]- (n:Admission)
+        WHERE n.ID="11"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"Admission",  Source:"Patient" , sourceID:"1"  }]-> ( a1 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission)<-[:DF_E]- (n:Admission)
+        WHERE n.ID="12"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"Admission",  Source:"Patient" , sourceID:"1"  }]-> ( a1 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission)<-[:DF_E]- (n:Admission)
+        WHERE n.ID="14"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"Admission",  Source:"Patient" , sourceID:"2"  }]-> ( a1 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission)<-[:DF_E]- (n:Admission)
+        WHERE n.ID="15"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"Admission",  Source:"Patient" , sourceID:"2"  }]-> ( a1 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission) -[:INCLUDED]- (a3:Multimorbidity)<-[:DF_E]- (n:Multimorbidity)
+        WHERE n.ID="1"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"Multimorbidity",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission) -[:INCLUDED]- (a3:Multimorbidity)<-[:DF_E]- (n:Multimorbidity)
+        WHERE n.ID="2"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"Multimorbidity",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission) -[:INCLUDED]- (a3:Multimorbidity)<-[:DF_E]- (n:Multimorbidity)
+        WHERE n.ID="4"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"Multimorbidity",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission) -[:INCLUDED]- (a3:Multimorbidity)<-[:DF_E]- (n:Multimorbidity)
+        WHERE n.ID="5"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"Multimorbidity",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission) -[:INCLUDED]- (a3:Multimorbidity) -[:INCLUDED]- (a4:untreatedMorbids)<-[:DF_E]- (n:untreatedMorbids)
+        WHERE n.ID="1"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"untreatedMorbids",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission) -[:INCLUDED]- (a3:Multimorbidity) -[:INCLUDED]- (a4:untreatedMorbids)<-[:DF_E]- (n:untreatedMorbids)
+        WHERE n.ID="2"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"untreatedMorbids",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission) -[:INCLUDED]- (a3:Multimorbidity) -[:INCLUDED]- (a4:untreatedMorbids)<-[:DF_E]- (n:untreatedMorbids)
+        WHERE n.ID="4"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"untreatedMorbids",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission) -[:INCLUDED]- (a3:Multimorbidity) -[:INCLUDED]- (a4:untreatedMorbids)<-[:DF_E]- (n:untreatedMorbids)
+        WHERE n.ID="5"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"untreatedMorbids",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission) -[:INCLUDED]- (a3:Multimorbidity) -[:INCLUDED]- (a4:treatedMorbids)<-[:DF_E]- (n:treatedMorbids)
+        WHERE n.ID="1"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"treatedMorbids",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission) -[:INCLUDED]- (a3:Multimorbidity) -[:INCLUDED]- (a4:treatedMorbids)<-[:DF_E]- (n:treatedMorbids)
+        WHERE n.ID="2"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"treatedMorbids",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission) -[:INCLUDED]- (a3:Multimorbidity) -[:INCLUDED]- (a4:treatedMorbids)<-[:DF_E]- (n:treatedMorbids)
+        WHERE n.ID="4"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"treatedMorbids",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission) -[:INCLUDED]- (a3:Multimorbidity) -[:INCLUDED]- (a4:treatedMorbids)<-[:DF_E]- (n:treatedMorbids)
+        WHERE n.ID="5"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"treatedMorbids",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission) -[:INCLUDED]- (a3:Multimorbidity) -[:INCLUDED]- (a4:newMorbids)<-[:DF_E]- (n:newMorbids)
+        WHERE n.ID="1"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"newMorbids",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission) -[:INCLUDED]- (a3:Multimorbidity) -[:INCLUDED]- (a4:newMorbids)<-[:DF_E]- (n:newMorbids)
+        WHERE n.ID="2"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"newMorbids",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission) -[:INCLUDED]- (a3:Multimorbidity) -[:INCLUDED]- (a4:newMorbids)<-[:DF_E]- (n:newMorbids)
+        WHERE n.ID="4"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"newMorbids",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) ;
+        
+
+//relEntityLower
+
+        MATCH (e)-[:CORR]-> (a1:Patient) -[:INCLUDED]- (a2:Admission) -[:INCLUDED]- (a3:Multimorbidity) -[:INCLUDED]- (a4:newMorbids)<-[:DF_E]- (n:newMorbids)
+        WHERE n.ID="5"
+        MERGE ( n ) -[:DF_E {Type:"Two" , Base:"newMorbids",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) ;
+        
+

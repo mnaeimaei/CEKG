@@ -1,0 +1,7 @@
+//link_events_ActivityProperty
+
+            MATCH ( c : ActivityPropery )
+            MATCH ( e : Event ) 
+            where e.Activity_Properties_ID = c.featureID and e.Activity=c.Name and e.Activity_Synonym=c.Syn
+            CREATE ( e ) -[:MONITORED{Scenario:"1"}]-> ( c )
+

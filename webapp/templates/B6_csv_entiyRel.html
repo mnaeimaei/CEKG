@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/B6_csv_entiyRel.css">
+</head>
+
+<body>
+<h1>Please select the related column that describes each value:</h1>
+
+<div class="container">
+
+    <div class="excel-preview">
+        <div class="table">
+            {{ html_EntityRel|safe }}
+        </div>
+
+    </div>
+
+
+    <div class="configuration">
+        <form id="allFormB6" method="post">
+
+
+        <div id="EnP_Entity_Origin1" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ oer_origin1_form.as_p }}
+        </div>
+
+
+        <div id="EnP_Entity_ID1" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ oer_id1_form.as_p }}
+        </div>
+
+        <div id="EnP_Entity_Origin2" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ oer_origin2_form.as_p }}
+        </div>
+
+
+        <div id="EnP_Entity_ID2" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ oer_id2_form.as_p }}
+        </div>
+
+
+
+<div id="optionsContainer" data-options-b6='{{ button_lists_b6|safe }}'></div>
+        <div id="optionsContainerDefault" data-options-default-b6='{{ options_to_show_default_b6|safe }}'></div>
+
+            <a>Click to go the next page:</a>
+        <div id="nextButton3Div" style="display:block;">
+            {% csrf_token %}
+            {{ nextButton.as_p }}
+        </div>
+
+        <script src="../static/js/B6_csv_entityRel.js" type="module"></script>
+                </form>
+
+
+    </div>
+</div>
+
+</body>
+</html>

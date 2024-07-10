@@ -1,0 +1,1 @@
+['Activity_Properties_ID', 'Activity', 'Activity_Synonym', 'Label', 'Value']

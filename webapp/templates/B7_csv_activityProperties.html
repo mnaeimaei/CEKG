@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/B7_csv_activityProperties.css">
+</head>
+
+<body>
+<h1>Please select the related column that describes each value:</h1>
+
+<div class="container">
+
+    <div class="excel-preview">
+        <div class="table">
+            {{ html_Activity_Properties|safe }}
+        </div>
+
+    </div>
+
+
+    <div class="configuration">
+        <form id="allFormB7" method="post">
+
+
+            <div id="AcP_acID" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ ap_id_form.as_p }}
+            </div>
+
+
+            <div id="AcP_activityName" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ ap_activity_name_form.as_p }}
+            </div>
+
+            <div id="AcP_activitySynonym" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ ap_activity_synonym_form.as_p }}
+            </div>
+
+
+            <div id="AcP_label" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ ap_label_form.as_p }}
+            </div>
+
+
+            <div id="AcP_Value" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ ap_value_form.as_p }}
+            </div>
+
+            <div id="optionsContainer" data-options-b7='{{ button_lists_b7|safe }}'></div>
+            <div id="optionsContainerDefault" data-options-default-b7='{{ options_to_show_default_b7|safe }}'></div>
+
+            <a>Click to go the next page:</a>
+            <div id="nextButton3Div" style="display:block;">
+                {% csrf_token %}
+                {{ nextButton.as_p }}
+            </div>
+
+            <script src="../static/js/B7_csv_activityProperties.js" type="module"></script>
+        </form>
+
+
+    </div>
+</div>
+
+</body>
+</html>

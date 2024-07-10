@@ -1,0 +1,9 @@
+//DF_Propery
+
+        MATCH p1=(e1)-[d:DF]->(e2)
+        MATCH p2=(e1)-[a:Assign]->(f)
+        WITH e2,d.ID as ID, d.Name as Name, d.Type as Type ,f
+        MERGE ( f ) -[:DF {ID:ID, Name:Name , Type:Type , Category:"wProperty" }]-> ( e2 ) 
+
+        
+

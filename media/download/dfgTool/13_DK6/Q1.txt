@@ -1,0 +1,42 @@
+//deleteRelation
+MATCH () -[r:TIED]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:TYPE_OF]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:REL]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:DF]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:DF_C]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:DF_E]- () DELETE r;
+
+//deletePartiallyRel
+MATCH ( e ) -[r:CORR]-> ( p ) where r.Scenario="2" DELETE r;
+
+//deletePartRel
+MATCH (e)-[c:CORR]->(r) where r.Category="Relative" DELETE c;
+
+//deletePartNode
+MATCH (n:Patient)  where n.Category="Relative" delete n;
+
+//deletePartNode
+MATCH (n:Admission)  where n.Category="Relative" delete n;
+
+//deletePartNode
+MATCH (n:Concept)  where n.Category="Relative" delete n;
+
+//deleteProperty
+MATCH (n:Patient)  where n.Category="Absolute" remove n.uID, n.Type;
+
+//deleteProperty
+MATCH (n:Admission)  where n.Category="Absolute" remove n.uID, n.Type;
+
+//deleteProperty
+MATCH (n:Concept)  where n.Category="Absolute" remove n.uID, n.Type;
+

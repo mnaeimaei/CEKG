@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/B16_csv_DK5.css">
+</head>
+
+<body>
+<h1>Please select the related column that describes each value:</h1>
+
+<div class="container">
+
+    <div class="excel-preview">
+        <div class="table">
+            {{ html_DK5|safe }}
+        </div>
+
+    </div>
+
+
+    <div class="configuration">
+        <form id="allFormB16" method="post">
+
+
+        <div id="DK5_Activity" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ dk5_activity_form.as_p }}
+        </div>
+
+
+        <div id="DK5_Activity_Synonym" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ dk5_activity_synonym_form.as_p }}
+        </div>
+
+        <div id="DK5_OTC" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ dk5_otc_form.as_p }}
+        </div>
+
+
+        <div id="DK5_SCTCode" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ dk5_sct_code_form.as_p }}
+        </div>
+
+
+
+<div id="optionsContainer" data-options-b16='{{ button_lists_b16 |safe }}'></div>
+        <div id="optionsContainerDefault" data-options-default-b16='{{ options_to_show_default_b16|safe }}'></div>
+
+            <a>Click to go the next page:</a>
+        <div id="nextButton3Div" style="display:block;">
+            {% csrf_token %}
+            {{ nextButton.as_p }}
+        </div>
+
+        <script src="../static/js/B16_csv_DK5.js" type="module"></script>
+                </form>
+
+
+    </div>
+</div>
+
+</body>
+</html>

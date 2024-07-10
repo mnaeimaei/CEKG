@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/B4_csv_EventLog.css">
+</head>
+
+<body>
+<h1>Please select the related column that describes each value:</h1>
+
+<div class="container">
+
+    <div class="excel-preview">
+
+        <div class="table">
+            {{ html_cLog|safe }}
+        </div>
+
+    </div>
+
+
+    <div class="configuration">
+        <form id="allFormB4" method="post">
+
+            <div id="ED_EnNum" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ enum_form.as_p }}
+            </div>
+
+
+            <div id="ED_Activity" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ activity_form.as_p }}
+            </div>
+
+            <div id="ED_Activity_Properties_ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ activity_properties_id_form.as_p }}
+            </div>
+
+
+            <div id="ED_ActivitySynonym" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ activity_synonym_form.as_p }}
+            </div>
+
+
+            <div id="ED_Activity_Value_ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ activity_value_id_form.as_p }}
+            </div>
+
+
+            <div id="ED_Timestamp" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ timestamp_form.as_p }}
+            </div>
+
+
+            <div id="ED_eventIdTitle" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ event_id_title_form.as_p }}
+            </div>
+
+
+            <div id="Entity1ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity1_id_form.as_p }}
+            </div>
+
+
+            <div id="Entity2ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity2_id_form.as_p }}
+            </div>
+
+            <div id="Entity3ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity3_id_form.as_p }}
+            </div>
+
+
+            <div id="Entity4ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity4_id_form.as_p }}
+            </div>
+
+            <div id="Entity5ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity5_id_form.as_p }}
+            </div>
+
+
+            <div id="Entity6ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity6_id_form.as_p }}
+            </div>
+
+
+            <div id="Entity7ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity7_id_form.as_p }}
+            </div>
+
+            <div id="Entity8ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity8_id_form.as_p }}
+            </div>
+
+
+            <div id="Entity9ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity9_id_form.as_p }}
+            </div>
+
+            <div id="Entity10ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity10_id_form.as_p }}
+            </div>
+
+
+            <div id="Entity11ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity11_id_form.as_p }}
+            </div>
+
+
+            <div id="Entity12ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity12_id_form.as_p }}
+            </div>
+
+            <div id="Entity13ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity13_id_form.as_p }}
+            </div>
+
+
+            <div id="Entity14ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity14_id_form.as_p }}
+            </div>
+
+            <div id="Entity15ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity15_id_form.as_p }}
+            </div>
+
+
+            <div id="Entity16ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity16_id_form.as_p }}
+            </div>
+
+
+            <div id="Entity17ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity17_id_form.as_p }}
+            </div>
+
+
+            <div id="Entity18ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity18_id_form.as_p }}
+            </div>
+
+
+            <div id="Entity19ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity19_id_form.as_p }}
+            </div>
+
+            <div id="Entity20ID" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity20_id_form.as_p }}
+            </div>
+
+
+            <div id="Entity1Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity1_origin_form.as_p }}
+            </div>
+
+
+            <div id="Entity2Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity2_origin_form.as_p }}
+            </div>
+
+
+            <div id="Entity3Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity3_origin_form.as_p }}
+            </div>
+
+
+            <div id="Entity4Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity4_origin_form.as_p }}
+            </div>
+
+            <div id="Entity5Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity5_origin_form.as_p }}
+            </div>
+
+
+            <div id="Entity6Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity6_origin_form.as_p }}
+            </div>
+
+
+            <div id="Entity7Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity7_origin_form.as_p }}
+            </div>
+
+
+            <div id="Entity8Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity8_origin_form.as_p }}
+            </div>
+
+
+            <div id="Entity9Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity9_origin_form.as_p }}
+            </div>
+
+            <div id="Entity10Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity10_origin_form.as_p }}
+            </div>
+
+
+            <div id="Entity11Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity11_origin_form.as_p }}
+            </div>
+
+
+            <div id="Entity12Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity12_origin_form.as_p }}
+            </div>
+
+
+            <div id="Entity13Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity13_origin_form.as_p }}
+            </div>
+
+
+            <div id="Entity14Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity14_origin_form.as_p }}
+            </div>
+
+            <div id="Entity15Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity15_origin_form.as_p }}
+            </div>
+
+
+            <div id="Entity16Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity16_origin_form.as_p }}
+            </div>
+
+
+            <div id="Entity17Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity17_origin_form.as_p }}
+            </div>
+
+
+            <div id="Entity18Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity18_origin_form.as_p }}
+            </div>
+
+
+            <div id="Entity19Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity19_origin_form.as_p }}
+            </div>
+
+            <div id="Entity20Origin" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ entity20_origin_form.as_p }}
+            </div>
+
+
+            <div id="optionsContainer1" data-options-b41='{{ options_default_b41|safe }}'></div>
+            <div id="optionsContainer2" data-options-b42='{{ options_default_b42|safe }}'></div>
+            <div id="buttonContainer1" data-options-b43='{{ button_to_show_b41|safe }}'></div>
+            <div id="buttonContainer2" data-options-b44='{{ button_to_show_b42|safe }}'></div>
+
+            <a>Click to go the next page:</a>
+            <div id="nextButton3Div" style="display:block;">
+                {% csrf_token %}
+                {{ nextButton.as_p }}
+            </div>
+            <script src="../static/js/B4_csv_EventLog.js" type="module"></script>
+        </form>
+
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1001 @@
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 312585004 AND n1.conceptCode = 1 AND n2.conceptId = 90507008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 111293003 AND n1.conceptCode = 1 AND n2.conceptId = 90507008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 5880005 AND n1.conceptCode = 1 AND n2.conceptId = 363072000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 282446002 AND n1.conceptCode = 1 AND n2.conceptId = 127275008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 27635008 AND n1.conceptCode = 1 AND n2.conceptId = 410720000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 88230002 AND n1.conceptCode = 1 AND n2.conceptId = 928000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 312225001 AND n1.conceptCode = 1 AND n2.conceptId = 928000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 8316001 AND n1.conceptCode = 1 AND n2.conceptId = 928000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 40668007 AND n1.conceptCode = 1 AND n2.conceptId = 928000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 269466003 AND n1.conceptCode = 1 AND n2.conceptId = 928000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 399269003 AND n1.conceptCode = 1 AND n2.conceptId = 928000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 75047002 AND n1.conceptCode = 1 AND n2.conceptId = 928000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 312154004 AND n1.conceptCode = 1 AND n2.conceptId = 928000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 363179006 AND n1.conceptCode = 1 AND n2.conceptId = 928000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 105606008 AND n1.conceptCode = 1 AND n2.conceptId = 928000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 363229000 AND n1.conceptCode = 1 AND n2.conceptId = 928000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 36012007 AND n1.conceptCode = 1 AND n2.conceptId = 767307008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 11257001 AND n1.conceptCode = 1 AND n2.conceptId = 767307008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 106128004 AND n1.conceptCode = 1 AND n2.conceptId = 271595008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 844005 AND n1.conceptCode = 1 AND n2.conceptId = 271595008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 36456004 AND n1.conceptCode = 1 AND n2.conceptId = 271595008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 40930008 AND n1.conceptCode = 1 AND n2.conceptId = 14304000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 125682004 AND n1.conceptCode = 1 AND n2.conceptId = 787040000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 39785005 AND n1.conceptCode = 1 AND n2.conceptId = 480000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 59282003 AND n1.conceptCode = 1 AND n2.conceptId = 480000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 64662007 AND n1.conceptCode = 1 AND n2.conceptId = 480000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 281158006 AND n1.conceptCode = 1 AND n2.conceptId = 480000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 182349006 AND n1.conceptCode = 1 AND n2.conceptId = 182347008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 243990009 AND n1.conceptCode = 1 AND n2.conceptId = 182347008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 263671009 AND n1.conceptCode = 1 AND n2.conceptId = 182347008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 234466008 AND n1.conceptCode = 1 AND n2.conceptId = 64779008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 86075001 AND n1.conceptCode = 1 AND n2.conceptId = 64779008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 267272006 AND n1.conceptCode = 1 AND n2.conceptId = 64779008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 29268000 AND n1.conceptCode = 1 AND n2.conceptId = 415531008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 106076001 AND n1.conceptCode = 1 AND n2.conceptId = 415531008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 247440002 AND n1.conceptCode = 1 AND n2.conceptId = 415531008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 1086007 AND n1.conceptCode = 1 AND n2.conceptId = 57312000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 399937000 AND n1.conceptCode = 1 AND n2.conceptId = 48075008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 118964002 AND n1.conceptCode = 1 AND n2.conceptId = 48075008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 361692004 AND n1.conceptCode = 1 AND n2.conceptId = 48075008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 277905003 AND n1.conceptCode = 1 AND n2.conceptId = 48075008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 128598002 AND n1.conceptCode = 1 AND n2.conceptId = 48075008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 39937001 AND n1.conceptCode = 1 AND n2.conceptId = 48075008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 69707008 AND n1.conceptCode = 1 AND n2.conceptId = 48075008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 125592002 AND n1.conceptCode = 1 AND n2.conceptId = 48075008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 396328009 AND n1.conceptCode = 1 AND n2.conceptId = 48075008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 106077005 AND n1.conceptCode = 1 AND n2.conceptId = 48075008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 263654008 AND n1.conceptCode = 1 AND n2.conceptId = 276800000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 277905003 AND n1.conceptCode = 1 AND n2.conceptId = 69707008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 254666005 AND n1.conceptCode = 1 AND n2.conceptId = 69707008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 9014002 AND n1.conceptCode = 1 AND n2.conceptId = 69707008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 399937000 AND n1.conceptCode = 1 AND n2.conceptId = 69707008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 429271009 AND n1.conceptCode = 1 AND n2.conceptId = 473088000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 473094008 AND n1.conceptCode = 1 AND n2.conceptId = 473088000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 116007004 AND n1.conceptCode = 1 AND n2.conceptId = 420864000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 303270005 AND n1.conceptCode = 1 AND n2.conceptId = 420864000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 119414006 AND n1.conceptCode = 1 AND n2.conceptId = 298379008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 410730009 AND n1.conceptCode = 1 AND n2.conceptId = 298379008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 299733008 AND n1.conceptCode = 1 AND n2.conceptId = 298379008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 298384002 AND n1.conceptCode = 1 AND n2.conceptId = 298379008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 116275003 AND n1.conceptCode = 1 AND n2.conceptId = 298379008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 367640003 AND n1.conceptCode = 1 AND n2.conceptId = 277739008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 367639000 AND n1.conceptCode = 1 AND n2.conceptId = 277739008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 367636007 AND n1.conceptCode = 1 AND n2.conceptId = 277739008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 40275004 AND n1.conceptCode = 1 AND n2.conceptId = 127072000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 212999007 AND n1.conceptCode = 1 AND n2.conceptId = 127072000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 21957007 AND n1.conceptCode = 1 AND n2.conceptId = 127072000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 106190000 AND n1.conceptCode = 1 AND n2.conceptId = 127072000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 80266002 AND n1.conceptCode = 1 AND n2.conceptId = 699595008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 52731004 AND n1.conceptCode = 1 AND n2.conceptId = 699595008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 82849001 AND n1.conceptCode = 1 AND n2.conceptId = 699595008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 19203006 AND n1.conceptCode = 1 AND n2.conceptId = 699595008  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 58825001 AND n1.conceptCode = 1 AND n2.conceptId = 122944000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 274449004 AND n1.conceptCode = 1 AND n2.conceptId = 122944000  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 249496004 AND n1.conceptCode = 1 AND n2.conceptId = 300288001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 128260003 AND n1.conceptCode = 1 AND n2.conceptId = 181216001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 119199005 AND n1.conceptCode = 1 AND n2.conceptId = 181216001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 113254000 AND n1.conceptCode = 1 AND n2.conceptId = 181216001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 127255004 AND n1.conceptCode = 1 AND n2.conceptId = 68171009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 94181007 AND n1.conceptCode = 1 AND n2.conceptId = 68171009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 609298005 AND n1.conceptCode = 1 AND n2.conceptId = 117259009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 395538009 AND n1.conceptCode = 1 AND n2.conceptId = 117259009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 104157003 AND n1.conceptCode = 1 AND n2.conceptId = 117259009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 414915002 AND n1.conceptCode = 1 AND n2.conceptId = 363808001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 238136002 AND n1.conceptCode = 1 AND n2.conceptId = 363808001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 238131007 AND n1.conceptCode = 1 AND n2.conceptId = 363808001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 840358001 AND n1.conceptCode = 1 AND n2.conceptId = 363808001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 107647005 AND n1.conceptCode = 1 AND n2.conceptId = 363808001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 414916001 AND n1.conceptCode = 1 AND n2.conceptId = 363808001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 91302008 AND n1.conceptCode = 1 AND n2.conceptId = 264395009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 238151006 AND n1.conceptCode = 1 AND n2.conceptId = 264395009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 409792002 AND n1.conceptCode = 1 AND n2.conceptId = 264395009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 105592009 AND n1.conceptCode = 1 AND n2.conceptId = 264395009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 115166000 AND n1.conceptCode = 1 AND n2.conceptId = 264395009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 49872002 AND n1.conceptCode = 1 AND n2.conceptId = 264395009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 76571007 AND n1.conceptCode = 1 AND n2.conceptId = 264395009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 41146007 AND n1.conceptCode = 1 AND n2.conceptId = 264395009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 23496000 AND n1.conceptCode = 1 AND n2.conceptId = 264395009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 36272005 AND n1.conceptCode = 1 AND n2.conceptId = 264395009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 417751005 AND n1.conceptCode = 1 AND n2.conceptId = 264395009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 279499002 AND n1.conceptCode = 1 AND n2.conceptId = 264395009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 419708002 AND n1.conceptCode = 1 AND n2.conceptId = 264395009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 238149007 AND n1.conceptCode = 1 AND n2.conceptId = 264395009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 415671008 AND n1.conceptCode = 1 AND n2.conceptId = 264395009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 289924001 AND n1.conceptCode = 1 AND n2.conceptId = 264395009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 40238009 AND n1.conceptCode = 1 AND n2.conceptId = 302539009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 304575007 AND n1.conceptCode = 1 AND n2.conceptId = 302539009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 283992002 AND n1.conceptCode = 1 AND n2.conceptId = 302539009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 127950000 AND n1.conceptCode = 1 AND n2.conceptId = 302539009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 310794003 AND n1.conceptCode = 1 AND n2.conceptId = 302539009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 310792004 AND n1.conceptCode = 1 AND n2.conceptId = 302539009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 302541005 AND n1.conceptCode = 1 AND n2.conceptId = 302539009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 7569003 AND n1.conceptCode = 1 AND n2.conceptId = 302539009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 125685002 AND n1.conceptCode = 1 AND n2.conceptId = 302539009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 120577001 AND n1.conceptCode = 1 AND n2.conceptId = 302539009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 302158005 AND n1.conceptCode = 1 AND n2.conceptId = 302539009  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 363021009 AND n1.conceptCode = 1 AND n2.conceptId = 116224001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 12456005 AND n1.conceptCode = 1 AND n2.conceptId = 116224001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 429271009 AND n1.conceptCode = 1 AND n2.conceptId = 116224001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 71695001 AND n1.conceptCode = 1 AND n2.conceptId = 116224001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 88797001 AND n1.conceptCode = 1 AND n2.conceptId = 116224001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 73862001 AND n1.conceptCode = 1 AND n2.conceptId = 116224001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 363017002 AND n1.conceptCode = 1 AND n2.conceptId = 116224001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 90354008 AND n1.conceptCode = 1 AND n2.conceptId = 116224001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+//link_Concepts
+ 
+            MATCH ( n1:Concept )
+            MATCH ( n2:Concept ) 
+            where n1.conceptId = 12246311000119100 AND n1.conceptCode = 1 AND n2.conceptId = 116224001  AND n2.conceptCode = 1
+            CREATE ( n1 ) -[:ANCESTOR_OF]-> ( n2 );
+            
+
+...

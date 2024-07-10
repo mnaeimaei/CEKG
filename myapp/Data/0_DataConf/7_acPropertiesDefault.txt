@@ -1,0 +1,5 @@
+AcP_acID=Activity_Properties_ID
+AcP_activityName=Activity
+AcP_activitySynonym=Activity_Synonym
+AcP_label=Label
+AcP_Value=Value

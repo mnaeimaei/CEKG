@@ -1,0 +1,200 @@
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap1", 
+            Type:"ActivityPropery",
+            Name:"Hospital_Admission",
+            Syn: "HA",
+            featureID: apoc.convert.fromJsonList("['1', '2']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap2", 
+            Type:"ActivityPropery",
+            Name:"admit_into",
+            Syn: "AIN",
+            featureID: apoc.convert.fromJsonList("['5']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap3", 
+            Type:"ActivityPropery",
+            Name:"Discharging_from_Hospital",
+            Syn: "DFH",
+            featureID: apoc.convert.fromJsonList("['9']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap4", 
+            Type:"ActivityPropery",
+            Name:"ABG_Test",
+            Syn: "ABG",
+            featureID: apoc.convert.fromJsonList("['12', '13', '14', '16', '24', '29', '39']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap5", 
+            Type:"ActivityPropery",
+            Name:"Hospital_Admission",
+            Syn: "HA",
+            featureID: apoc.convert.fromJsonList("['1', '4']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap6", 
+            Type:"ActivityPropery",
+            Name:"Hospital_Admission",
+            Syn: "HA",
+            featureID: apoc.convert.fromJsonList("['2', '3']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap7", 
+            Type:"ActivityPropery",
+            Name:"admit_into",
+            Syn: "AIN",
+            featureID: apoc.convert.fromJsonList("['6']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap8", 
+            Type:"ActivityPropery",
+            Name:"admit_into",
+            Syn: "AIN",
+            featureID: apoc.convert.fromJsonList("['7']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap9", 
+            Type:"ActivityPropery",
+            Name:"Mirobiology_Blood_Sample",
+            Syn: "MBS",
+            featureID: apoc.convert.fromJsonList("['65']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap10", 
+            Type:"ActivityPropery",
+            Name:"Discharging_from_Hospital",
+            Syn: "DFH",
+            featureID: apoc.convert.fromJsonList("['10']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap11", 
+            Type:"ActivityPropery",
+            Name:"Microbiology_Test_Result",
+            Syn: "MTR",
+            featureID: apoc.convert.fromJsonList("['40', '41', '42', '43', '64']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap12", 
+            Type:"ActivityPropery",
+            Name:"Discharging_from_Hospital",
+            Syn: "DFH",
+            featureID: apoc.convert.fromJsonList("['11']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap13", 
+            Type:"ActivityPropery",
+            Name:"Microbiology_Test_Result",
+            Syn: "MTR",
+            featureID: apoc.convert.fromJsonList("['42', '43', '45', '46', '59']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap14", 
+            Type:"ActivityPropery",
+            Name:"admit_into",
+            Syn: "AIN",
+            featureID: apoc.convert.fromJsonList("['8']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap15", 
+            Type:"ActivityPropery",
+            Name:"ABG_Test",
+            Syn: "ABG",
+            featureID: apoc.convert.fromJsonList("['13', '19', '21', '23', '29', '31', '39']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap16", 
+            Type:"ActivityPropery",
+            Name:"ABG_Test",
+            Syn: "ABG",
+            featureID: apoc.convert.fromJsonList("['13', '19', '28', '29', '30', '38', '39']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap17", 
+            Type:"ActivityPropery",
+            Name:"ABG_Test",
+            Syn: "ABG",
+            featureID: apoc.convert.fromJsonList("['13', '26', '29', '35', '37', '38', '39']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap18", 
+            Type:"ActivityPropery",
+            Name:"Microbiology_Test_Result",
+            Syn: "MTR",
+            featureID: apoc.convert.fromJsonList("['40', '41', '48', '52', '54']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap19", 
+            Type:"ActivityPropery",
+            Name:"Microbiology_Test_Result",
+            Syn: "MTR",
+            featureID: apoc.convert.fromJsonList("['43', '50', '51', '54', '62']")
+            });
+
+//createActivityPropertiesNode
+
+            MERGE (n:ActivityPropery {
+            ID:"ap20", 
+            Type:"ActivityPropery",
+            Name:"Microbiology_Test_Result",
+            Syn: "MTR",
+            featureID: apoc.convert.fromJsonList("['40', '48', '51', '54', '62']")
+            });
+

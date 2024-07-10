@@ -1,0 +1,48 @@
+//aggregateDF_AllProperty
+
+        MATCH ( c1 : ActivityPropery ) <-[:MONITORED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:MONITORED]-> ( c2 : ActivityPropery )
+        MATCH (e1) -[:CORR] -> (n:Patient) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type AND n.Type = df.Type  AND n.Type in ['Patient']
+        WITH c1,count(df) AS df_freq,c2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"AllProperty" , count:df_freq , En1_ID:"0" ,En2_ID:"0" , En1:"Patient" , En2:"Patient" , Category:"wProperty" }]-> ( c2 ) 
+
+        
+
+//aggregateDF_AllProperty
+
+        MATCH ( c1 : ActivityPropery ) <-[:MONITORED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:MONITORED]-> ( c2 : ActivityPropery )
+        MATCH (e1) -[:CORR] -> (n:Admission) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type AND n.Type = df.Type  AND n.Type in ['Admission']
+        WITH c1,count(df) AS df_freq,c2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"AllProperty" , count:df_freq , En1_ID:"0" ,En2_ID:"0" , En1:"Admission" , En2:"Admission" , Category:"wProperty" }]-> ( c2 ) 
+
+        
+
+//aggregateDF_AllProperty
+
+        MATCH ( c1 : ActivityPropery ) <-[:MONITORED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:MONITORED]-> ( c2 : ActivityPropery )
+        MATCH (e1) -[:CORR] -> (n:Concept) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type AND n.Type = df.Type  AND n.Type in ['Concept']
+        WITH c1,count(df) AS df_freq,c2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"AllProperty" , count:df_freq , En1_ID:"0" ,En2_ID:"0" , En1:"Concept" , En2:"Concept" , Category:"wProperty" }]-> ( c2 ) 
+
+        
+
+//DF_AllPropery
+
+        MATCH p1=(c1)-[d:DF_C {Type:"AllProperty" }]->(c2)
+        MATCH p2=(c1)<-[r:MONITORED]-(e1)-[a:Assign]->(f)
+        WITH 
+        c2,
+        d.Category  as Category,
+        d.En1  as En1,
+        d.En1_ID  as En1_ID,
+        d.En2  as En2,
+        d.En2_ID  as  En2_ID,
+        d.Type  as Type,
+        d.count  as count,
+        f      
+        MERGE ( f ) -[:DF_C {Category:Category , En1:En1 , En1_ID:En1_ID , En2:En2 , En2_ID:En2_ID , Type:Type , count:count }]-> ( c2 ) 
+
+            
+

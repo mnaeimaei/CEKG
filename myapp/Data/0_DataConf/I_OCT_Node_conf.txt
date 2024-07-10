@@ -1,0 +1,1 @@
+EventLog={'OCT_OCT_Node_conceptId': 'conceptId', 'OCT_OCT_Node_ConceptCode': 'conceptCode', 'OCT_OCT_Node_termA': 'termA', 'OCT_OCT_Node_termB': 'termB', 'OCT_OCT_Node_semanticTags': 'Semanti_tags', 'OCT_OCT_Node_ConceptType': 'ConceptType', 'OCT_OCT_Node_Levels': 'level'}

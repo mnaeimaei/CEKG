@@ -1,0 +1,36 @@
+//link_events_Activity
+
+            MATCH ( c : Activity ) WHERE c.Name ="Hospital_Admission" and c.Syn="HA"
+            MATCH ( e : Event ) where  e.Activity ="Hospital_Admission" and  e.Activity_Synonym ="HA"
+            CREATE ( e ) -[:OBSERVED{Scenario:"1"}]-> ( c )
+
+//link_events_Activity
+
+            MATCH ( c : Activity ) WHERE c.Name ="admit_into" and c.Syn="AIN"
+            MATCH ( e : Event ) where  e.Activity ="admit_into" and  e.Activity_Synonym ="AIN"
+            CREATE ( e ) -[:OBSERVED{Scenario:"1"}]-> ( c )
+
+//link_events_Activity
+
+            MATCH ( c : Activity ) WHERE c.Name ="Discharging_from_Hospital" and c.Syn="DFH"
+            MATCH ( e : Event ) where  e.Activity ="Discharging_from_Hospital" and  e.Activity_Synonym ="DFH"
+            CREATE ( e ) -[:OBSERVED{Scenario:"1"}]-> ( c )
+
+//link_events_Activity
+
+            MATCH ( c : Activity ) WHERE c.Name ="ABG_Test" and c.Syn="ABG"
+            MATCH ( e : Event ) where  e.Activity ="ABG_Test" and  e.Activity_Synonym ="ABG"
+            CREATE ( e ) -[:OBSERVED{Scenario:"1"}]-> ( c )
+
+//link_events_Activity
+
+            MATCH ( c : Activity ) WHERE c.Name ="Mirobiology_Blood_Sample" and c.Syn="MBS"
+            MATCH ( e : Event ) where  e.Activity ="Mirobiology_Blood_Sample" and  e.Activity_Synonym ="MBS"
+            CREATE ( e ) -[:OBSERVED{Scenario:"1"}]-> ( c )
+
+//link_events_Activity
+
+            MATCH ( c : Activity ) WHERE c.Name ="Microbiology_Test_Result" and c.Syn="MTR"
+            MATCH ( e : Event ) where  e.Activity ="Microbiology_Test_Result" and  e.Activity_Synonym ="MTR"
+            CREATE ( e ) -[:OBSERVED{Scenario:"1"}]-> ( c )
+

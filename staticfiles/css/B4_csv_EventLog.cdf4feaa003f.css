@@ -1,0 +1,110 @@
+/* Base styling for body and html */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Consistent light grey background */
+    color: #333; /* Standard dark grey text for readability */
+}
+
+/* Container setup to ensure full viewport height and flex layout */
+.container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 20px; /* Provides a consistent padding around the content */
+}
+
+/* Excel preview section styling */
+.excel-preview {
+    width: 75%;
+    background-color: #ffffff; /* Light background for better content focus */
+    padding: 20px;
+    box-sizing: border-box; /* Includes padding in the width calculation */
+    overflow: auto; /* Allows scrolling within the section */
+}
+
+/* Configuration form section styling */
+.configuration {
+    width: 25%;
+    background-color: #f4f4f4; /* Slightly darker background to distinguish from content */
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Enables scrolling for long forms */
+}
+
+/* Styles for tables within the excel-preview */
+.table {
+    width: 100%; /* Ensures the table fills the container */
+    border-collapse: collapse;
+    font-size: 14px; /* Slightly larger font size for better readability */
+}
+
+.table th, .table td {
+    padding: 10px; /* Adequate padding for table cells */
+    text-align: left; /* Aligns text to the left */
+    border-bottom: 1px solid #e0e0e0; /* Light grey border for separating rows */
+}
+
+.table th {
+    background-color: #007bff; /* Consistent header background with the button styles */
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f8f8f8; /* Zebra striping for easier row differentiation */
+}
+
+/* Dropdown styling to ensure they are visually integrated */
+.dropdown {
+    width: 100%; /* Ensures dropdowns use full available width */
+    margin: 10px 0; /* Adds vertical spacing between dropdowns */
+}
+
+.dropdown select {
+    width: 100%; /* Ensures the select element fills its container */
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white; /* Ensures background consistency */
+}
+
+/* Button styles for consistency across the application */
+button, input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Ensures buttons are block-level elements */
+    width: auto; /* Auto width based on content size */
+    margin: 10px 0; /* Margin for separation from other elements */
+}
+h1 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover for visual feedback */
+}
+
+a {
+    color: #007bff; /* Bootstrap blue for links */
+    text-decoration: none; /* No underline */
+}
+
+/* Responsive design adjustments for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stacks sections vertically */
+    }
+    .excel-preview, .configuration {
+        width: 100%; /* Each section takes full width of the screen */
+    }
+}

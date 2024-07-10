@@ -1,0 +1,96 @@
+//deletePartiallyRel
+MATCH ( e ) -[r:CORR]-> ( p ) where r.Scenario="2" DELETE r;
+
+//deleteRelation
+MATCH () -[r:HAS]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:CORR]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:OBSERVED]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:MONITORED]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:ATTRIBUTES]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:Assign]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:ANCESTOR_OF]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:ASSOCIATED]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:LINKED_TO]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:CONNECTED_TO]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:MAPPED_TO]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:TIED]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:TYPE_OF]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:REL]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:DF]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:DF_C]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:DF_E]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:INCLUDED {Type:"last"}]- () DELETE r;
+
+//deleteAllRelations
+MATCH () -[r]- () DELETE r;
+
+//DeleteNodes
+MATCH (n:Log) DELETE n;
+
+//DeleteNodes
+MATCH (n:Event) DELETE n;
+
+//DeleteNodes
+MATCH (n:Activity) DELETE n;
+
+//DeleteNodes
+MATCH (n:ActivityPropery) DELETE n;
+
+//DeleteNodes
+MATCH (n:Patient) DELETE n;
+
+//DeleteNodes
+MATCH (n:Admission) DELETE n;
+
+//DeleteNodes
+MATCH (n:Feature) DELETE n;
+
+//DeleteNodes
+MATCH (n:Domain) DELETE n;
+
+//DeleteNodes
+MATCH (n:Clinical) DELETE n;
+
+//DeleteNodes
+MATCH (n:Concept) DELETE n;
+
+//deleteAllNodes
+MATCH (n) DELETE n;
+
+//deleteAllNodesandRel
+MATCH (n) DETACH DELETE n;
+

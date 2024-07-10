@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static "../static/css/A000_DIrectory.css" %}">
+</head>
+<body>
+<h1>Profile</h1>
+<div class="container">
+
+    <div class="filebrowser-section">
+
+        <h1>File Explorer</h1>
+
+        <a href="{% url 'browse' parent_path %}">Up One Level</a>
+        <ul>
+            {% for item in files_and_dirs %}
+                <li>
+                    {% if item.is_dir %}
+                        <a href="{% url 'browse' item.path %}">[Folder] {{ item.name }}</a>
+                    {% else %}
+                        <a href="{% url 'browse' item.path %}" download>{{ item.name }}</a>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+
+    </div>
+
+    <div class="next-Button-section">
+        <h1>The CEKG tool</h1>
+        <a>Click Start to create a new clinical event knowledge graph</a>
+        <form id="allForm" method="post">
+            <div id="submitDiv" style="display:block;">
+                {% csrf_token %}
+                {{ startButton.as_p }}
+            </div>
+        </form>
+
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+['conceptId', 'conceptCode', 'termA', 'termB', 'Semanti_tags', 'ConceptType', 'level']

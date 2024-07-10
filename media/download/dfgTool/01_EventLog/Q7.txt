@@ -1,0 +1,54 @@
+//createActivityNode
+
+            MERGE (n:Activity {
+            ID:"Hospital_Admission", 
+            Type:"Activity",
+            Name:"Hospital_Admission",
+            Syn: "HA"
+            });
+
+//createActivityNode
+
+            MERGE (n:Activity {
+            ID:"admit_into", 
+            Type:"Activity",
+            Name:"admit_into",
+            Syn: "AIN"
+            });
+
+//createActivityNode
+
+            MERGE (n:Activity {
+            ID:"Discharging_from_Hospital", 
+            Type:"Activity",
+            Name:"Discharging_from_Hospital",
+            Syn: "DFH"
+            });
+
+//createActivityNode
+
+            MERGE (n:Activity {
+            ID:"ABG_Test", 
+            Type:"Activity",
+            Name:"ABG_Test",
+            Syn: "ABG"
+            });
+
+//createActivityNode
+
+            MERGE (n:Activity {
+            ID:"Mirobiology_Blood_Sample", 
+            Type:"Activity",
+            Name:"Mirobiology_Blood_Sample",
+            Syn: "MBS"
+            });
+
+//createActivityNode
+
+            MERGE (n:Activity {
+            ID:"Microbiology_Test_Result", 
+            Type:"Activity",
+            Name:"Microbiology_Test_Result",
+            Syn: "MTR"
+            });
+

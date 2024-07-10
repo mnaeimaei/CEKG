@@ -1,0 +1,18 @@
+//clearConstraint
+DROP CONSTRAINT constraint_1bbe614
+
+//clearConstraint
+DROP CONSTRAINT constraint_5cda066d
+
+//clearConstraint
+DROP CONSTRAINT constraint_bbd36676
+
+//clearConstraint
+DROP CONSTRAINT constraint_c601ab45
+
+//clearConstraint
+DROP CONSTRAINT constraint_cdd20be0
+
+//clearConstraint
+DROP CONSTRAINT constraint_fe82bc14
+

@@ -1,0 +1,3 @@
+Domain2_Domain=Domain
+Domain2_OTC=OTC
+Domain2_SCTCode=SCTCode

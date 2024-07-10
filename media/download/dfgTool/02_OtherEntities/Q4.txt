@@ -1,0 +1,285 @@
+//OtherEntities_Nodes
+
+            CREATE (p:Multimorbidity {Name : "m1", ID: "1" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Multimorbidity {Name : "m2", ID: "2" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Multimorbidity {Name : "m3", ID: "3" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Multimorbidity {Name : "m4", ID: "4" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Multimorbidity {Name : "m5", ID: "5" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Multimorbidity {Name : "m6", ID: "6" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Multimorbidity {Name : "m7", ID: "7" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Multimorbidity {Name : "m8", ID: "8" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Multimorbidity {Name : "m9", ID: "9" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:age {Name : "age1", ID: "1" , Value: "57" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:age {Name : "age2", ID: "2" , Value: "24" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:gender {Name : "gender1", ID: "1" , Value: "male" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:gender {Name : "gender2", ID: "2" , Value: "female" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:newMorbids {Name : "n1", ID: "1" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:newMorbids {Name : "n2", ID: "2" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:newMorbids {Name : "n3", ID: "3" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:newMorbids {Name : "n4", ID: "4" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:newMorbids {Name : "n5", ID: "5" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:newMorbids {Name : "n6", ID: "6" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:newMorbids {Name : "n7", ID: "7" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:newMorbids {Name : "n8", ID: "8" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:newMorbids {Name : "n9", ID: "9" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:treatedMorbids {Name : "t1", ID: "1" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:treatedMorbids {Name : "t2", ID: "2" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:treatedMorbids {Name : "t3", ID: "3" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:treatedMorbids {Name : "t4", ID: "4" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:treatedMorbids {Name : "t5", ID: "5" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:treatedMorbids {Name : "t6", ID: "6" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:treatedMorbids {Name : "t7", ID: "7" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:treatedMorbids {Name : "t8", ID: "8" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:treatedMorbids {Name : "t9", ID: "9" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:untreatedMorbids {Name : "u1", ID: "1" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:untreatedMorbids {Name : "u2", ID: "2" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:untreatedMorbids {Name : "u3", ID: "3" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:untreatedMorbids {Name : "u4", ID: "4" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:untreatedMorbids {Name : "u5", ID: "5" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:untreatedMorbids {Name : "u6", ID: "6" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:untreatedMorbids {Name : "u7", ID: "7" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:untreatedMorbids {Name : "u8", ID: "8" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:untreatedMorbids {Name : "u9", ID: "9" , Value: "0" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "D01", ID: "1" , Value: "MRSA septicemia" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "D02", ID: "2" , Value: "Septicemia" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "D03", ID: "3" , Value: "MSSA infections" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "D05", ID: "5" , Value: "Vulvovaginal candidiasis" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "D07", ID: "7" , Value: "Axillary lymph node cancer" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "D06", ID: "6" , Value: "Breast cancer, upper-outer quadrant" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "D09", ID: "9" , Value: "Low sodium" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "D11", ID: "11" , Value: "Obesity" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "D15", ID: "15" , Value: "Chronic disease anemia" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "D20", ID: "20" , Value: "PTSD" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "D40", ID: "40" , Value: "Finger deformity" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "D34", ID: "34" , Value: "UTI" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "D08", ID: "8" , Value: "Type II diabetes" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "D23", ID: "23" , Value: "Restless legs" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "D33", ID: "33" , Value: "Intestinal blockage" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "UNK", ID: "UNK" , Value: "UNK" , Category: "Absolute" });
+            
+
+//OtherEntities_Nodes
+
+            CREATE (p:Disorder {Name : "Nothing", ID: "Nothing" , Value: "Nothing" , Category: "Absolute" });
+            
+

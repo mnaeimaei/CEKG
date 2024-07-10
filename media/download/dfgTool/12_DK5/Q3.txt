@@ -1,0 +1,140 @@
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="ABG_Test" and c.Syn="ABG"  
+            MATCH ( s: Concept ) where s.conceptId=60170009 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="CMP_Test" and c.Syn="CMP"  
+            MATCH ( s: Concept ) where s.conceptId=371361000119107 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="Hospital_Admission" and c.Syn="HA"  
+            MATCH ( s: Concept ) where s.conceptId=32485007 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="Transfering_btw_services" and c.Syn="TBS"  
+            MATCH ( s: Concept ) where s.conceptId=37729005 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="Dying_in_hospital" and c.Syn="DIH"  
+            MATCH ( s: Concept ) where s.conceptId=183676005 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="Reg_from_ED" and c.Syn="RFE"  
+            MATCH ( s: Concept ) where s.conceptId=4525004 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="Discharging_from_ED" and c.Syn="DFE"  
+            MATCH ( s: Concept ) where s.conceptId=306563004 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="Discharging_from_Hospital" and c.Syn="DFH"  
+            MATCH ( s: Concept ) where s.conceptId=308283009 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="admit_out_of" and c.Syn="AOO"  
+            MATCH ( s: Concept ) where s.conceptId=225746001 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="transfer_out_of" and c.Syn="TOO"  
+            MATCH ( s: Concept ) where s.conceptId=225746001 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="staying_into" and c.Syn="SIN"  
+            MATCH ( s: Concept ) where s.conceptId=225746001 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="staying_out_of" and c.Syn="SOO"  
+            MATCH ( s: Concept ) where s.conceptId=225746001 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="discharge_into" and c.Syn="DIN"  
+            MATCH ( s: Concept ) where s.conceptId=225746001 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="discharge_out_of" and c.Syn="DOO"  
+            MATCH ( s: Concept ) where s.conceptId=225746001 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="transfer_into" and c.Syn="TIN"  
+            MATCH ( s: Concept ) where s.conceptId=225746001 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="admit_into" and c.Syn="AIN"  
+            MATCH ( s: Concept ) where s.conceptId=225746001 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="Specimen_Taking" and c.Syn="ST"  
+            MATCH ( s: Concept ) where s.conceptId=119297000 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="Mirobiology_Blood_Sample" and c.Syn="MBS"  
+            MATCH ( s: Concept ) where s.conceptId=165337006 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="Microbiology_Test_Result" and c.Syn="MTR"  
+            MATCH ( s: Concept ) where s.conceptId=19851009 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+
+//ActivityProperty_OCPS
+ 
+            MATCH ( c:ActivityPropery ) where c.Name="Respiratory_Therapy" and c.Syn="RT"  
+            MATCH ( s: Concept ) where s.conceptId=53950000 and s.conceptCode=1
+            CREATE ( c ) -[:MAPPED_TO]-> ( s )
+            
+

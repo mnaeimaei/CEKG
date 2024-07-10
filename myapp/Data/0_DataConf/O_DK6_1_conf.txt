@@ -1,0 +1,1 @@
+EventLog={'Domain1_Activity': 'Activity', 'Domain1_Activity_Synonym': 'Activity_Synonym', 'Domain1_Domain': 'Domain'}

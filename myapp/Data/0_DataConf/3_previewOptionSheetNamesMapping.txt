@@ -1,0 +1,1 @@
+{'1': 'C_Log', '2': 'D_OtherEntities', '3': 'D_EntityRel', '4': 'E_Activity_Properties', '5': 'F_Domain', '6': 'H_ICD', '7': 'I_OCT_Node', '8': 'I_OCT_REL', '9': 'J_DK1', '10': 'K_DK2', '11': 'L_DK3', '12': 'M_DK4', '13': 'N_DK5', '14': 'O_DK6_1', '15': 'O_DK6_2', '16': 'P_DK7'}

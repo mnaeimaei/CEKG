@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/B9_csv_ICD.css">
+</head>
+
+<body>
+<h1>Please select the related column that describes each value:</h1>
+
+<div class="container">
+
+    <div class="excel-preview">
+        <div class="table">
+            {{ html_ICD|safe }}
+        </div>
+
+    </div>
+
+
+    <div class="configuration">
+        <form id="allFormB9" method="post">
+
+
+            <div id="CE_ClinicalEntity" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ idc_clinical_entity_form.as_p }}
+            </div>
+
+
+            <div id="CE_icd_code" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ idc_code_form.as_p }}
+            </div>
+
+            <div id="CE_icd_version" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ idc_version_form.as_p }}
+            </div>
+
+
+            <div id="CE_icd_code_title" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ idc_code_title_form.as_p }}
+            </div>
+
+
+            <div id="optionsContainer" data-options-b9='{{ button_lists_b9 |safe }}'></div>
+            <div id="optionsContainerDefault" data-options-default-b9='{{ options_to_show_default_b9|safe }}'></div>
+
+            <a>Click to go the next page:</a>
+            <div id="nextButton3Div" style="display:block;">
+                {% csrf_token %}
+                {{ nextButton.as_p }}
+            </div>
+
+            <script src="../static/js/B9_csv_ICD.js" type="module"></script>
+        </form>
+
+
+    </div>
+</div>
+
+</body>
+</html>

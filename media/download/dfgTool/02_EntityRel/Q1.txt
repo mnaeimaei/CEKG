@@ -1,0 +1,57 @@
+//deleteRelation
+MATCH () -[r:INCLUDED]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:Assign]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:ANCESTOR_OF]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:ASSOCIATED]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:LINKED_TO]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:CONNECTED_TO]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:MAPPED_TO]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:TIED]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:TYPE_OF]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:REL]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:DF]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:DF_C]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:DF_E]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:INCLUDED {Type:"last"}]- () DELETE r;
+
+//DeleteNodes
+MATCH (n:Feature) DELETE n;
+
+//DeleteNodes
+MATCH (n:Domain) DELETE n;
+
+//DeleteNodes
+MATCH (n:Clinical) DELETE n;
+
+//DeleteNodes
+MATCH (n:Concept) DELETE n;
+
+//deletePartiallyRel
+MATCH ( e ) -[r:CORR]-> ( p ) where r.Scenario="2" DELETE r;
+

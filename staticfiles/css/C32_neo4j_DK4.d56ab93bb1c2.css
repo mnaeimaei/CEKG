@@ -1,0 +1,141 @@
+/* Basic styling for full viewport coverage and removing default margins/paddings */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Consistent background color */
+    color: #333; /* Ensures text is easily readable */
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Flex container for main layout */
+.container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+        margin: 0;
+    padding: 0;
+}
+
+/* Main section for queries and SVG previews */
+.querySVG-preview {
+    width: 80%;
+    background-color: #ffffff; /* Bright background for focus on content */
+    padding: 20px; /* Spacing inside the container */
+    box-sizing: border-box;
+    overflow-y: auto; /* Allows scrolling for overflow content */
+
+}
+
+.querySVG-preview {
+    width: 80%;
+    background-color: #ffffff; /* Bright background for focus on content */
+    padding: 20px; /* Spacing inside the container */
+    box-sizing: border-box;
+    overflow-y: auto; /* Allows scrolling for overflow content */
+
+}
+
+/* Section for navigation and progress */
+.next-Button {
+    width: 20%;
+    background-color: #ddd; /* Distinguishable background for secondary actions */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items for better visual appeal */
+    box-sizing: border-box;
+}
+
+/* Individual sections for different query results */
+.section {
+    flex: 1;
+    display: flex;
+    margin-bottom: 20px; /* Spacing between sections */
+}
+
+.query-preview {
+    width: 50%; /* Inner spacing for content */
+    background-color: #f4f4f4; /* Light grey for query preview to reduce strain */
+}
+
+.svg-preview {
+    width: 50%;
+    background-color: #FFFFFF;
+}
+/* Styling for code blocks */
+pre code {
+    background-color: #eee; /* Light background for code sections */
+    padding: 15px; /* Padding around code to make it stand out */
+    border-radius: 5px; /* Rounded corners for aesthetics */
+    display: block;
+}
+
+/* Progress container styles */
+.progress-container {
+    width: 100%; /* Full width to stretch along the button container */
+    margin-top: 20px; /* Space from elements above */
+}
+
+.progress-bar {
+    width: 0%; /* Initial state without progress */
+    height: 30px;
+    background-color: #4CAF50; /* Green color indicates progress */
+    color: white;
+    text-align: center;
+    line-height: 30px; /* Centers text vertically */
+    transition: width 0.5s ease; /* Smooth transition for changes */
+}
+
+/* Highlight.js styling for code */
+.hljs {
+    background: #fefefe; /* Slightly off-white background for highlight.js code blocks */
+    border-radius: 5px;
+}
+
+a {
+    color: #007bff; /* Bootstrap blue for links */
+    text-decoration: none; /* No underline */
+}
+
+button, input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Ensures buttons are block-level elements */
+    width: auto; /* Auto width based on content size */
+    margin: 10px 0; /* Margin for separation from other elements */
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover for visual feedback */
+}
+
+/* Styling for headings within each section for better visibility */
+.graphviz-queries-heading, .neo4j-svg-heading {
+    background-color: #428bca; /* Strong blue for heading backgrounds */
+    color: #ffffff; /* White text for contrast */
+    padding: 5px;
+    border-radius: 3px; /* Slightly rounded edges for headings */
+    margin-right: 10px;
+}
+
+
+/* Responsive design adjustments for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .querySVG-preview, .next-Button {
+        width: 100%; /* Full width for easier access on small devices */
+    }
+}

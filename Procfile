@@ -1,0 +1,1 @@
+web: gunicorn mydjangoapp.asgi:application --worker-class uvicorn.workers.UvicornWorker

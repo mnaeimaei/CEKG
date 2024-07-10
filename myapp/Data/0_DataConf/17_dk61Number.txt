@@ -1,0 +1,1 @@
+['Domain1_Activity', 'Domain1_Activity_Synonym', 'Domain1_Domain']

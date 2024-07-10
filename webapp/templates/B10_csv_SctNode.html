@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/B10_csv_SctNode.css">
+</head>
+
+<body>
+<h1>Please select the related column that describes each value:</h1>
+
+<div class="container">
+
+    <div class="excel-preview">
+        <div class="table">
+            {{ html_OCT_Node|safe }}
+        </div>
+
+    </div>
+
+
+    <div class="configuration">
+        <form id="allFormB10" method="post">
+
+
+            <div id="OCT_OCT_Node_conceptId" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ sctn_concept_id.as_p }}
+            </div>
+
+
+            <div id="OCT_OCT_Node_ConceptCode" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ sctn_concept_code.as_p }}
+            </div>
+
+            <div id="OCT_OCT_Node_termA" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ sctn_term_a.as_p }}
+            </div>
+
+
+            <div id="OCT_OCT_Node_termB" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ sctn_term_b.as_p }}
+            </div>
+
+
+            <div id="OCT_OCT_Node_semanticTags" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ sctn_semantic_tags.as_p }}
+            </div>
+
+
+            <div id="OCT_OCT_Node_ConceptType" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ sctn_concept_type.as_p }}
+            </div>
+
+
+            <div id="OCT_OCT_Node_Levels" class="dropdown" style="display:block;">
+                {% csrf_token %}
+                {{ sctn_levels.as_p }}
+            </div>
+
+
+            <div id="optionsContainer" data-options-b10='{{ button_lists_b10 |safe }}'></div>
+            <div id="optionsContainerDefault" data-options-default-b10='{{ options_to_show_default_b10|safe }}'></div>
+
+            <a>Click to go the next page:</a>
+            <div id="nextButton3Div" style="display:block;">
+                {% csrf_token %}
+                {{ nextButton.as_p }}
+            </div>
+
+            <script src="../static/js/B10_csv_SctNode.js" type="module"></script>
+        </form>
+
+
+    </div>
+</div>
+
+</body>
+</html>

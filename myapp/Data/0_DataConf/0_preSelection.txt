@@ -1,0 +1,11 @@
+{"mainDfgMode": "dfg1Mode"}
+{"dfg1Mode": "4"}
+{"dfg2Mode": ""}
+{"dfg3Mode": ""}
+{"dfg4Mode": ""}
+{"dfg5Mode": ""}
+{"dfg6Mode": ""}
+{"inputMode": "3"}
+{"inputModeDFG6": ""}
+{"activityMode": "1"}
+{"activityModeDFG6": ""}

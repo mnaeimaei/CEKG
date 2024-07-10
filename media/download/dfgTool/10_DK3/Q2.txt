@@ -1,0 +1,112 @@
+//Entity1_Potential_Entities
+ 
+            MATCH ( n:Disorder ) WHERE n.Name="D01"
+            MATCH ( s:Clinical ) WHERE s.icdCode="3812" 
+            CREATE ( n ) -[:LINKED_TO]-> ( s );
+            
+
+//Entity1_Potential_Entities
+ 
+            MATCH ( n:Disorder ) WHERE n.Name="D02"
+            MATCH ( s:Clinical ) WHERE s.icdCode="389" 
+            CREATE ( n ) -[:LINKED_TO]-> ( s );
+            
+
+//Entity1_Potential_Entities
+ 
+            MATCH ( n:Disorder ) WHERE n.Name="D03"
+            MATCH ( s:Clinical ) WHERE s.icdCode="4111" 
+            CREATE ( n ) -[:LINKED_TO]-> ( s );
+            
+
+//Entity1_Potential_Entities
+ 
+            MATCH ( n:Disorder ) WHERE n.Name="D05"
+            MATCH ( s:Clinical ) WHERE s.icdCode="1121" 
+            CREATE ( n ) -[:LINKED_TO]-> ( s );
+            
+
+//Entity1_Potential_Entities
+ 
+            MATCH ( n:Disorder ) WHERE n.Name="D07"
+            MATCH ( s:Clinical ) WHERE s.icdCode="1963" 
+            CREATE ( n ) -[:LINKED_TO]-> ( s );
+            
+
+//Entity1_Potential_Entities
+ 
+            MATCH ( n:Disorder ) WHERE n.Name="D06"
+            MATCH ( s:Clinical ) WHERE s.icdCode="1744" 
+            CREATE ( n ) -[:LINKED_TO]-> ( s );
+            
+
+//Entity1_Potential_Entities
+ 
+            MATCH ( n:Disorder ) WHERE n.Name="D09"
+            MATCH ( s:Clinical ) WHERE s.icdCode="2761" 
+            CREATE ( n ) -[:LINKED_TO]-> ( s );
+            
+
+//Entity1_Potential_Entities
+ 
+            MATCH ( n:Disorder ) WHERE n.Name="D11"
+            MATCH ( s:Clinical ) WHERE s.icdCode="27800" 
+            CREATE ( n ) -[:LINKED_TO]-> ( s );
+            
+
+//Entity1_Potential_Entities
+ 
+            MATCH ( n:Disorder ) WHERE n.Name="D15"
+            MATCH ( s:Clinical ) WHERE s.icdCode="28529" 
+            CREATE ( n ) -[:LINKED_TO]-> ( s );
+            
+
+//Entity1_Potential_Entities
+ 
+            MATCH ( n:Disorder ) WHERE n.Name="D20"
+            MATCH ( s:Clinical ) WHERE s.icdCode="30981" 
+            CREATE ( n ) -[:LINKED_TO]-> ( s );
+            
+
+//Entity1_Potential_Entities
+ 
+            MATCH ( n:Disorder ) WHERE n.Name="D40"
+            MATCH ( s:Clinical ) WHERE s.icdCode="73620" 
+            CREATE ( n ) -[:LINKED_TO]-> ( s );
+            
+
+//Entity1_Potential_Entities
+ 
+            MATCH ( n:Disorder ) WHERE n.Name="D34"
+            MATCH ( s:Clinical ) WHERE s.icdCode="5990" 
+            CREATE ( n ) -[:LINKED_TO]-> ( s );
+            
+
+//Entity1_Potential_Entities
+ 
+            MATCH ( n:Disorder ) WHERE n.Name="D08"
+            MATCH ( s:Clinical ) WHERE s.icdCode="25000" 
+            CREATE ( n ) -[:LINKED_TO]-> ( s );
+            
+
+//Entity1_Potential_Entities
+ 
+            MATCH ( n:Disorder ) WHERE n.Name="D23"
+            MATCH ( s:Clinical ) WHERE s.icdCode="33394" 
+            CREATE ( n ) -[:LINKED_TO]-> ( s );
+            
+
+//Entity1_Potential_Entities
+ 
+            MATCH ( n:Disorder ) WHERE n.Name="D33"
+            MATCH ( s:Clinical ) WHERE s.icdCode="5609" 
+            CREATE ( n ) -[:LINKED_TO]-> ( s );
+            
+
+//Entity1_Potential_Entities
+ 
+            MATCH ( n:Disorder ) WHERE n.Name="D34"
+            MATCH ( s:Clinical ) WHERE s.icdCode="4019" 
+            CREATE ( n ) -[:LINKED_TO]-> ( s );
+            
+

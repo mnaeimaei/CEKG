@@ -1,0 +1,266 @@
+//Activity_OCPS
+ 
+            MATCH ( f:Domain ) where f.Name="ABG"   
+            MATCH ( s: Concept ) where s.conceptId=118246004 and s.conceptCode=1
+            CREATE ( f ) -[:TIED]-> ( s )
+            
+
+//Activity_OCPS
+ 
+            MATCH ( f:Domain ) where f.Name="CMP"   
+            MATCH ( s: Concept ) where s.conceptId=118246004 and s.conceptCode=1
+            CREATE ( f ) -[:TIED]-> ( s )
+            
+
+//Activity_OCPS
+ 
+            MATCH ( f:Domain ) where f.Name="Logistic"   
+            MATCH ( s: Concept ) where s.conceptId=371535009 and s.conceptCode=1
+            CREATE ( f ) -[:TIED]-> ( s )
+            
+
+//Activity_OCPS
+ 
+            MATCH ( f:Domain ) where f.Name="Transfer"   
+            MATCH ( s: Concept ) where s.conceptId=371535009 and s.conceptCode=1
+            CREATE ( f ) -[:TIED]-> ( s )
+            
+
+//Activity_OCPS
+ 
+            MATCH ( f:Domain ) where f.Name="ABG_specimen_type"   
+            MATCH ( s: Concept ) where s.conceptId=118246004 and s.conceptCode=1
+            CREATE ( f ) -[:TIED]-> ( s )
+            
+
+//Activity_OCPS
+ 
+            MATCH ( f:Domain ) where f.Name="Mirobiology_Sample"   
+            MATCH ( s: Concept ) where s.conceptId=4341000179107 and s.conceptCode=1
+            CREATE ( f ) -[:TIED]-> ( s )
+            
+
+//Activity_OCPS
+ 
+            MATCH ( f:Domain ) where f.Name="Microbiology_Result"   
+            MATCH ( s: Concept ) where s.conceptId=4341000179107 and s.conceptCode=1
+            CREATE ( f ) -[:TIED]-> ( s )
+            
+
+//Activity_OCPS
+ 
+            MATCH ( f:Domain ) where f.Name="Respiratory_Therapy"   
+            MATCH ( s: Concept ) where s.conceptId=736057009 and s.conceptCode=1
+            CREATE ( f ) -[:TIED]-> ( s )
+            
+
+//Domain_Scenario_2
+ 
+            MATCH  (a:Activity) WHERE a.Syn ="AIN" and a.Name ="admit_into" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2
+ 
+            MATCH  (a:Activity) WHERE a.Syn ="DIN" and a.Name ="discharge_into" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2
+ 
+            MATCH  (a:Activity) WHERE a.Syn ="TOO" and a.Name ="transfer_out_of" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2
+ 
+            MATCH  (a:Activity) WHERE a.Syn ="AOO" and a.Name ="admit_out_of" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2
+ 
+            MATCH  (a:Activity) WHERE a.Syn ="TIN" and a.Name ="transfer_into" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2
+ 
+            MATCH  (a:Activity) WHERE a.Syn ="MTR" and a.Name ="Microbiology_Test_Result" 
+            MATCH  (c:Concept) WHERE c.conceptId =4341000179107 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2
+ 
+            MATCH  (a:Activity) WHERE a.Syn ="RFE" and a.Name ="Reg_from_ED" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2
+ 
+            MATCH  (a:Activity) WHERE a.Syn ="SIN" and a.Name ="staying_into" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2
+ 
+            MATCH  (a:Activity) WHERE a.Syn ="HA" and a.Name ="Hospital_Admission" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2
+ 
+            MATCH  (a:Activity) WHERE a.Syn ="TBS" and a.Name ="Transfering_btw_services" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2
+ 
+            MATCH  (a:Activity) WHERE a.Syn ="SOO" and a.Name ="staying_out_of" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2
+ 
+            MATCH  (a:Activity) WHERE a.Syn ="MBS" and a.Name ="Mirobiology_Blood_Sample" 
+            MATCH  (c:Concept) WHERE c.conceptId =4341000179107 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2
+ 
+            MATCH  (a:Activity) WHERE a.Syn ="DFH" and a.Name ="Discharging_from_Hospital" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2
+ 
+            MATCH  (a:Activity) WHERE a.Syn ="DFE" and a.Name ="Discharging_from_ED" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2
+ 
+            MATCH  (a:Activity) WHERE a.Syn ="ABG" and a.Name ="ABG_Test" 
+            MATCH  (c:Concept) WHERE c.conceptId =118246004 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2_Proprty
+ 
+            MATCH  (a:ActivityPropery) WHERE a.Syn ="AIN" and a.Name ="admit_into" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2_Proprty
+ 
+            MATCH  (a:ActivityPropery) WHERE a.Syn ="DIN" and a.Name ="discharge_into" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2_Proprty
+ 
+            MATCH  (a:ActivityPropery) WHERE a.Syn ="TOO" and a.Name ="transfer_out_of" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2_Proprty
+ 
+            MATCH  (a:ActivityPropery) WHERE a.Syn ="AOO" and a.Name ="admit_out_of" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2_Proprty
+ 
+            MATCH  (a:ActivityPropery) WHERE a.Syn ="TIN" and a.Name ="transfer_into" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2_Proprty
+ 
+            MATCH  (a:ActivityPropery) WHERE a.Syn ="MTR" and a.Name ="Microbiology_Test_Result" 
+            MATCH  (c:Concept) WHERE c.conceptId =4341000179107 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2_Proprty
+ 
+            MATCH  (a:ActivityPropery) WHERE a.Syn ="RFE" and a.Name ="Reg_from_ED" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2_Proprty
+ 
+            MATCH  (a:ActivityPropery) WHERE a.Syn ="SIN" and a.Name ="staying_into" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2_Proprty
+ 
+            MATCH  (a:ActivityPropery) WHERE a.Syn ="HA" and a.Name ="Hospital_Admission" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2_Proprty
+ 
+            MATCH  (a:ActivityPropery) WHERE a.Syn ="TBS" and a.Name ="Transfering_btw_services" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2_Proprty
+ 
+            MATCH  (a:ActivityPropery) WHERE a.Syn ="SOO" and a.Name ="staying_out_of" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2_Proprty
+ 
+            MATCH  (a:ActivityPropery) WHERE a.Syn ="MBS" and a.Name ="Mirobiology_Blood_Sample" 
+            MATCH  (c:Concept) WHERE c.conceptId =4341000179107 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2_Proprty
+ 
+            MATCH  (a:ActivityPropery) WHERE a.Syn ="DFH" and a.Name ="Discharging_from_Hospital" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2_Proprty
+ 
+            MATCH  (a:ActivityPropery) WHERE a.Syn ="DFE" and a.Name ="Discharging_from_ED" 
+            MATCH  (c:Concept) WHERE c.conceptId =371535009 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+
+//Domain_Scenario_2_Proprty
+ 
+            MATCH  (a:ActivityPropery) WHERE a.Syn ="ABG" and a.Name ="ABG_Test" 
+            MATCH  (c:Concept) WHERE c.conceptId =118246004 and c.conceptCode =1
+            CREATE (a)-[:TYPE_OF{Scenario:"2"}]->(c);
+            
+

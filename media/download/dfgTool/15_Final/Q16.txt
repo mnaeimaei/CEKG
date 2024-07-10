@@ -1,0 +1,30 @@
+//aggregateDF_All
+
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH (e1) -[:CORR] -> (n:Patient) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type AND n.Type = df.Type  AND n.Type in ['Patient']
+        WITH c1,count(df) AS df_freq,c2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"All" , count:df_freq , En1_ID:"0" ,En2_ID:"0" , En1:"Patient" , En2:"Patient" , Category:"woProperty" }]-> ( c2 ) 
+
+        
+
+//aggregateDF_All
+
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH (e1) -[:CORR] -> (n:Admission) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type AND n.Type = df.Type  AND n.Type in ['Admission']
+        WITH c1,count(df) AS df_freq,c2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"All" , count:df_freq , En1_ID:"0" ,En2_ID:"0" , En1:"Admission" , En2:"Admission" , Category:"woProperty" }]-> ( c2 ) 
+
+        
+
+//aggregateDF_All
+
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH (e1) -[:CORR] -> (n:Concept) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type AND n.Type = df.Type  AND n.Type in ['Concept']
+        WITH c1,count(df) AS df_freq,c2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"All" , count:df_freq , En1_ID:"0" ,En2_ID:"0" , En1:"Concept" , En2:"Concept" , Category:"woProperty" }]-> ( c2 ) 
+
+        
+

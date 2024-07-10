@@ -1,0 +1,280 @@
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112064"
+            MATCH ( p: Concept ) where p.conceptId=91302008
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112065"
+            MATCH ( p: Concept ) where p.conceptId=127331000119101
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112067"
+            MATCH ( p: Concept ) where p.conceptId=266096002
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112067"
+            MATCH ( p: Concept ) where p.conceptId=91302008
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112066"
+            MATCH ( p: Concept ) where p.conceptId=1085006
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112071"
+            MATCH ( p: Concept ) where p.conceptId=91302008
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112072"
+            MATCH ( p: Concept ) where p.conceptId=59621000
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112072"
+            MATCH ( p: Concept ) where p.conceptId=234347009
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112073"
+            MATCH ( p: Concept ) where p.conceptId=26517000
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112075"
+            MATCH ( p: Concept ) where p.conceptId=26517000
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112074"
+            MATCH ( p: Concept ) where p.conceptId=59621000
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112075"
+            MATCH ( p: Concept ) where p.conceptId=91302008
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112074"
+            MATCH ( p: Concept ) where p.conceptId=91302008
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112074"
+            MATCH ( p: Concept ) where p.conceptId=127331000119101
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112064"
+            MATCH ( p: Concept ) where p.conceptId=266096002
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112064"
+            MATCH ( p: Concept ) where p.conceptId=91302008
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112064"
+            MATCH ( p: Concept ) where p.conceptId=266096002
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112065"
+            MATCH ( p: Concept ) where p.conceptId=266096002
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112067"
+            MATCH ( p: Concept ) where p.conceptId=127331000119101
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112066"
+            MATCH ( p: Concept ) where p.conceptId=127331000119101
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112067"
+            MATCH ( p: Concept ) where p.conceptId=266096002
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112066"
+            MATCH ( p: Concept ) where p.conceptId=91302008
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112066"
+            MATCH ( p: Concept ) where p.conceptId=1085006
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112066"
+            MATCH ( p: Concept ) where p.conceptId=94181007
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112071"
+            MATCH ( p: Concept ) where p.conceptId=1085006
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112071"
+            MATCH ( p: Concept ) where p.conceptId=94181007
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112071"
+            MATCH ( p: Concept ) where p.conceptId=91302008
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112072"
+            MATCH ( p: Concept ) where p.conceptId=91302008
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112072"
+            MATCH ( p: Concept ) where p.conceptId=94181007
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112072"
+            MATCH ( p: Concept ) where p.conceptId=1085006
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112073"
+            MATCH ( p: Concept ) where p.conceptId=414916001
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112073"
+            MATCH ( p: Concept ) where p.conceptId=188154003
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112073"
+            MATCH ( p: Concept ) where p.conceptId=277547006
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112075"
+            MATCH ( p: Concept ) where p.conceptId=277547006
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112075"
+            MATCH ( p: Concept ) where p.conceptId=414916001
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112074"
+            MATCH ( p: Concept ) where p.conceptId=188154003
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112074"
+            MATCH ( p: Concept ) where p.conceptId=234347009
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112075"
+            MATCH ( p: Concept ) where p.conceptId=47505003
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112074"
+            MATCH ( p: Concept ) where p.conceptId=234347009
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+
+//Event_Scenario_4
+ 
+            MATCH ( e: Event ) where e.Activity_Value_ID="1112074"
+            MATCH ( p: Concept ) where p.conceptId=47505003
+            CREATE ( e ) -[:CORR{Scenario:"2"}]-> ( p )
+            
+

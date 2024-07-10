@@ -1,0 +1,35 @@
+//Domain_Nodes
+
+
+            CREATE (f:Domain {Name: "Transfer" });
+
+            
+
+//Domain_Nodes
+
+
+            CREATE (f:Domain {Name: "Microbiology_Result" });
+
+            
+
+//Domain_Nodes
+
+
+            CREATE (f:Domain {Name: "Logistic" });
+
+            
+
+//Domain_Nodes
+
+
+            CREATE (f:Domain {Name: "Mirobiology_Sample" });
+
+            
+
+//Domain_Nodes
+
+
+            CREATE (f:Domain {Name: "ABG" });
+
+            
+

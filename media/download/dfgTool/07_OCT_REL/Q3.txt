@@ -1,0 +1,8 @@
+//modify_concept
+ 
+            MATCH (n:Concept) 
+            SET
+                n.Category= "Absolute" ,
+                n.ID= toString(n.conceptId)
+                
+

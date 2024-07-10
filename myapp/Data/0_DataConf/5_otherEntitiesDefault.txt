@@ -1,0 +1,5 @@
+EnP_Origin=Origin
+EnP_ID=ID
+EnP_Name=Name
+EnP_Value=Value
+EnP_Category=Category

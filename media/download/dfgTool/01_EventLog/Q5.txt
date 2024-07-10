@@ -1,0 +1,20 @@
+//CreateEventNode
+ LOAD CSV WITH HEADERS FROM "file:///C_Log_Neo4j.csv" as line 
+    CALL { 
+    with line 
+            CREATE (e:Event {Log: "EventLog",
+            idx: toInteger(line.idx),
+            Event: line.Event,
+            timestamp: datetime(line.timestamp),
+            Entity1_Origin: line.Entity1_Origin,
+            Entity1_ID: apoc.convert.fromJsonList(line.Entity1_ID),
+            Entity2_Origin: line.Entity2_Origin,
+            Entity2_ID: apoc.convert.fromJsonList(line.Entity2_ID),
+            Activity: line.Activity,
+            Activity_Synonym: line.Activity_Synonym,
+            Activity_Value_ID: line.Activity_Value_ID,
+            Activity_Properties_ID: apoc.convert.fromJsonList(line.Activity_Properties_ID) 
+          })
+    } IN TRANSACTIONS ;
+    
+

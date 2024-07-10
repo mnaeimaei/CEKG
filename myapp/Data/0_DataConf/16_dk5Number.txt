@@ -1,0 +1,1 @@
+['DK5_Activity', 'DK5_Activity_Synonym', 'DK5_OTC', 'DK5_SCTCode']

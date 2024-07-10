@@ -1,0 +1,64 @@
+//DFC_based_on_Origins
+     
+                        MATCH (c1:Activity {Type:"Activity"}) -[df:DF_C {Category:"woProperty"} ]-> (c2:Activity {Type:"Activity"})
+                        match (c1:Activity) 
+                        match (c2:Activity) 
+                        WHERE df.count >= 1 and df.Type = "Absolute" and df.En1="Patient" and df.En1_ID="1"   
+                        return c1,df,c2   
+                        
+
+//DFC_based_on_Origins
+     
+                        MATCH (c1:Activity {Type:"Activity"}) -[df:DF_C {Category:"woProperty"} ]-> (c2:Activity {Type:"Activity"})
+                        match (c1:Activity) 
+                        match (c2:Activity) 
+                        WHERE df.count >= 1 and df.Type = "Absolute" and df.En1="Patient" and df.En1_ID="2"   
+                        return c1,df,c2   
+                        
+
+//DFC_based_on_Origins
+     
+                        MATCH (c1:Activity {Type:"Activity"}) -[df:DF_C {Category:"woProperty"} ]-> (c2:Activity {Type:"Activity"})
+                        match (c1:Activity) 
+                        match (c2:Activity) 
+                        WHERE df.count >= 1 and df.Type = "Absolute" and df.En1="Patient" and df.En1_ID="1_2"   
+                        return c1,df,c2   
+                        
+
+//DFC_based_on_Origins
+     
+                        MATCH (c1:Activity {Type:"Activity"}) -[df:DF_C {Category:"woProperty"} ]-> (c2:Activity {Type:"Activity"})
+                        match (c1:Activity) 
+                        match (c2:Activity) 
+                        WHERE df.count >= 1 and df.Type = "Absolute" and df.En1="Patient" and df.En1_ID="2_1"   
+                        return c1,df,c2   
+                        
+
+//DFC_Adding_Entities
+     
+                        MATCH (c1:Activity {Type:"Activity"}) -[df:DF_C {Category:"woProperty"} ]-> (c2:Activity {Type:"Activity"})
+                        WHERE df.count >= 1 and df.Type = "Absolute" and df.En1="Patient" and df.En1_ID="1"    
+                        return c1,df,c2
+                        
+
+//DFC_Adding_Entities
+     
+                        MATCH (c1:Activity {Type:"Activity"}) -[df:DF_C {Category:"woProperty"} ]-> (c2:Activity {Type:"Activity"})
+                        WHERE df.count >= 1 and df.Type = "Absolute" and df.En1="Patient" and df.En1_ID="2"    
+                        return c1,df,c2
+                        
+
+//DFC_Adding_Entities
+     
+                        MATCH (c1:Activity {Type:"Activity"}) -[df:DF_C {Category:"woProperty"} ]-> (c2:Activity {Type:"Activity"})
+                        WHERE df.count >= 1 and df.Type = "Absolute" and df.En1="Patient" and df.En1_ID="1_2"    
+                        return c1,df,c2
+                        
+
+//DFC_Adding_Entities
+     
+                        MATCH (c1:Activity {Type:"Activity"}) -[df:DF_C {Category:"woProperty"} ]-> (c2:Activity {Type:"Activity"})
+                        WHERE df.count >= 1 and df.Type = "Absolute" and df.En1="Patient" and df.En1_ID="2_1"    
+                        return c1,df,c2
+                        
+

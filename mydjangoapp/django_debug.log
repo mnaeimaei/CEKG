@@ -1,0 +1,118 @@
+************************************************************************************************************************************************************************************************************
+This is the C20 view else part
+************************************************************************************************************************************************************************************************************
+This is the C20 view else part
+************************************************************************************************************************************************************************************************************
+This is the preview view POST part
+This is the preview view else part
+PDF URL : /home/milad/Documents/dfgTool/ScenarioDFG1_DFG_1_1.pdf
+Attempting to serve PDF from /home/milad/Documents/dfgTool/ScenarioDFG1_DFG_1_1.pdf
+File not found at /home/milad/Documents/dfgTool/ScenarioDFG1_DFG_1_1.pdf
+************************************************************************************************************************************************************************************************************
+This is the C20 view else part
+************************************************************************************************************************************************************************************************************
+This is the preview view POST part
+This is the preview view else part
+PDF URL : /home/milad/Documents/dfgTool/ScenarioDFG1_DFG_1_1.pdf
+Attempting to serve PDF from /home/milad/Documents/dfgTool/ScenarioDFG1_DFG_1_1.pdf
+File not found at /home/milad/Documents/dfgTool/ScenarioDFG1_DFG_1_1.pdf
+************************************************************************************************************************************************************************************************************
+This is the C20 view else part
+************************************************************************************************************************************************************************************************************
+This is the C20 view else part
+************************************************************************************************************************************************************************************************************
+This is the C20 view else part
+************************************************************************************************************************************************************************************************************
+This is the preview view POST part
+This is the preview view else part
+PDF URL : /home/milad/Documents/dfgTool/ScenarioDFG1_DFG_1_1.pdf
+Attempting to serve PDF from /home/milad/Documents/dfgTool/ScenarioDFG1_DFG_1_1.pdf
+File not found at /home/milad/Documents/dfgTool/ScenarioDFG1_DFG_1_1.pdf
+************************************************************************************************************************************************************************************************************
+This is the C20 view else part
+************************************************************************************************************************************************************************************************************
+This is the preview view POST part
+This is the preview view else part
+PDF URL : /home/milad/Documents/dfgTool/ScenarioDFG1_DFG_1_1.pdf
+Attempting to serve PDF from /home/milad/Documents/dfgTool/ScenarioDFG1_DFG_1_1.pdf
+File not found at /home/milad/Documents/dfgTool/ScenarioDFG1_DFG_1_1.pdf
+************************************************************************************************************************************************************************************************************
+This is the C20 view else part
+************************************************************************************************************************************************************************************************************
+This is the preview view POST part
+This is the preview view else part
+PDF URL : /home/milad/Documents/dfgTool/ScenarioDFG1_DFG_1_1.pdf
+Attempting to serve PDF from /home/milad/Documents/dfgTool/ScenarioDFG1_DFG_1_1.pdf
+File not found at /home/milad/Documents/dfgTool/ScenarioDFG1_DFG_1_1.pdf
+Hello23
+This is an info message
+mainDfgForm.is_valid() = True
+dfg1Form.is_valid() = True
+dfg2Form.is_valid() = True
+dfg3Form.is_valid() = True
+dfg4Form.is_valid() = True
+dfg5Form.is_valid() = True
+dfg6Form.is_valid() = True
+inputform.is_valid() = True
+inputFormDFG6.is_valid() = True
+activityForm.is_valid() = True
+activityFormDFG6.is_valid() = True
+mainDfgForm.cleaned_data = {'mainDfgMode': 'dfg1Mode'}
+dfg1Form.cleaned_data = {'dfg1Mode': '1'}
+dfg2Form.cleaned_data = {'dfg2Mode': ''}
+dfg3Form.cleaned_data = {'dfg3Mode': ''}
+dfg4Form.cleaned_data = {'dfg4Mode': ''}
+dfg5Form.cleaned_data = {'dfg5Mode': ''}
+dfg6Form.cleaned_data = {'dfg6Mode': ''}
+inputform.cleaned_data = {'inputMode': '1'}
+inputFormDFG6.cleaned_data = {'inputModeDFG6': ''}
+activityForm.cleaned_data = {'activityMode': '1'}
+activityFormDFG6.cleaned_data = {'activityModeDFG6': ''}
+Hello23
+This is an info message
+mainDfgForm.is_valid() = True
+dfg1Form.is_valid() = True
+dfg2Form.is_valid() = True
+dfg3Form.is_valid() = True
+dfg4Form.is_valid() = True
+dfg5Form.is_valid() = True
+dfg6Form.is_valid() = True
+inputform.is_valid() = True
+inputFormDFG6.is_valid() = True
+activityForm.is_valid() = True
+activityFormDFG6.is_valid() = True
+mainDfgForm.cleaned_data = {'mainDfgMode': 'dfg1Mode'}
+dfg1Form.cleaned_data = {'dfg1Mode': '1'}
+dfg2Form.cleaned_data = {'dfg2Mode': ''}
+dfg3Form.cleaned_data = {'dfg3Mode': ''}
+dfg4Form.cleaned_data = {'dfg4Mode': ''}
+dfg5Form.cleaned_data = {'dfg5Mode': ''}
+dfg6Form.cleaned_data = {'dfg6Mode': ''}
+inputform.cleaned_data = {'inputMode': '1'}
+inputFormDFG6.cleaned_data = {'inputModeDFG6': ''}
+activityForm.cleaned_data = {'activityMode': '1'}
+activityFormDFG6.cleaned_data = {'activityModeDFG6': ''}
+Hello23
+This is an info message
+mainDfgForm.is_valid() = True
+dfg1Form.is_valid() = True
+dfg2Form.is_valid() = True
+dfg3Form.is_valid() = True
+dfg4Form.is_valid() = True
+dfg5Form.is_valid() = True
+dfg6Form.is_valid() = True
+inputform.is_valid() = True
+inputFormDFG6.is_valid() = True
+activityForm.is_valid() = True
+activityFormDFG6.is_valid() = True
+mainDfgForm.cleaned_data = {'mainDfgMode': 'dfg1Mode'}
+dfg1Form.cleaned_data = {'dfg1Mode': '1'}
+dfg2Form.cleaned_data = {'dfg2Mode': ''}
+dfg3Form.cleaned_data = {'dfg3Mode': ''}
+dfg4Form.cleaned_data = {'dfg4Mode': ''}
+dfg5Form.cleaned_data = {'dfg5Mode': ''}
+dfg6Form.cleaned_data = {'dfg6Mode': ''}
+inputform.cleaned_data = {'inputMode': '1'}
+inputFormDFG6.cleaned_data = {'inputModeDFG6': ''}
+activityForm.cleaned_data = {'activityMode': '1'}
+activityFormDFG6.cleaned_data = {'activityModeDFG6': ''}

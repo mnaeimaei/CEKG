@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/C29_neo4j_DK1.css">
+</head>
+
+<body>
+<h1>Converting Event logs to LPG:</h1>
+
+
+<div class="container">
+
+    <div class="query-preview">
+
+    </div>
+
+    <div class="svg-preview">
+
+    </div>
+
+
+    <div class="next-Button">
+        <form id="allFormC29" method="post">
+
+            <div id="progressBarContainer" class="progress-container">
+                <div id="progressBar" class="progress-bar">0%</div>
+            </div>
+
+            <a>Click to go the next page:</a>
+
+
+            <div id="nextButtonC29Div" style="display:block;">
+                {% csrf_token %}
+                {{ nextButton.as_p }}
+            </div>
+
+            <script src="../static/js/C29_neo4j_DK1.js" type="module"></script>
+        </form>
+
+
+    </div>
+</div>
+
+</body>
+</html>

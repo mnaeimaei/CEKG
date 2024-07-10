@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/B17_csv_DK61.css">
+</head>
+
+<body>
+<h1>Please select the related column that describes each value:</h1>
+
+<div class="container">
+
+    <div class="excel-preview">
+        <div class="table">
+            {{ html_DK61|safe }}
+        </div>
+
+    </div>
+
+
+    <div class="configuration">
+        <form id="allFormB17" method="post">
+
+
+        <div id="Domain1_Activity" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ domain1_activity_form.as_p }}
+        </div>
+
+
+        <div id="Domain1_Activity_Synonym" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ domain1_activity_synonym_form.as_p }}
+        </div>
+
+        <div id="Domain1_Domain" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ domain1_domain_form.as_p }}
+        </div>
+
+
+
+
+<div id="optionsContainer" data-options-b17='{{ button_lists_b17 |safe }}'></div>
+        <div id="optionsContainerDefault" data-options-default-b17='{{ options_to_show_default_b17|safe }}'></div>
+
+            <a>Click to go the next page:</a>
+        <div id="nextButton3Div" style="display:block;">
+            {% csrf_token %}
+            {{ nextButton.as_p }}
+        </div>
+
+        <script src="../static/js/B17_csv_DK61.js" type="module"></script>
+                </form>
+
+
+    </div>
+</div>
+
+</body>
+</html>

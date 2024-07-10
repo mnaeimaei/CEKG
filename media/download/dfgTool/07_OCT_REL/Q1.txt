@@ -1,0 +1,39 @@
+//deleteRelation
+MATCH () -[r:ANCESTOR_OF]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:ASSOCIATED]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:LINKED_TO]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:CONNECTED_TO]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:MAPPED_TO]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:TIED]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:TYPE_OF]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:REL]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:DF]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:DF_C]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:DF_E]- () DELETE r;
+
+//deleteRelation
+MATCH () -[r:INCLUDED {Type:"last"}]- () DELETE r;
+
+//deletePartiallyRel
+MATCH ( e ) -[r:CORR]-> ( p ) where r.Scenario="2" DELETE r;
+

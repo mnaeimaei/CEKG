@@ -1,0 +1,2 @@
+
+MATCH (n:Activity) RETURN n LIMIT 25

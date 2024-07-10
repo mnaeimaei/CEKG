@@ -1,0 +1,42 @@
+//admMulti_Value
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)
+            Where a.ID="11"
+            SET m.Value = "D01,D02,D03"
+            
+
+//admMulti_Value
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)
+            Where a.ID="12"
+            SET m.Value = "D02,D05,D07"
+            
+
+//admMulti_Value
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)
+            Where a.ID="13"
+            SET m.Value = "D06,D09,D11"
+            
+
+//admMulti_Value
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)
+            Where a.ID="14"
+            SET m.Value = "D15,D20"
+            
+
+//admMulti_Value
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)
+            Where a.ID="15"
+            SET m.Value = "D09,D34,D40"
+            
+
+//admMulti_Value
+           
+            MATCH  (a:Admission)-[:INCLUDED]->(m:Multimorbidity)
+            Where a.ID="16"
+            SET m.Value = "D05,D07,D08"
+            
+

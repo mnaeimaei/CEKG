@@ -1,0 +1,101 @@
+/* Base styling for body and html to cover full viewport */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Flex container setup */
+.container {
+    display: flex;
+    height: 100vh; /* Ensures the container takes up full viewport height */
+}
+
+/* Configuration section styling */
+.configuration {
+    width: 25%;
+    background-color: #ffffff; /* Consistent white background for form section */
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto; /* Allows scrolling if content overflows */
+}
+
+/* Excel preview section styling */
+.excel-preview {
+    width: 75%;
+    background-color: #eee; /* Slightly lighter for contrast with the form */
+}
+
+/* Iframe styling for Excel display */
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Progress bar container */
+.progress-container {
+    width: 100%;
+    background-color: #ddd;
+    padding: 10px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+/* Progress bar styling */
+.progress-bar {
+    width: 0%;
+    height: 30px;
+    background-color: #4CAF50; /* Green color for positive UI feedback */
+    text-align: center;
+    line-height: 30px; /* Vertically centers the text in the progress bar */
+    color: white;
+    transition: width 0.4s ease; /* Smooth transition for width changes */
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for dropdown menus and form elements */
+.dropdown {
+    margin-bottom: 10px; /* Space between dropdowns */
+}
+
+.dropdown input,
+.dropdown select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Includes padding and border in the width */
+}
+
+/* Button styles for consistency */
+button, input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack sections vertically on small screens */
+    }
+    .configuration, .excel-preview {
+        width: 100%; /* Full width for each section */
+    }
+}

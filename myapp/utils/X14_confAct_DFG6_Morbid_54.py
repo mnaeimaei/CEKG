@@ -1,0 +1,19 @@
+import B02_txt_Activity as activityConf
+
+activityConf.txt_activity()
+
+import subprocess
+
+subprocess.run(['python', 'X10_Step_DFG6_Morbid_54.py'])
+
+
+
+
+print("********************************* Example **************************************************")
+'''
+
+
+
+Concept_Label_Level=1
+
+'''

@@ -1,0 +1,3 @@
+//createConstraint
+CREATE CONSTRAINT FOR (n:Feature) REQUIRE n.ID IS UNIQUE;
+

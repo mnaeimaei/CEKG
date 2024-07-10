@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/B11_csv_SctRel.css">
+</head>
+
+<body>
+<h1>Please select the related column that describes each value:</h1>
+
+<div class="container">
+
+    <div class="excel-preview">
+        <div class="table">
+            {{ html_OCT_REL|safe }}
+        </div>
+
+    </div>
+
+
+    <div class="configuration">
+        <form id="allFormB11" method="post">
+
+
+        <div id="OCT_OCT_REL_s0" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ sctr_s0.as_p }}
+        </div>
+
+
+        <div id="OCT_OCT_REL_s0_code" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ sctr_s0_code.as_p }}
+        </div>
+
+        <div id="OCT_OCT_REL_s1" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ sctr_s1.as_p }}
+        </div>
+
+
+        <div id="OCT_OCT_REL_s1_code" class="dropdown" style="display:block;">
+            {% csrf_token %}
+            {{ sctr_s1_code.as_p }}
+        </div>
+
+
+
+<div id="optionsContainer" data-options-b11='{{ button_lists_b11 |safe }}'></div>
+        <div id="optionsContainerDefault" data-options-default-b11='{{ options_to_show_default_b11|safe }}'></div>
+
+            <a>Click to go the next page:</a>
+        <div id="nextButton3Div" style="display:block;">
+            {% csrf_token %}
+            {{ nextButton.as_p }}
+        </div>
+
+        <script src="../static/js/B11_csv_SctRel.js" type="module"></script>
+                </form>
+
+
+    </div>
+</div>
+
+</body>
+</html>

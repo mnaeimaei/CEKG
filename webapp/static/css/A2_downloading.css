@@ -1,0 +1,80 @@
+/* Base styling for the whole page, ensuring full coverage and setting margins */
+body, html {
+    margin: 2%;
+    padding: 0;
+    height: 96%; /* Adjusted for margin */
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Consistent font throughout the application */
+    background-color: #f5f5f5; /* Light grey background for a clean look */
+    color: #333; /* Dark grey text for readability */
+}
+
+h1 {
+    color: #0056b3; /* Blue for headings to stand out */
+    margin-bottom: 20px; /* Space below headings */
+}
+
+/* Flex container setup for layout management */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    height: 100%;
+    width: 100%;
+}
+
+/* Styling for individual form sections */
+#fileSourceDiv, #fileNameDiv, #locationDiv, #serviceDiv {
+    background-color: #ffffff; /* White background for focus areas */
+    padding: 20px;
+    margin-bottom: 10px; /* Spacing between sections */
+    border-radius: 5px; /* Rounded corners for aesthetics */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Progress bar container styling */
+.progress-container {
+    width: 100%;
+    background-color: #ddd; /* Consistent with other settings for neutral look */
+    margin-top: 20px; /* Separation from form elements */
+    display: none; /* Initially hidden */
+}
+
+/* Progress bar styling for visual feedback */
+.progress-bar {
+    width: 0%;
+    height: 30px;
+    background-color: #4CAF50; /* Green to indicate progress */
+    color: white;
+    text-align: center;
+    line-height: 30px; /* Centers text vertically */
+    transition: width 0.5s ease; /* Smooth transition for width changes */
+}
+
+/* Button styles for actions */
+button, input[type="submit"] {
+    background-color: #007bff; /* Bright blue for buttons */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    width: auto;
+    margin-top: 10px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover for feedback */
+}
+
+/* Styling for displaying configuration data - hidden */
+#config {
+    display: none; /* Hidden as specified, used for storing data attributes */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Ensure elements stack vertically on small screens */
+    }
+}

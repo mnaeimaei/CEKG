@@ -1,0 +1,72 @@
+//createEntitiesNode
+
+            MERGE (n:Patient {
+            EntityCol:"Entity1_ID",          
+            ID:toString("1"),
+            Category:"Absolute",
+            Value:toString("1")
+            });
+
+//createEntitiesNode
+
+            MERGE (n:Patient {
+            EntityCol:"Entity1_ID",          
+            ID:toString("2"),
+            Category:"Absolute",
+            Value:toString("2")
+            });
+
+//createEntitiesNode
+
+            MERGE (n:Admission {
+            EntityCol:"Entity2_ID",          
+            ID:toString("11"),
+            Category:"Absolute",
+            Value:toString("11")
+            });
+
+//createEntitiesNode
+
+            MERGE (n:Admission {
+            EntityCol:"Entity2_ID",          
+            ID:toString("12"),
+            Category:"Absolute",
+            Value:toString("12")
+            });
+
+//createEntitiesNode
+
+            MERGE (n:Admission {
+            EntityCol:"Entity2_ID",          
+            ID:toString("13"),
+            Category:"Absolute",
+            Value:toString("13")
+            });
+
+//createEntitiesNode
+
+            MERGE (n:Admission {
+            EntityCol:"Entity2_ID",          
+            ID:toString("14"),
+            Category:"Absolute",
+            Value:toString("14")
+            });
+
+//createEntitiesNode
+
+            MERGE (n:Admission {
+            EntityCol:"Entity2_ID",          
+            ID:toString("15"),
+            Category:"Absolute",
+            Value:toString("15")
+            });
+
+//createEntitiesNode
+
+            MERGE (n:Admission {
+            EntityCol:"Entity2_ID",          
+            ID:toString("16"),
+            Category:"Absolute",
+            Value:toString("16")
+            });
+

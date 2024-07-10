@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Fixed viewport meta tag -->
+
+    <link rel="stylesheet" href="../static/css/A3_preview.css">
+
+</head>
+
+<body>
+<h1>Please select the Excel sheet related to each of these data points.:</h1>
+
+<div class="container">
+
+    <div class="configuration">
+        <form id="allForm3" method="post">
+
+
+            <div id="eventLogDiv" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ eventLogform.as_p }}
+            </div>
+
+
+            <div id="otherEntitiesDiv" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ otherEntitiesForm.as_p }}
+            </div>
+
+            <div id="otherEntitiesRelDiv" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ otherEntitiesRelForm.as_p }}
+            </div>
+
+
+            <div id="activitiesValueDiv" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ activitiesValueForm.as_p }}
+            </div>
+
+
+            <div id="domainDiv" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ domainForm.as_p }}
+            </div>
+
+
+            <div id="iCDDiv" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ iCDForm.as_p }}
+            </div>
+
+
+            <div id="snomedCtRelNodeDiv" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ snomedCtRelNode.as_p }}
+            </div>
+
+
+            <div id="snomedCtRelDiv" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ snomedCtRelForm.as_p }}
+            </div>
+
+
+            <div id=dk1Div" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ dk1.as_p }}
+            </div>
+
+
+            <div id="dk2Div" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ dk2.as_p }}
+            </div>
+
+
+            <div id="dk3Div" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ dk3.as_p }}
+            </div>
+
+
+            <div id="dk4Div" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ dk4.as_p }}
+            </div>
+
+
+            <div id="dk5Div" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ dk5.as_p }}
+            </div>
+
+
+            <div id="dk61Div" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ dk61.as_p }}
+            </div>
+
+
+            <div id="dk62Div" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ dk62.as_p }}
+            </div>
+
+
+            <div id="dk7Div" class="dropdown" style="display:none;">
+                {% csrf_token %}
+                {{ dk7.as_p }}
+            </div>
+
+
+            <div id="optionsContainer" data-options='{{ options_to_show|safe }}'></div>
+            <div id="optionsContainerDefault" data-options-default='{{ options_to_show_default|safe }}'></div>
+
+            <div id="progressBarContainer" class="progress-container">
+                <div id="progressBar" class="progress-bar">0%</div>
+            </div>
+
+
+            <div id="nextButton3Div" style="display:block;">
+                {% csrf_token %}
+                {{ nextButton.as_p }}
+            </div>
+
+
+            <script src="../static/js/A3_preview.js" type="module"></script>
+
+
+        </form>
+
+    </div>
+
+    <div class="excel-preview">
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRoJuR9CmNvJ_VEQKTb_UUXSCL8Sce5PU-lxs1tgNLxyyUh4bqLH7jlA-gDU9w6QCIpkII6Gqen5UQm/pubhtml?widget=true&amp;headers=false"></iframe>
+    </div>
+</div>
+
+
+</body>
+</html>

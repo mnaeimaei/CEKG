@@ -1,0 +1,1 @@
+{'1': 'Activity_Properties_ID', '2': 'Activity', '3': 'Activity_Synonym', '4': 'Label', '5': 'Value'}

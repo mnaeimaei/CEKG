@@ -1,0 +1,371 @@
+//intraEntitiesRel
+
+            MATCH (n1:Admission)  WHERE n1.ID = "11" 
+            MATCH (n2:Multimorbidity)  WHERE n2.ID = "1" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Admission)  WHERE n1.ID = "12" 
+            MATCH (n2:Multimorbidity)  WHERE n2.ID = "2" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Admission)  WHERE n1.ID = "13" 
+            MATCH (n2:Multimorbidity)  WHERE n2.ID = "3" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Admission)  WHERE n1.ID = "14" 
+            MATCH (n2:Multimorbidity)  WHERE n2.ID = "4" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Admission)  WHERE n1.ID = "15" 
+            MATCH (n2:Multimorbidity)  WHERE n2.ID = "5" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Admission)  WHERE n1.ID = "16" 
+            MATCH (n2:Multimorbidity)  WHERE n2.ID = "6" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Patient)  WHERE n1.ID = "1" 
+            MATCH (n2:age)  WHERE n2.ID = "1" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Patient)  WHERE n1.ID = "2" 
+            MATCH (n2:age)  WHERE n2.ID = "2" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Patient)  WHERE n1.ID = "1" 
+            MATCH (n2:gender)  WHERE n2.ID = "1" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Patient)  WHERE n1.ID = "2" 
+            MATCH (n2:gender)  WHERE n2.ID = "2" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "1" 
+            MATCH (n2:newMorbids)  WHERE n2.ID = "1" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "2" 
+            MATCH (n2:newMorbids)  WHERE n2.ID = "2" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "3" 
+            MATCH (n2:newMorbids)  WHERE n2.ID = "3" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "4" 
+            MATCH (n2:newMorbids)  WHERE n2.ID = "4" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "5" 
+            MATCH (n2:newMorbids)  WHERE n2.ID = "5" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "6" 
+            MATCH (n2:newMorbids)  WHERE n2.ID = "6" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "1" 
+            MATCH (n2:treatedMorbids)  WHERE n2.ID = "1" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "2" 
+            MATCH (n2:treatedMorbids)  WHERE n2.ID = "2" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "3" 
+            MATCH (n2:treatedMorbids)  WHERE n2.ID = "3" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "4" 
+            MATCH (n2:treatedMorbids)  WHERE n2.ID = "4" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "5" 
+            MATCH (n2:treatedMorbids)  WHERE n2.ID = "5" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "6" 
+            MATCH (n2:treatedMorbids)  WHERE n2.ID = "6" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "1" 
+            MATCH (n2:untreatedMorbids)  WHERE n2.ID = "1" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "2" 
+            MATCH (n2:untreatedMorbids)  WHERE n2.ID = "2" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "3" 
+            MATCH (n2:untreatedMorbids)  WHERE n2.ID = "3" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "4" 
+            MATCH (n2:untreatedMorbids)  WHERE n2.ID = "4" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "5" 
+            MATCH (n2:untreatedMorbids)  WHERE n2.ID = "5" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "6" 
+            MATCH (n2:untreatedMorbids)  WHERE n2.ID = "6" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "1" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "1" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "1" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "2" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "1" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "3" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "2" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "5" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "2" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "7" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "2" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "2" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "3" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "6" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "3" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "9" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "3" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "11" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "4" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "15" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "4" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "20" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "5" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "9" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "5" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "40" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "5" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "34" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "6" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "5" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "6" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "8" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Multimorbidity)  WHERE n1.ID = "6" 
+            MATCH (n2:Disorder)  WHERE n2.ID = "7" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Patient)  WHERE n1.ID = "1" 
+            MATCH (n2:Admission)  WHERE n2.ID = "11" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Patient)  WHERE n1.ID = "1" 
+            MATCH (n2:Admission)  WHERE n2.ID = "12" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Patient)  WHERE n1.ID = "1" 
+            MATCH (n2:Admission)  WHERE n2.ID = "13" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Patient)  WHERE n1.ID = "2" 
+            MATCH (n2:Admission)  WHERE n2.ID = "14" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Patient)  WHERE n1.ID = "2" 
+            MATCH (n2:Admission)  WHERE n2.ID = "15" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Patient)  WHERE n1.ID = "2" 
+            MATCH (n2:Admission)  WHERE n2.ID = "16" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Disorder)  WHERE n1.ID = "UNK" 
+            MATCH (n2:UNK)  WHERE n2.ID = "UNK" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+
+//intraEntitiesRel
+
+            MATCH (n1:Disorder)  WHERE n1.ID = "Nothing" 
+            MATCH (n2:Nothing)  WHERE n2.ID = "Nothing" 
+            CREATE (n1)-[:INCLUDED]->(n2);
+            
+

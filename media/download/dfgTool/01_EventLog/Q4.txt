@@ -1,0 +1,3 @@
+//createLogNode
+CREATE (:Log {ID: "EventLog" })
+

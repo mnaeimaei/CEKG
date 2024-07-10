@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/A1_home.css">
+
+
+</head>
+
+<body>
+<h1>Please select one of the following patient care pathway options that best fits your needs:</h1>
+
+
+    <form id="allForm" method="post"  >
+
+
+        <div id="mainDfgDiv" style="display:block;" >
+            <h1>Step1</h1>
+            {% csrf_token %}
+            {{ mainDfgForm.as_p }}
+        </div>
+
+        <div id="dFG1Div" style="display:none;">
+            <h1>Step2</h1>
+            {% csrf_token %}
+            {{ dfg1Form.as_p }}
+        </div>
+
+        <div id="dFG2Div" style="display:none;">
+            <h1>Step2</h1>
+            {% csrf_token %}
+            {{ dfg2Form.as_p }}
+        </div>
+
+        <div id="dFG3Div" style="display:none;">
+            <h1>Step2</h1>
+            {% csrf_token %}
+            {{ dfg3Form.as_p }}
+        </div>
+
+        <div id="dFG4Div" style="display:none;">
+            <h1>Step2</h1>
+            {% csrf_token %}
+            {{ dfg4Form.as_p }}
+        </div>
+
+        <div id="dFG5Div" style="display:none;">
+            <h1>Step2</h1>
+            {% csrf_token %}
+            {{ dfg5Form.as_p }}
+        </div>
+
+        <div id="dFG6Div" style="display:none;">
+            <h1>Step2</h1>
+            {% csrf_token %}
+            {{ dfg6Form.as_p }}
+        </div>
+
+        <script src="../static/js/A1_home_step1.js" type="module"></script>
+
+        <div id="inputDiv" style="display:none;">
+            <h1>Step3</h1>
+            {% csrf_token %}
+            {{ inputform.as_p }}
+        </div>
+
+        <div id="inputDivForDFG6" style="display:none;">
+            <h1>Step3</h1>
+            {% csrf_token %}
+            {{ inputFormDFG6.as_p }}
+        </div>
+
+        <script src="../static/js/A1_home_step2.js" type="module"></script>
+
+
+        <div id="activityDiv" style="display:none;">
+            <h1>Step4</h1>
+            {% csrf_token %}
+            {{ activityForm.as_p }}
+        </div>
+
+        <div id="activityDivDFG6" style="display:none;">
+            <h1>Step4</h1>
+            {% csrf_token %}
+            {{ activityFormDFG6.as_p }}
+        </div>
+        <script src="../static/js/A1_home_step3.js" type="module"></script>
+
+
+
+        <div id="nextButton1Div" style="display:none;" >
+            {% csrf_token %}
+            {{ nextButton1.as_p }}
+        </div>
+
+        <script src="../static/js/A1_home_step4.js" type="module"></script>
+
+
+
+
+    </form>
+
+
+
+
+
+</body>
+</html>

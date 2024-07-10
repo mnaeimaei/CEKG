@@ -1,0 +1,1 @@
+['C_Log', 'D_OtherEntities', 'D_EntityRel', 'E_Activity_Properties', 'F_Domain', 'H_ICD', 'I_OCT_Node', 'I_OCT_REL', 'J_DK1', 'K_DK2', 'L_DK3', 'M_DK4', 'N_DK5', 'O_DK6_1', 'O_DK6_2', 'P_DK7']

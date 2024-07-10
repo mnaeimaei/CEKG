@@ -1,0 +1,365 @@
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "3812", icdCode: "3812", version: "9", title: "Methicillin resistant Staphylococcus aureus septicemia" , title: "Methicillin resistant Staphylococcus aureus septicemia"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "389", icdCode: "389", version: "9", title: "Unspecified septicemia" , title: "Unspecified septicemia"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "4111", icdCode: "4111", version: "9", title: "Methicillin susceptible Staphylococcus aureus in conditions classified elsewhere and of unspecified site" , title: "Methicillin susceptible Staphylococcus aureus in conditions classified elsewhere and of unspecified site"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "7999", icdCode: "7999", version: "9", title: "Unspecified viral infection" , title: "Unspecified viral infection"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "1121", icdCode: "1121", version: "9", title: "Candidiasis of vulva and vagina" , title: "Candidiasis of vulva and vagina"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "1744", icdCode: "1744", version: "9", title: "Malignant neoplasm of upper-outer quadrant of female breast" , title: "Malignant neoplasm of upper-outer quadrant of female breast"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "1963", icdCode: "1963", version: "9", title: "Secondary and unspecified malignant neoplasm of lymph nodes of axilla and upper limb" , title: "Secondary and unspecified malignant neoplasm of lymph nodes of axilla and upper limb"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "25000", icdCode: "25000", version: "9", title: "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled" , title: "Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "2761", icdCode: "2761", version: "9", title: "Hyposmolality and/or hyponatremia" , title: "Hyposmolality and/or hyponatremia"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "2763", icdCode: "2763", version: "9", title: "Alkalosis" , title: "Alkalosis"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "27800", icdCode: "27800", version: "9", title: "Obesity, unspecified" , title: "Obesity, unspecified"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "27801", icdCode: "27801", version: "9", title: "Morbid obesity" , title: "Morbid obesity"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "2809", icdCode: "2809", version: "9", title: "Iron deficiency anemia, unspecified" , title: "Iron deficiency anemia, unspecified"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "2811", icdCode: "2811", version: "9", title: "Other vitamin B12 deficiency anemia" , title: "Other vitamin B12 deficiency anemia"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "28529", icdCode: "28529", version: "9", title: "Anemia of other chronic disease" , title: "Anemia of other chronic disease"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "29680", icdCode: "29680", version: "9", title: "Bipolar disorder, unspecified" , title: "Bipolar disorder, unspecified"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "29690", icdCode: "29690", version: "9", title: "Unspecified episodic mood disorder" , title: "Unspecified episodic mood disorder"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "30183", icdCode: "30183", version: "9", title: "Borderline personality disorder" , title: "Borderline personality disorder"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "30781", icdCode: "30781", version: "9", title: "Tension headache" , title: "Tension headache"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "30981", icdCode: "30981", version: "9", title: "Posttraumatic stress disorder" , title: "Posttraumatic stress disorder"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "311", icdCode: "311", version: "9", title: "Depressive disorder, not elsewhere classified" , title: "Depressive disorder, not elsewhere classified"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "32723", icdCode: "32723", version: "9", title: "Obstructive sleep apnea (adult)(pediatric)" , title: "Obstructive sleep apnea (adult)(pediatric)"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "33394", icdCode: "33394", version: "9", title: "Restless legs syndrome (RLS)" , title: "Restless legs syndrome (RLS)"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "4019", icdCode: "4019", version: "9", title: "Unspecified essential hypertension" , title: "Unspecified essential hypertension"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "41519", icdCode: "41519", version: "9", title: "Other pulmonary embolism and infarction" , title: "Other pulmonary embolism and infarction"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "4259", icdCode: "4259", version: "9", title: "Secondary cardiomyopathy, unspecified" , title: "Secondary cardiomyopathy, unspecified"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "4538", icdCode: "4538", version: "9", title: "Venous thrombosis nec" , title: "Venous thrombosis nec"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "49320", icdCode: "49320", version: "9", title: "Chronic obstructive asthma, unspecified" , title: "Chronic obstructive asthma, unspecified"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "49390", icdCode: "49390", version: "9", title: "Asthma, unspecified type, unspecified" , title: "Asthma, unspecified type, unspecified"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "5070", icdCode: "5070", version: "9", title: "Pneumonitis due to inhalation of food or vomitus" , title: "Pneumonitis due to inhalation of food or vomitus"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "51881", icdCode: "51881", version: "9", title: "Acute respiratory failure" , title: "Acute respiratory failure"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "53081", icdCode: "53081", version: "9", title: "Esophageal reflux" , title: "Esophageal reflux"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "5609", icdCode: "5609", version: "9", title: "Unspecified intestinal obstruction" , title: "Unspecified intestinal obstruction"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "5990", icdCode: "5990", version: "9", title: "Urinary tract infection, site not specified" , title: "Urinary tract infection, site not specified"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "6820", icdCode: "6820", version: "9", title: "Cellulitis and abscess of face" , title: "Cellulitis and abscess of face"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "6929", icdCode: "6929", version: "9", title: "Contact dermatitis and other eczema, unspecified cause" , title: "Contact dermatitis and other eczema, unspecified cause"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "6961", icdCode: "6961", version: "9", title: "Other psoriasis" , title: "Other psoriasis"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "7197", icdCode: "7197", version: "9", title: "Difficulty in walking" , title: "Difficulty in walking"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "7280", icdCode: "7280", version: "9", title: "Infective myositis" , title: "Infective myositis"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "73620", icdCode: "73620", version: "9", title: "Unspecified deformity of finger" , title: "Unspecified deformity of finger"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "78552", icdCode: "78552", version: "9", title: "Septic shock" , title: "Septic shock"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "78659", icdCode: "78659", version: "9", title: "Other chest pain" , title: "Other chest pain"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "78830", icdCode: "78830", version: "9", title: "Urinary incontinence, unspecified" , title: "Urinary incontinence, unspecified"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "83400", icdCode: "83400", version: "9", title: "Closed dislocation of finger, unspecified part" , title: "Closed dislocation of finger, unspecified part"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "88100", icdCode: "88100", version: "9", title: "Open wound of forearm, without mention of complication" , title: "Open wound of forearm, without mention of complication"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "99592", icdCode: "99592", version: "9", title: "Severe sepsis" , title: "Severe sepsis"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "99664", icdCode: "99664", version: "9", title: "Infection and inflammatory reaction due to indwelling urinary catheter" , title: "Infection and inflammatory reaction due to indwelling urinary catheter"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "99731", icdCode: "99731", version: "9", title: "Ventilator associated pneumonia" , title: "Ventilator associated pneumonia"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "99931", icdCode: "99931", version: "9", title: "Other and unspecified infection due to central venous catheter" , title: "Other and unspecified infection due to central venous catheter"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "A047", icdCode: "A047", version: "10", title: "Enterocolitis due to Clostridium difficile" , title: "Enterocolitis due to Clostridium difficile"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "C50912", icdCode: "C50912", version: "10", title: "Malignant neoplasm of unspecified site of left female breast" , title: "Malignant neoplasm of unspecified site of left female breast"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "C778", icdCode: "C778", version: "10", title: "Secondary and unspecified malignant neoplasm of lymph nodes of multiple regions" , title: "Secondary and unspecified malignant neoplasm of lymph nodes of multiple regions"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "C779", icdCode: "C779", version: "10", title: "Secondary and unspecified malignant neoplasm of lymph node, unspecified" , title: "Secondary and unspecified malignant neoplasm of lymph node, unspecified"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "C7800", icdCode: "C7800", version: "10", title: "Secondary malignant neoplasm of unspecified lung" , title: "Secondary malignant neoplasm of unspecified lung"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "C787", icdCode: "C787", version: "10", title: "Secondary malignant neoplasm of liver and intrahepatic bile duct" , title: "Secondary malignant neoplasm of liver and intrahepatic bile duct"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "C7951", icdCode: "C7951", version: "10", title: "Secondary malignant neoplasm of bone" , title: "Secondary malignant neoplasm of bone"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "D684", icdCode: "D684", version: "10", title: "Acquired coagulation factor deficiency" , title: "Acquired coagulation factor deficiency"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "D688", icdCode: "D688", version: "10", title: "Other specified coagulation defects" , title: "Other specified coagulation defects"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "E039", icdCode: "E039", version: "10", title: "Hypothyroidism, unspecified" , title: "Hypothyroidism, unspecified"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "E46", icdCode: "E46", version: "10", title: "Unspecified protein-calorie malnutrition" , title: "Unspecified protein-calorie malnutrition"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "E669", icdCode: "E669", version: "10", title: "Obesity, unspecified" , title: "Obesity, unspecified"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "E8339", icdCode: "E8339", version: "10", title: "Other disorders of phosphorus metabolism" , title: "Other disorders of phosphorus metabolism"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "E860", icdCode: "E860", version: "10", title: "Dehydration" , title: "Dehydration"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "E871", icdCode: "E871", version: "10", title: "Hypo-osmolality and hyponatremia" , title: "Hypo-osmolality and hyponatremia"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "H532", icdCode: "H532", version: "10", title: "Diplopia" , title: "Diplopia"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "I10", icdCode: "I10", version: "10", title: "Essential (primary) hypertension" , title: "Essential (primary) hypertension"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "I427", icdCode: "I427", version: "10", title: "Cardiomyopathy due to drug and external agent" , title: "Cardiomyopathy due to drug and external agent"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "I5022", icdCode: "I5022", version: "10", title: "Chronic systolic (congestive) heart failure" , title: "Chronic systolic (congestive) heart failure"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "J45909", icdCode: "J45909", version: "10", title: "Unspecified asthma, uncomplicated" , title: "Unspecified asthma, uncomplicated"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "K7290", icdCode: "K7290", version: "10", title: "Hepatic failure, unspecified without coma" , title: "Hepatic failure, unspecified without coma"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "K7469", icdCode: "K7469", version: "10", title: "Other cirrhosis of liver" , title: "Other cirrhosis of liver"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "K8020", icdCode: "K8020", version: "10", title: "Calculus of gallbladder without cholecystitis without obstruction" , title: "Calculus of gallbladder without cholecystitis without obstruction"  , Category: "Absolute"   });
+            
+
+//icd_Nodes
+
+            CREATE (p:Clinical {Type: "ICD", ID: "L409", icdCode: "L409", version: "10", title: "Psoriasis, unspecified" , title: "Psoriasis, unspecified"  , Category: "Absolute"   });
+            
+

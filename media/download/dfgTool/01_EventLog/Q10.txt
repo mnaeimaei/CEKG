@@ -1,0 +1,48 @@
+//link_events_Entities
+
+            MATCH (e:Event) WHERE e.Entity1_Origin ="Patient" and "1" in e.Entity1_ID
+            MATCH (n:Patient {EntityCol: "Entity1_ID" }) WHERE n.ID = "1"
+            CREATE (e)-[:CORR{Scenario:"1"}]->(n)
+
+//link_events_Entities
+
+            MATCH (e:Event) WHERE e.Entity1_Origin ="Patient" and "2" in e.Entity1_ID
+            MATCH (n:Patient {EntityCol: "Entity1_ID" }) WHERE n.ID = "2"
+            CREATE (e)-[:CORR{Scenario:"1"}]->(n)
+
+//link_events_Entities
+
+            MATCH (e:Event) WHERE e.Entity2_Origin ="Admission" and "11" in e.Entity2_ID
+            MATCH (n:Admission {EntityCol: "Entity2_ID" }) WHERE n.ID = "11"
+            CREATE (e)-[:CORR{Scenario:"1"}]->(n)
+
+//link_events_Entities
+
+            MATCH (e:Event) WHERE e.Entity2_Origin ="Admission" and "12" in e.Entity2_ID
+            MATCH (n:Admission {EntityCol: "Entity2_ID" }) WHERE n.ID = "12"
+            CREATE (e)-[:CORR{Scenario:"1"}]->(n)
+
+//link_events_Entities
+
+            MATCH (e:Event) WHERE e.Entity2_Origin ="Admission" and "13" in e.Entity2_ID
+            MATCH (n:Admission {EntityCol: "Entity2_ID" }) WHERE n.ID = "13"
+            CREATE (e)-[:CORR{Scenario:"1"}]->(n)
+
+//link_events_Entities
+
+            MATCH (e:Event) WHERE e.Entity2_Origin ="Admission" and "14" in e.Entity2_ID
+            MATCH (n:Admission {EntityCol: "Entity2_ID" }) WHERE n.ID = "14"
+            CREATE (e)-[:CORR{Scenario:"1"}]->(n)
+
+//link_events_Entities
+
+            MATCH (e:Event) WHERE e.Entity2_Origin ="Admission" and "15" in e.Entity2_ID
+            MATCH (n:Admission {EntityCol: "Entity2_ID" }) WHERE n.ID = "15"
+            CREATE (e)-[:CORR{Scenario:"1"}]->(n)
+
+//link_events_Entities
+
+            MATCH (e:Event) WHERE e.Entity2_Origin ="Admission" and "16" in e.Entity2_ID
+            MATCH (n:Admission {EntityCol: "Entity2_ID" }) WHERE n.ID = "16"
+            CREATE (e)-[:CORR{Scenario:"1"}]->(n)
+

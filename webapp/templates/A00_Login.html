@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/A00_Login.css">
+</head>
+
+
+<body>
+    <h1>Welcome to the CEKG (Clinical Event Knowledge Graph) tool</h1>
+
+    <p>A Tool for Constructing Event Graphs of the Care Pathways of Multi-Morbid Patients.</p>
+
+
+    <form id="allForm" method="post"  >
+
+
+        <div id="mainLoginDiv" style="display:block;" >
+            <h1>Please Login to enter the tool</h1>
+            {% csrf_token %}
+            {{ loginForm.as_p }}
+        </div>
+
+
+
+        <div id="submitDiv" style="display:block;" >
+            {% csrf_token %}
+            {{ submitButton.as_p }}
+        </div>
+
+        <script src="../static/js/A00_Login.js" type="module"></script>
+
+    </form>
+
+
+</body>
+</html>

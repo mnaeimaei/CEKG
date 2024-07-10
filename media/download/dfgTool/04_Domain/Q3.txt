@@ -1,0 +1,3 @@
+//createConstraint
+CREATE CONSTRAINT FOR (n:Domain) REQUIRE n.ID IS UNIQUE;
+

@@ -1,0 +1,1784 @@
+// Query Result
+digraph {
+	graph [margin=0 rankdir=LR]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	"Value1.2=Label1_1804_e9" [label="Value1.2" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.2=Label1_1804_e9" -> 1805 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1800_e6" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1801 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.2=Label1_1800_e6" -> 1801 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1803_e12" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1804 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1803_e12" -> 1804 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1806_e14" [label="Value1.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.3=Label1_1806_e14" -> 1807 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1802_e7" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1803 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.1=Label1_1802_e7" -> 1803 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1805_e8" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1806 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1805_e8" -> 1806 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.1=Label4_1805_e8" [label="Value4.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1806 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value4.1=Label4_1805_e8" -> 1806 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1805_e8" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1806 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1805_e8" -> 1806 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.1=Label3_1805_e8" [label="Value3.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1806 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value3.1=Label3_1805_e8" -> 1806 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.5=Label5_1805_e8" [label="Value5.5" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1806 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value5.5=Label5_1805_e8" -> 1806 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1794_e1" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1795 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1794_e1" -> 1795 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1794_e1" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1795 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1794_e1" -> 1795 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1801_e11" [label="Value1.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1802 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.3=Label1_1801_e11" -> 1802 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1799_e10" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1800 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.2=Label1_1799_e10" -> 1800 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1799_e10" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1800 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1799_e10" -> 1800 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1798_e5" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1799 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1798_e5" -> 1799 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.2=Label2_1798_e5" [label="Value2.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1799 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.2=Label2_1798_e5" -> 1799 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1795_e2" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1796 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1795_e2" -> 1796 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1797_e3" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1798 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1797_e3" -> 1798 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.3=Label4_1797_e3" [label="Value4.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1798 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value4.3=Label4_1797_e3" -> 1798 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.1=Label5_1797_e3" [label="Value5.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1798 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value5.1=Label5_1797_e3" -> 1798 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value7.4=Label7_1797_e3" [label="Value7.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1798 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value7.4=Label7_1797_e3" -> 1798 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.1=Label3_1797_e3" [label="Value3.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1798 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value3.1=Label3_1797_e3" -> 1798 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value6.2=Label6_1797_e3" [label="Value6.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1798 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value6.2=Label6_1797_e3" -> 1798 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1797_e3" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1798 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1797_e3" -> 1798 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1796_e4" [label="Value1.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value1.1=Label1_1796_e4" -> 1797 [label=P_1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	"Value5.5=Label5_1805_e8" [label="Value5.5" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 -> "Value5.5=Label5_1805_e8" [label=Label5 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.1=Label4_1805_e8" [label="Value4.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 -> "Value4.1=Label4_1805_e8" [label=Label4 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.1=Label3_1805_e8" [label="Value3.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 -> "Value3.1=Label3_1805_e8" [label=Label3 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1805_e8" [label="Value2.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 -> "Value2.1=Label2_1805_e8" [label=Label2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1805_e8" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 -> "Value1.1=Label1_1805_e8" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1801_e11" [label="Value1.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1801 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1801 -> "Value1.3=Label1_1801_e11" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1804_e9" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1804 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1804 -> "Value1.2=Label1_1804_e9" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.4=Label5_1807_e13" [label="Value5.4" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 -> "Value5.4=Label5_1807_e13" [label=Label5 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.2=Label2_1807_e13" [label="Value2.2" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 -> "Value2.2=Label2_1807_e13" [label=Label2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1807_e13" [label="Value1.2" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 -> "Value1.2=Label1_1807_e13" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.1=Label4_1807_e13" [label="Value4.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 -> "Value4.1=Label4_1807_e13" [label=Label4 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.1=Label3_1807_e13" [label="Value3.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 -> "Value3.1=Label3_1807_e13" [label=Label3 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1803_e12" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1803 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1803 -> "Value1.1=Label1_1803_e12" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1806_e14" [label="Value1.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1806 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1806 -> "Value1.3=Label1_1806_e14" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1795_e2" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1795 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1795 -> "Value1.1=Label1_1795_e2" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1794_e1" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1794 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1794 -> "Value2.1=Label2_1794_e1" [label=Label2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1794_e1" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1794 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1794 -> "Value1.1=Label1_1794_e1" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1802_e7" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1802 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1802 -> "Value1.1=Label1_1802_e7" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1800_e6" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1800 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1800 -> "Value1.2=Label1_1800_e6" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1799_e10" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1799 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1799 -> "Value1.2=Label1_1799_e10" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1799_e10" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1799 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1799 -> "Value2.1=Label2_1799_e10" [label=Label2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1796_e4" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1796 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1796 -> "Value1.1=Label1_1796_e4" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.2=Label2_1798_e5" [label="Value2.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1798 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1798 -> "Value2.2=Label2_1798_e5" [label=Label2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1798_e5" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1798 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1798 -> "Value1.1=Label1_1798_e5" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value7.4=Label7_1797_e3" [label="Value7.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 -> "Value7.4=Label7_1797_e3" [label=Label7 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.3=Label4_1797_e3" [label="Value4.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 -> "Value4.3=Label4_1797_e3" [label=Label4 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value6.2=Label6_1797_e3" [label="Value6.2" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 -> "Value6.2=Label6_1797_e3" [label=Label6 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.1=Label5_1797_e3" [label="Value5.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 -> "Value5.1=Label5_1797_e3" [label=Label5 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.1=Label3_1797_e3" [label="Value3.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 -> "Value3.1=Label3_1797_e3" [label=Label3 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1797_e3" [label="Value2.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 -> "Value2.1=Label2_1797_e3" [label=Label2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1797_e3" [label="Value1.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 -> "Value1.1=Label1_1797_e3" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	"Value5.4=Label5_1816_e30" [label="Value5.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value5.4=Label5_1816_e30" -> 1817 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value6.4=Label6_1816_e30" [label="Value6.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value6.4=Label6_1816_e30" -> 1817 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1816_e30" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1816_e30" -> 1817 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.3=Label4_1816_e30" [label="Value4.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value4.3=Label4_1816_e30" -> 1817 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1816_e30" [label="Value1.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.3=Label1_1816_e30" -> 1817 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value7.4=Label7_1816_e30" [label="Value7.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value7.4=Label7_1816_e30" -> 1817 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.4=Label3_1816_e30" [label="Value3.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value3.4=Label3_1816_e30" -> 1817 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.3=Label5_1826_e25" [label="Value5.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1827 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value5.3=Label5_1826_e25" -> 1827 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1826_e25" [label="Value1.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1827 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.3=Label1_1826_e25" -> 1827 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.5=Label3_1826_e25" [label="Value3.5" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1827 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value3.5=Label3_1826_e25" -> 1827 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.1=Label4_1826_e25" [label="Value4.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1827 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value4.1=Label4_1826_e25" -> 1827 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.3=Label2_1826_e25" [label="Value2.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1827 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.3=Label2_1826_e25" -> 1827 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.3=Label5_1825_e22" [label="Value5.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value5.3=Label5_1825_e22" -> 1826 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1825_e22" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.1=Label1_1825_e22" -> 1826 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1825_e22" [label="Value2.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value2.1=Label2_1825_e22" -> 1826 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.2=Label4_1825_e22" [label="Value4.2" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value4.2=Label4_1825_e22" -> 1826 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.3=Label3_1825_e22" [label="Value3.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value3.3=Label3_1825_e22" -> 1826 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1809_e27" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1810 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.2=Label1_1809_e27" -> 1810 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1809_e27" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1810 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1809_e27" -> 1810 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1819_e23" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1820 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.2=Label1_1819_e23" -> 1820 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.4=Label1_1820_e32" [label="Value1.4" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1821 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.4=Label1_1820_e32" -> 1821 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.3=Label3_1815_e29" [label="Value3.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value3.3=Label3_1815_e29" -> 1816 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value6.4=Label6_1815_e29" [label="Value6.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value6.4=Label6_1815_e29" -> 1816 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.3=Label4_1815_e29" [label="Value4.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value4.3=Label4_1815_e29" -> 1816 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1815_e29" [label="Value2.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value2.1=Label2_1815_e29" -> 1816 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1815_e29" [label="Value1.2" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value1.2=Label1_1815_e29" -> 1816 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value7.4=Label7_1815_e29" [label="Value7.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value7.4=Label7_1815_e29" -> 1816 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.3=Label5_1815_e29" [label="Value5.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value5.3=Label5_1815_e29" -> 1816 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1821_e21" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1822 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.1=Label1_1821_e21" -> 1822 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1817_e19" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1818 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1817_e19" -> 1818 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1817_e19" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1818 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1817_e19" -> 1818 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value7.4=Label7_1813_e17" [label="Value7.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value7.4=Label7_1813_e17" -> 1814 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.2=Label5_1813_e17" [label="Value5.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value5.2=Label5_1813_e17" -> 1814 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1813_e17" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1813_e17" -> 1814 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value6.3=Label6_1813_e17" [label="Value6.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value6.3=Label6_1813_e17" -> 1814 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.2=Label3_1813_e17" [label="Value3.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value3.2=Label3_1813_e17" -> 1814 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1813_e17" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.2=Label1_1813_e17" -> 1814 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.3=Label4_1813_e17" [label="Value4.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value4.3=Label4_1813_e17" -> 1814 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1811_e28" [label="Value1.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1812 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.3=Label1_1811_e28" -> 1812 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1823_e33" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1824 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1823_e33" -> 1824 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1814_e31" [label="Value1.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value1.3=Label1_1814_e31" -> 1815 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1818_e20" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1819 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1818_e20" -> 1819 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.4=Label1_1810_e16" [label="Value1.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1811 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.4=Label1_1810_e16" -> 1811 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1808_e15" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1809 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1808_e15" -> 1809 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1808_e15" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1809 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1808_e15" -> 1809 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1824_e26" [label="Value1.2" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.2=Label1_1824_e26" -> 1825 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1822_e24" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1823 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.1=Label1_1822_e24" -> 1823 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1812_e18" [label="Value1.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value1.1=Label1_1812_e18" -> 1813 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1827_e35" [label="Value1.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.3=Label1_1827_e35" -> 1828 [label=P_2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	"Value2.1=Label2_1817_e19" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 -> "Value2.1=Label2_1817_e19" [label=Label2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1817_e19" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 -> "Value1.1=Label1_1817_e19" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1827_e35" [label="Value1.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1827 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1827 -> "Value1.3=Label1_1827_e35" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.5=Label3_1826_e25" [label="Value3.5" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 -> "Value3.5=Label3_1826_e25" [label=Label3 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.3=Label5_1826_e25" [label="Value5.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 -> "Value5.3=Label5_1826_e25" [label=Label5 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.3=Label2_1826_e25" [label="Value2.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 -> "Value2.3=Label2_1826_e25" [label=Label2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1826_e25" [label="Value1.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 -> "Value1.3=Label1_1826_e25" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.1=Label4_1826_e25" [label="Value4.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 -> "Value4.1=Label4_1826_e25" [label=Label4 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1808_e15" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1808 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1808 -> "Value2.1=Label2_1808_e15" [label=Label2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1808_e15" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1808 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1808 -> "Value1.1=Label1_1808_e15" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.4=Label1_1810_e16" [label="Value1.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1810 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1810 -> "Value1.4=Label1_1810_e16" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.4=Label1_1820_e32" [label="Value1.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1820 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1820 -> "Value1.4=Label1_1820_e32" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1821_e21" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1821 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1821 -> "Value1.1=Label1_1821_e21" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value7.4=Label7_1816_e30" [label="Value7.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 -> "Value7.4=Label7_1816_e30" [label=Label7 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value6.4=Label6_1816_e30" [label="Value6.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 -> "Value6.4=Label6_1816_e30" [label=Label6 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.4=Label5_1816_e30" [label="Value5.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 -> "Value5.4=Label5_1816_e30" [label=Label5 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.4=Label3_1816_e30" [label="Value3.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 -> "Value3.4=Label3_1816_e30" [label=Label3 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.3=Label4_1816_e30" [label="Value4.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 -> "Value4.3=Label4_1816_e30" [label=Label4 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1816_e30" [label="Value1.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 -> "Value1.3=Label1_1816_e30" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1816_e30" [label="Value2.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 -> "Value2.1=Label2_1816_e30" [label=Label2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1822_e24" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1822 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1822 -> "Value1.1=Label1_1822_e24" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1818_e20" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1818 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1818 -> "Value1.1=Label1_1818_e20" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1814_e31" [label="Value1.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 -> "Value1.3=Label1_1814_e31" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1812_e18" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1812 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1812 -> "Value1.1=Label1_1812_e18" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1824_e26" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1824 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1824 -> "Value1.2=Label1_1824_e26" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value7.4=Label7_1815_e29" [label="Value7.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 -> "Value7.4=Label7_1815_e29" [label=Label7 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value6.4=Label6_1815_e29" [label="Value6.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 -> "Value6.4=Label6_1815_e29" [label=Label6 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.3=Label5_1815_e29" [label="Value5.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 -> "Value5.3=Label5_1815_e29" [label=Label5 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.3=Label4_1815_e29" [label="Value4.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 -> "Value4.3=Label4_1815_e29" [label=Label4 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.3=Label3_1815_e29" [label="Value3.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 -> "Value3.3=Label3_1815_e29" [label=Label3 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1815_e29" [label="Value1.2" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 -> "Value1.2=Label1_1815_e29" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1815_e29" [label="Value2.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 -> "Value2.1=Label2_1815_e29" [label=Label2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1819_e23" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1819 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1819 -> "Value1.2=Label1_1819_e23" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1811_e28" [label="Value1.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1811 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1811 -> "Value1.3=Label1_1811_e28" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1809_e27" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1809 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1809 -> "Value1.2=Label1_1809_e27" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1809_e27" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1809 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1809 -> "Value2.1=Label2_1809_e27" [label=Label2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.3=Label5_1825_e22" [label="Value5.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 -> "Value5.3=Label5_1825_e22" [label=Label5 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.3=Label3_1825_e22" [label="Value3.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 -> "Value3.3=Label3_1825_e22" [label=Label3 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.2=Label4_1825_e22" [label="Value4.2" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 -> "Value4.2=Label4_1825_e22" [label=Label4 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1825_e22" [label="Value2.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 -> "Value2.1=Label2_1825_e22" [label=Label2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1825_e22" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 -> "Value1.1=Label1_1825_e22" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1823_e33" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1823 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1823 -> "Value1.1=Label1_1823_e33" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value7.4=Label7_1813_e17" [label="Value7.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 -> "Value7.4=Label7_1813_e17" [label=Label7 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value6.3=Label6_1813_e17" [label="Value6.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 -> "Value6.3=Label6_1813_e17" [label=Label6 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.3=Label4_1813_e17" [label="Value4.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 -> "Value4.3=Label4_1813_e17" [label=Label4 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.2=Label5_1813_e17" [label="Value5.2" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 -> "Value5.2=Label5_1813_e17" [label=Label5 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.2=Label3_1813_e17" [label="Value3.2" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 -> "Value3.2=Label3_1813_e17" [label=Label3 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1813_e17" [label="Value1.2" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 -> "Value1.2=Label1_1813_e17" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1813_e17" [label="Value2.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 -> "Value2.1=Label2_1813_e17" [label=Label2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.5=Label3_1828_e34" [label="Value3.5" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 -> "Value3.5=Label3_1828_e34" [label=Label3 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.3=Label5_1828_e34" [label="Value5.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 -> "Value5.3=Label5_1828_e34" [label=Label5 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.3=Label2_1828_e34" [label="Value2.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 -> "Value2.3=Label2_1828_e34" [label=Label2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.2=Label4_1828_e34" [label="Value4.2" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 -> "Value4.2=Label4_1828_e34" [label=Label4 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1828_e34" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 -> "Value1.1=Label1_1828_e34" [label=Label1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	"Value1.1=Label1_1796_e4" [label="Value1.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value1.1=Label1_1796_e4" -> 1797 [label=A_11 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1795_e2" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1796 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1795_e2" -> 1796 [label=A_11 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1794_e1" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1795 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1794_e1" -> 1795 [label=A_11 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1794_e1" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1795 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1794_e1" -> 1795 [label=A_11 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	"Value7.4=Label7_1797_e3" [label="Value7.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 -> "Value7.4=Label7_1797_e3" [label=Label7 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.3=Label4_1797_e3" [label="Value4.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 -> "Value4.3=Label4_1797_e3" [label=Label4 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value6.2=Label6_1797_e3" [label="Value6.2" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 -> "Value6.2=Label6_1797_e3" [label=Label6 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.1=Label5_1797_e3" [label="Value5.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 -> "Value5.1=Label5_1797_e3" [label=Label5 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.1=Label3_1797_e3" [label="Value3.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 -> "Value3.1=Label3_1797_e3" [label=Label3 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1797_e3" [label="Value2.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 -> "Value2.1=Label2_1797_e3" [label=Label2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1797_e3" [label="Value1.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1797 -> "Value1.1=Label1_1797_e3" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1796_e4" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1796 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1796 -> "Value1.1=Label1_1796_e4" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1795_e2" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1795 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1795 -> "Value1.1=Label1_1795_e2" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1794_e1" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1794 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1794 -> "Value2.1=Label2_1794_e1" [label=Label2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1794_e1" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1794 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1794 -> "Value1.1=Label1_1794_e1" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	"Value1.2=Label1_1800_e6" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1801 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.2=Label1_1800_e6" -> 1801 [label=A_12 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1801_e11" [label="Value1.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1802 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.3=Label1_1801_e11" -> 1802 [label=A_12 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1799_e10" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1800 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.2=Label1_1799_e10" -> 1800 [label=A_12 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1799_e10" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1800 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1799_e10" -> 1800 [label=A_12 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1798_e5" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1799 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1798_e5" -> 1799 [label=A_12 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.2=Label2_1798_e5" [label="Value2.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1799 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.2=Label2_1798_e5" -> 1799 [label=A_12 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	"Value2.2=Label2_1798_e5" [label="Value2.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1798 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1798 -> "Value2.2=Label2_1798_e5" [label=Label2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1798_e5" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1798 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1798 -> "Value1.1=Label1_1798_e5" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1801_e11" [label="Value1.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1801 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1801 -> "Value1.3=Label1_1801_e11" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1802_e7" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1802 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1802 -> "Value1.1=Label1_1802_e7" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1800_e6" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1800 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1800 -> "Value1.2=Label1_1800_e6" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1799_e10" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1799 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1799 -> "Value1.2=Label1_1799_e10" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1799_e10" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1799 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1799 -> "Value2.1=Label2_1799_e10" [label=Label2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	"Value4.1=Label4_1805_e8" [label="Value4.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1806 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value4.1=Label4_1805_e8" -> 1806 [label=A_13 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1805_e8" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1806 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1805_e8" -> 1806 [label=A_13 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1805_e8" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1806 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1805_e8" -> 1806 [label=A_13 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.1=Label3_1805_e8" [label="Value3.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1806 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value3.1=Label3_1805_e8" -> 1806 [label=A_13 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.5=Label5_1805_e8" [label="Value5.5" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1806 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value5.5=Label5_1805_e8" -> 1806 [label=A_13 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1806_e14" [label="Value1.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.3=Label1_1806_e14" -> 1807 [label=A_13 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1804_e9" [label="Value1.2" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.2=Label1_1804_e9" -> 1805 [label=A_13 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1803_e12" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1804 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1803_e12" -> 1804 [label=A_13 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	"Value1.1=Label1_1803_e12" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1803 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1803 -> "Value1.1=Label1_1803_e12" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1806_e14" [label="Value1.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1806 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1806 -> "Value1.3=Label1_1806_e14" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.4=Label5_1807_e13" [label="Value5.4" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 -> "Value5.4=Label5_1807_e13" [label=Label5 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.2=Label2_1807_e13" [label="Value2.2" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 -> "Value2.2=Label2_1807_e13" [label=Label2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1807_e13" [label="Value1.2" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 -> "Value1.2=Label1_1807_e13" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.1=Label4_1807_e13" [label="Value4.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 -> "Value4.1=Label4_1807_e13" [label=Label4 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.1=Label3_1807_e13" [label="Value3.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1807 -> "Value3.1=Label3_1807_e13" [label=Label3 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.5=Label5_1805_e8" [label="Value5.5" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 -> "Value5.5=Label5_1805_e8" [label=Label5 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.1=Label4_1805_e8" [label="Value4.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 -> "Value4.1=Label4_1805_e8" [label=Label4 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.1=Label3_1805_e8" [label="Value3.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 -> "Value3.1=Label3_1805_e8" [label=Label3 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1805_e8" [label="Value2.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 -> "Value2.1=Label2_1805_e8" [label=Label2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1805_e8" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1805 -> "Value1.1=Label1_1805_e8" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1804_e9" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1804 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1804 -> "Value1.2=Label1_1804_e9" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	"Value1.2=Label1_1809_e27" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1810 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.2=Label1_1809_e27" -> 1810 [label=A_14 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1809_e27" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1810 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1809_e27" -> 1810 [label=A_14 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.4=Label1_1810_e16" [label="Value1.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1811 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.4=Label1_1810_e16" -> 1811 [label=A_14 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1808_e15" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1809 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1808_e15" -> 1809 [label=A_14 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1808_e15" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1809 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1808_e15" -> 1809 [label=A_14 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1811_e28" [label="Value1.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1812 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.3=Label1_1811_e28" -> 1812 [label=A_14 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	"Value1.4=Label1_1810_e16" [label="Value1.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1810 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1810 -> "Value1.4=Label1_1810_e16" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1811_e28" [label="Value1.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1811 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1811 -> "Value1.3=Label1_1811_e28" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1808_e15" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1808 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1808 -> "Value2.1=Label2_1808_e15" [label=Label2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1808_e15" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1808 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1808 -> "Value1.1=Label1_1808_e15" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1809_e27" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1809 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1809 -> "Value1.2=Label1_1809_e27" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1809_e27" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1809 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1809 -> "Value2.1=Label2_1809_e27" [label=Label2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1812_e18" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1812 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1812 -> "Value1.1=Label1_1812_e18" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	"Value1.3=Label1_1814_e31" [label="Value1.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value1.3=Label1_1814_e31" -> 1815 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1817_e19" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1818 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1817_e19" -> 1818 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1817_e19" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1818 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1817_e19" -> 1818 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1815_e29" [label="Value1.2" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value1.2=Label1_1815_e29" -> 1816 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.3=Label4_1815_e29" [label="Value4.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value4.3=Label4_1815_e29" -> 1816 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.3=Label5_1815_e29" [label="Value5.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value5.3=Label5_1815_e29" -> 1816 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value6.4=Label6_1815_e29" [label="Value6.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value6.4=Label6_1815_e29" -> 1816 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.3=Label3_1815_e29" [label="Value3.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value3.3=Label3_1815_e29" -> 1816 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value7.4=Label7_1815_e29" [label="Value7.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value7.4=Label7_1815_e29" -> 1816 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1815_e29" [label="Value2.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	"Value2.1=Label2_1815_e29" -> 1816 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1819_e23" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1820 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.2=Label1_1819_e23" -> 1820 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1816_e30" [label="Value1.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.3=Label1_1816_e30" -> 1817 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.4=Label3_1816_e30" [label="Value3.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value3.4=Label3_1816_e30" -> 1817 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1816_e30" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1816_e30" -> 1817 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.4=Label5_1816_e30" [label="Value5.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value5.4=Label5_1816_e30" -> 1817 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value7.4=Label7_1816_e30" [label="Value7.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value7.4=Label7_1816_e30" -> 1817 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value6.4=Label6_1816_e30" [label="Value6.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value6.4=Label6_1816_e30" -> 1817 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.3=Label4_1816_e30" [label="Value4.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value4.3=Label4_1816_e30" -> 1817 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.3=Label4_1813_e17" [label="Value4.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value4.3=Label4_1813_e17" -> 1814 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value7.4=Label7_1813_e17" [label="Value7.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value7.4=Label7_1813_e17" -> 1814 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value6.3=Label6_1813_e17" [label="Value6.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value6.3=Label6_1813_e17" -> 1814 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.2=Label3_1813_e17" [label="Value3.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value3.2=Label3_1813_e17" -> 1814 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1813_e17" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.1=Label2_1813_e17" -> 1814 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.2=Label5_1813_e17" [label="Value5.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value5.2=Label5_1813_e17" -> 1814 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1813_e17" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.2=Label1_1813_e17" -> 1814 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1818_e20" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1819 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1818_e20" -> 1819 [label=A_15 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	"Value7.4=Label7_1815_e29" [label="Value7.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 -> "Value7.4=Label7_1815_e29" [label=Label7 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value6.4=Label6_1815_e29" [label="Value6.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 -> "Value6.4=Label6_1815_e29" [label=Label6 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.3=Label5_1815_e29" [label="Value5.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 -> "Value5.3=Label5_1815_e29" [label=Label5 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.3=Label4_1815_e29" [label="Value4.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 -> "Value4.3=Label4_1815_e29" [label=Label4 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.3=Label3_1815_e29" [label="Value3.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 -> "Value3.3=Label3_1815_e29" [label=Label3 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1815_e29" [label="Value1.2" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 -> "Value1.2=Label1_1815_e29" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1815_e29" [label="Value2.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1815 -> "Value2.1=Label2_1815_e29" [label=Label2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1818_e20" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1818 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1818 -> "Value1.1=Label1_1818_e20" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value7.4=Label7_1813_e17" [label="Value7.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 -> "Value7.4=Label7_1813_e17" [label=Label7 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value6.3=Label6_1813_e17" [label="Value6.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 -> "Value6.3=Label6_1813_e17" [label=Label6 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.3=Label4_1813_e17" [label="Value4.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 -> "Value4.3=Label4_1813_e17" [label=Label4 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.2=Label5_1813_e17" [label="Value5.2" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 -> "Value5.2=Label5_1813_e17" [label=Label5 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.2=Label3_1813_e17" [label="Value3.2" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 -> "Value3.2=Label3_1813_e17" [label=Label3 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1813_e17" [label="Value1.2" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 -> "Value1.2=Label1_1813_e17" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1813_e17" [label="Value2.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1813 -> "Value2.1=Label2_1813_e17" [label=Label2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value7.4=Label7_1816_e30" [label="Value7.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 -> "Value7.4=Label7_1816_e30" [label=Label7 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value6.4=Label6_1816_e30" [label="Value6.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 -> "Value6.4=Label6_1816_e30" [label=Label6 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.4=Label5_1816_e30" [label="Value5.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 -> "Value5.4=Label5_1816_e30" [label=Label5 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.4=Label3_1816_e30" [label="Value3.4" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 -> "Value3.4=Label3_1816_e30" [label=Label3 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.3=Label4_1816_e30" [label="Value4.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 -> "Value4.3=Label4_1816_e30" [label=Label4 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1816_e30" [label="Value1.3" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 -> "Value1.3=Label1_1816_e30" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1816_e30" [label="Value2.1" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1816 -> "Value2.1=Label2_1816_e30" [label=Label2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.4=Label1_1820_e32" [label="Value1.4" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1820 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1820 -> "Value1.4=Label1_1820_e32" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1817_e19" [label="Value2.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 -> "Value2.1=Label2_1817_e19" [label=Label2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1817_e19" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1817 -> "Value1.1=Label1_1817_e19" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1814_e31" [label="Value1.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1814 -> "Value1.3=Label1_1814_e31" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1819_e23" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1819 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1819 -> "Value1.2=Label1_1819_e23" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	"Value1.1=Label1_1823_e33" [label="Value1.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1824 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.1=Label1_1823_e33" -> 1824 [label=A_16 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1821_e21" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1822 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.1=Label1_1821_e21" -> 1822 [label=A_16 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1827_e35" [label="Value1.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.3=Label1_1827_e35" -> 1828 [label=A_16 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1822_e24" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1823 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.1=Label1_1822_e24" -> 1823 [label=A_16 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.3=Label2_1826_e25" [label="Value2.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1827 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value2.3=Label2_1826_e25" -> 1827 [label=A_16 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1826_e25" [label="Value1.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1827 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value1.3=Label1_1826_e25" -> 1827 [label=A_16 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.5=Label3_1826_e25" [label="Value3.5" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1827 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value3.5=Label3_1826_e25" -> 1827 [label=A_16 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.3=Label5_1826_e25" [label="Value5.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1827 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value5.3=Label5_1826_e25" -> 1827 [label=A_16 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.1=Label4_1826_e25" [label="Value4.1" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1827 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	"Value4.1=Label4_1826_e25" -> 1827 [label=A_16 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.2=Label1_1824_e26" [label="Value1.2" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.2=Label1_1824_e26" -> 1825 [label=A_16 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.2=Label4_1825_e22" [label="Value4.2" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value4.2=Label4_1825_e22" -> 1826 [label=A_16 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.3=Label5_1825_e22" [label="Value5.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value5.3=Label5_1825_e22" -> 1826 [label=A_16 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1825_e22" [label="Value2.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value2.1=Label2_1825_e22" -> 1826 [label=A_16 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1825_e22" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value1.1=Label1_1825_e22" -> 1826 [label=A_16 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.3=Label3_1825_e22" [label="Value3.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	"Value3.3=Label3_1825_e22" -> 1826 [label=A_16 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	"Value1.2=Label1_1824_e26" [label="Value1.2" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1824 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1824 -> "Value1.2=Label1_1824_e26" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1822_e24" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1822 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1822 -> "Value1.1=Label1_1822_e24" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.5=Label3_1828_e34" [label="Value3.5" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 -> "Value3.5=Label3_1828_e34" [label=Label3 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.3=Label5_1828_e34" [label="Value5.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 -> "Value5.3=Label5_1828_e34" [label=Label5 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.3=Label2_1828_e34" [label="Value2.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 -> "Value2.3=Label2_1828_e34" [label=Label2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.2=Label4_1828_e34" [label="Value4.2" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 -> "Value4.2=Label4_1828_e34" [label=Label4 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1828_e34" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1828 -> "Value1.1=Label1_1828_e34" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1821_e21" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1821 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1821 -> "Value1.1=Label1_1821_e21" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1823_e33" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1823 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1823 -> "Value1.1=Label1_1823_e33" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1827_e35" [label="Value1.3" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1827 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1827 -> "Value1.3=Label1_1827_e35" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.3=Label5_1825_e22" [label="Value5.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 -> "Value5.3=Label5_1825_e22" [label=Label5 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.3=Label3_1825_e22" [label="Value3.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 -> "Value3.3=Label3_1825_e22" [label=Label3 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.2=Label4_1825_e22" [label="Value4.2" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 -> "Value4.2=Label4_1825_e22" [label=Label4 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.1=Label2_1825_e22" [label="Value2.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 -> "Value2.1=Label2_1825_e22" [label=Label2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.1=Label1_1825_e22" [label="Value1.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1825 -> "Value1.1=Label1_1825_e22" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value3.5=Label3_1826_e25" [label="Value3.5" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 -> "Value3.5=Label3_1826_e25" [label=Label3 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value5.3=Label5_1826_e25" [label="Value5.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 -> "Value5.3=Label5_1826_e25" [label=Label5 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value2.3=Label2_1826_e25" [label="Value2.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 -> "Value2.3=Label2_1826_e25" [label=Label2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value1.3=Label1_1826_e25" [label="Value1.3" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 -> "Value1.3=Label1_1826_e25" [label=Label1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	"Value4.1=Label4_1826_e25" [label="Value4.1" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1826 -> "Value4.1=Label4_1826_e25" [label=Label4 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=circle width=0.4]
+	1829 [label=1 color="#e31a1c" fillcolor="#e31a1c" fontcolor="#ffffff" style=filled]
+	1829 -> 1794 [arrowhead=none color="#e31a1c" style=dashed]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=circle width=0.4]
+	1830 [label=2 color="#e31a1c" fillcolor="#e31a1c" fontcolor="#ffffff" style=filled]
+	1830 -> 1808 [arrowhead=none color="#e31a1c" style=dashed]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=circle width=0.4]
+	1831 [label=11 color="#1f78b4" fillcolor="#1f78b4" fontcolor="#ffffff" style=filled]
+	1831 -> 1794 [arrowhead=none color="#1f78b4" style=dashed]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=circle width=0.4]
+	1832 [label=12 color="#1f78b4" fillcolor="#1f78b4" fontcolor="#ffffff" style=filled]
+	1832 -> 1798 [arrowhead=none color="#1f78b4" style=dashed]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=circle width=0.4]
+	1833 [label=13 color="#1f78b4" fillcolor="#1f78b4" fontcolor="#ffffff" style=filled]
+	1833 -> 1803 [arrowhead=none color="#1f78b4" style=dashed]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=circle width=0.4]
+	1834 [label=14 color="#1f78b4" fillcolor="#1f78b4" fontcolor="#ffffff" style=filled]
+	1834 -> 1808 [arrowhead=none color="#1f78b4" style=dashed]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=circle width=0.4]
+	1835 [label=15 color="#1f78b4" fillcolor="#1f78b4" fontcolor="#ffffff" style=filled]
+	1835 -> 1813 [arrowhead=none color="#1f78b4" style=dashed]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=circle width=0.4]
+	1836 [label=16 color="#1f78b4" fillcolor="#1f78b4" fontcolor="#ffffff" style=filled]
+	1836 -> 1821 [arrowhead=none color="#1f78b4" style=dashed]
+	// name2
+	subgraph cluster_0 {
+		node [fixedsize=True fontname=Helvetica fontsize=8 height=0.2 margin=0 shape=rectangle width=0.8]
+		color="#ffffff" style=filled
+		label="
+Entities:"
+		100000 [label=Patient color="#ffffff" fillcolor="#ffffff:#ffffff:#ffffff:#e31a1c" fontcolor="#000000" style=striped]
+	}
+	// name2
+	subgraph cluster_0 {
+		node [fixedsize=True fontname=Helvetica fontsize=8 height=0.2 margin=0 shape=rectangle width=0.8]
+		color="#ffffff" style=filled
+		label="
+Entities:"
+		100001 [label=Admission color="#ffffff" fillcolor="#ffffff:#ffffff:#ffffff:#1f78b4" fontcolor="#000000" style=striped]
+	}
+	// name2
+	subgraph cluster_1 {
+		node [fixedsize=True fontname=Helvetica fontsize=8 height=0.2 margin=0 shape=rectangle width=0.8]
+		color="#ffffff" style=filled
+		label="Domains:"
+		10000000 [label="Transfer summary report" color="#ffffff" fillcolor="#ffffff:#ffffff:#ffffff:violetred1" fontcolor="#000000" style=striped]
+	}
+	// name2
+	subgraph cluster_1 {
+		node [fixedsize=True fontname=Helvetica fontsize=8 height=0.2 margin=0 shape=rectangle width=0.8]
+		color="#ffffff" style=filled
+		label="Domains:"
+		10000001 [label="Laboratory test finding" color="#ffffff" fillcolor="#ffffff:#ffffff:#ffffff:tomato2" fontcolor="#000000" style=striped]
+	}
+	// name2
+	subgraph cluster_1 {
+		node [fixedsize=True fontname=Helvetica fontsize=8 height=0.2 margin=0 shape=rectangle width=0.8]
+		color="#ffffff" style=filled
+		label="Domains:"
+		10000002 [label="Microbiology report" color="#ffffff" fillcolor="#ffffff:#ffffff:#ffffff:goldenrod3" fontcolor="#000000" style=striped]
+	}
+}

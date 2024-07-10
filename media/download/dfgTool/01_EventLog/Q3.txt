@@ -1,0 +1,18 @@
+//createConstraint
+CREATE CONSTRAINT FOR (z:Log) REQUIRE z.ID IS UNIQUE;
+
+//createConstraint
+CREATE CONSTRAINT FOR (z:Event) REQUIRE z.ID IS UNIQUE;
+
+//createConstraint
+CREATE CONSTRAINT FOR (z:Activity) REQUIRE z.ID IS UNIQUE;
+
+//createConstraint
+CREATE CONSTRAINT FOR (z:ActivityPropery) REQUIRE z.ID IS UNIQUE;
+
+//createConstraint
+CREATE CONSTRAINT FOR (z:Patient) REQUIRE z.ID IS UNIQUE;
+
+//createConstraint
+CREATE CONSTRAINT FOR (z:Admission) REQUIRE z.ID IS UNIQUE;
+

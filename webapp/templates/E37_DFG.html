@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/E37_DFG1.css">
+    <link rel="stylesheet" href="../static/highlight/styles/default.css">
+    <script src="../static/highlight/highlight.min.js"></script>
+</head>
+
+<body>
+<h1></h1>
+
+<div class="container">
+
+    <div class="output-result">
+        <h1>The Results</h1>
+
+
+
+        <div class="graphviz-pdf">
+            <h1 class="graphviz-pdf-heading">The Event Graph Output:</h1>
+            <button onclick="window.open('{% url 'serve_pdf_name' %}', '_blank');">Open PDF in New Tab</button>
+            <iframe src="{% url 'serve_pdf_name' %}" style="width:100%; height:800px;" frameborder="0">
+                This browser does not support PDFs. Please download the PDF to view it: <a href="{{ pdf_url }}">Download
+                PDF</a>.
+            </iframe>
+        </div>
+
+
+        <div class="graphviz-queries">
+            <h1 class="graphviz-queries-heading">These are the queries used for creating theis graph by graphviz:</h1>
+            <button onclick="window.open('{% url 'serve_graphvizQ_name' %}', '_blank');">Open Graphviz Queries in New Tab
+            </button>
+            <pre><code class="graphql">
+        {{ graphvizQuery }}
+    </code></pre>
+        </div>
+
+        <div class="neo4j-svg">
+            <h1 class="neo4j-svg-heading">neo4j Output:</h1>
+            <button onclick="window.open('{% url 'serve_svg_name' %}', '_blank');">Open SVG in New Tab</button>
+            <iframe src="{% url 'serve_svg_name' %}" style="width:100%; height:800px;" frameborder="0">
+                This browser does not support PDFs. Please download the PDF to view it: <a href="{{ pdf_url }}">Download
+                PDF</a>.
+            </iframe>
+        </div>
+
+
+        <div class="neo4j-queries">
+            <h1 class="neo4j-queries-heading">These are the queries used for creating these graph by neo4j:</h1>
+
+
+            <button onclick="window.open('{% url 'serve_neo4jQ_name' %}', '_blank');">Open Neo4J Queries in New Tab
+            </button>
+            <pre><code class="graphql">
+        {{ neo4jQuery }}
+    </code></pre>
+        </div>
+
+        <script src="../static/highlight/languages/graphql.js"></script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+                hljs.highlightAll();
+            });
+        </script>
+
+    </div>
+
+
+    <div class="configuration">
+        <form id="allFormDFG" method="post">
+
+            <a>Click Finish to return to the files browser</a>
+
+
+            <div id="finishDiv" style="display:block;">
+                {% csrf_token %}
+                {{ browseButton.as_p }}
+            </div>
+            <script src="../static/js/E37_DFG.js" type="module"></script>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+//DF_based_on_Entities
+     
+                        match(f: Feature) -[r: DF{Type:"Patient", Category:"wProperty" }]-> (e2:Event) -[: CORR]-> (n1:Patient {Type:"Patient"})
+                        match (n1:Patient {Type:"Patient"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Patient", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Patient {Type:"Patient"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1) 
+                        match (e2)-[:OBSERVED]->(a2) 
+                        WHERE n1.ID="1" and df.ID="1" and r.ID="1"     
+                        return distinct f, a1,e1, df, e2,a2,d1,d2     
+                        
+
+//DF_based_on_Entities
+   
+                    match (f: Feature)<-[r:Assign]- (e1:Event) -[: CORR]-> (n1:Patient {Type:"Patient"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1) 
+                    WHERE n1.ID="1"     
+                    return distinct f, e1,a1,d1   
+
+
+                        
+

@@ -1,0 +1,5 @@
+//Neo4J Query for creating graph
+
+MATCH (n:Activity) RETURN n LIMIT 25
+
+
