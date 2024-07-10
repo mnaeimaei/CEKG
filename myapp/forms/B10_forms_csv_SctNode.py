@@ -20,7 +20,7 @@ class SctnConceptId(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/10_octNodeOption.txt"
         with open(openingPath, 'r') as file:
@@ -40,7 +40,7 @@ class SctnConceptCode(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/10_octNodeOption.txt"
         with open(openingPath, 'r') as file:
@@ -60,7 +60,7 @@ class SctnTermA(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/10_octNodeOption.txt"
         with open(openingPath, 'r') as file:
@@ -80,7 +80,7 @@ class SctnTermB(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/10_octNodeOption.txt"
         with open(openingPath, 'r') as file:
@@ -100,7 +100,7 @@ class SctnSemanticTags(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/10_octNodeOption.txt"
         with open(openingPath, 'r') as file:
@@ -120,7 +120,7 @@ class SctnConceptType(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/10_octNodeOption.txt"
         with open(openingPath, 'r') as file:
@@ -140,7 +140,7 @@ class SctnLevels(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/10_octNodeOption.txt"
         with open(openingPath, 'r') as file:

@@ -16,7 +16,7 @@ class Domain1ActivityForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/17_dk61Option.txt"
         with open(openingPath, 'r') as file:
@@ -36,7 +36,7 @@ class Domain1ActivitySynonymForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/17_dk61Option.txt"
         with open(openingPath, 'r') as file:
@@ -56,7 +56,7 @@ class Domain1DomainForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/17_dk61Option.txt"
         with open(openingPath, 'r') as file:

@@ -14,7 +14,7 @@ class EventLogForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/3_previewOptionSheetNames.txt"
         with open(openingPath, 'r') as file:
@@ -32,7 +32,7 @@ class OtherEntitiesForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/3_previewOptionSheetNames.txt"
         with open(openingPath, 'r') as file:
@@ -51,7 +51,7 @@ class OtherEntitiesRelForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/3_previewOptionSheetNames.txt"
         with open(openingPath, 'r') as file:
@@ -70,7 +70,7 @@ class ActivitiesValueForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/3_previewOptionSheetNames.txt"
         with open(openingPath, 'r') as file:
@@ -89,7 +89,7 @@ class DomainSelectionForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/3_previewOptionSheetNames.txt"
         with open(openingPath, 'r') as file:
@@ -108,7 +108,7 @@ class ICDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/3_previewOptionSheetNames.txt"
         with open(openingPath, 'r') as file:
@@ -128,7 +128,7 @@ class SnomedCtNodeForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/3_previewOptionSheetNames.txt"
         with open(openingPath, 'r') as file:
@@ -148,7 +148,7 @@ class SnomedCtRelForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/3_previewOptionSheetNames.txt"
         with open(openingPath, 'r') as file:
@@ -168,7 +168,7 @@ class DK1(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/3_previewOptionSheetNames.txt"
         with open(openingPath, 'r') as file:
@@ -188,7 +188,7 @@ class DK2(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/3_previewOptionSheetNames.txt"
         with open(openingPath, 'r') as file:
@@ -207,7 +207,7 @@ class DK3(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/3_previewOptionSheetNames.txt"
         with open(openingPath, 'r') as file:
@@ -226,7 +226,7 @@ class DK4(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/3_previewOptionSheetNames.txt"
         with open(openingPath, 'r') as file:
@@ -244,7 +244,7 @@ class DK5(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/3_previewOptionSheetNames.txt"
         with open(openingPath, 'r') as file:
@@ -263,7 +263,7 @@ class DK61(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/3_previewOptionSheetNames.txt"
         with open(openingPath, 'r') as file:
@@ -281,7 +281,7 @@ class DK62(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/3_previewOptionSheetNames.txt"
         with open(openingPath, 'r') as file:
@@ -300,7 +300,7 @@ class DK7(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/3_previewOptionSheetNames.txt"
         with open(openingPath, 'r') as file:

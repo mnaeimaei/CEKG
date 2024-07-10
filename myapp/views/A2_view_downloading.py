@@ -26,13 +26,11 @@ def importing_view(request):
     import os
     import ast
     import os
-    confDirectory = "../z/myapp/Data/0_DataConf"
+    confDirectory = "./myapp/Data/0_DataConf"
     confPath = os.path.realpath(confDirectory)
 
-
-    pyDirectory = "../mydjangoapp/myapp/utils"
+    pyDirectory = "./myapp/utils"
     script_directory = os.path.realpath(pyDirectory)
-
     if request.method == 'POST':
         logger.debug(f"Hello23")
         logger.info("This is an info message")

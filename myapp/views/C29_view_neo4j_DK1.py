@@ -15,22 +15,26 @@ def DK1Neo4jFunc(request):
     import os
     import ast
 
-    confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+
+
+    confDirectory = "./myapp/Data/0_DataConf"
     confPath = os.path.realpath(confDirectory)
 
-    pyDirectory = "../mydjangoapp/myapp/utils"
+    pyDirectory = "./myapp/utils"
     script_directory = os.path.realpath(pyDirectory)
 
-    svgDirectory = "../mydjangoapp/myapp/Data/0_svgLocation"
+    svgDirectory = "./myapp/Data/0_svgLocation"
     downS = os.path.realpath(svgDirectory)
-    svgPath =  downS + "/" + '01_EventLog'
+    svgPath = downS + "/" + '08_DK1'
 
-    dataDirectory  = '../mydjangoapp/media/uploads/0_Data'
+    dataDirectory  = './media/uploads/0_Data'
     dataPath = os.path.realpath(dataDirectory)
 
-    downloadDir = "../mydjangoapp/media/download/dfgTool"
+
+    downloadDir = "./media/download/dfgTool"
     downD = os.path.realpath(downloadDir)
-    outDir = downD + "/" + '01_EventLog'
+    outDir = downD + "/" + '08_DK1'
+
 
     openingPath = confPath + "/3_pageSequencePart2.txt"
     with open(openingPath, 'r') as file:

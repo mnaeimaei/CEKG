@@ -25,13 +25,13 @@ def DK4(request):
     import os
     import ast
 
-    confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+    confDirectory = "./myapp/Data/0_DataConf"
     confPath = os.path.realpath(confDirectory)
 
-    pyDirectory = "../mydjangoapp/myapp/utils"
+    pyDirectory = "./myapp/utils"
     script_directory = os.path.realpath(pyDirectory)
 
-    dataDirectory  = '../mydjangoapp/media/uploads/0_Data'
+    dataDirectory  = './media/uploads/0_Data'
     dataPath = os.path.realpath(dataDirectory)
 
     if request.method == 'POST':

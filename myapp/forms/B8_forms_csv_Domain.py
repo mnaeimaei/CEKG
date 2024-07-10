@@ -13,7 +13,7 @@ class DomainForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/8_domainOption.txt"
         with open(openingPath, 'r') as file:

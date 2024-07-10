@@ -7,7 +7,8 @@ import logging
 
 logging.basicConfig(filename='myapp.log', level=logging.INFO)
 logger = logging.getLogger("myapp")
-downloadDir = "../../media/download/dfgTool"
+
+downloadDir = "./media/download/dfgTool"
 downD = os.path.realpath(downloadDir)
 outDir = downD + "/" + '12_DK5'
 

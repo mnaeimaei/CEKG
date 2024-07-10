@@ -1,1 +1,1 @@
-['eventLogDiv', 'otherEntitiesDiv', 'otherEntitiesRelDiv', 'domainDiv', 'iCDDiv', 'snomedCtRelNodeDiv', 'snomedCtRelDiv', 'dk3Div', 'dk5Div', 'dk61Div', 'dk62Div', 'dk7Div']
+['eventLogDiv', 'otherEntitiesDiv', 'otherEntitiesRelDiv', 'iCDDiv', 'snomedCtRelNodeDiv', 'snomedCtRelDiv', 'dk3Div', 'dk4Div', 'dk7Div']

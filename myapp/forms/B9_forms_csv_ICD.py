@@ -18,7 +18,7 @@ class IdcClinicalEntityForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/9_icdOption.txt"
         with open(openingPath, 'r') as file:
@@ -38,7 +38,7 @@ class IdcCodeForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/9_icdOption.txt"
         with open(openingPath, 'r') as file:
@@ -58,7 +58,7 @@ class IdcVersionForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/9_icdOption.txt"
         with open(openingPath, 'r') as file:
@@ -78,7 +78,7 @@ class IdcCodeTitleForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/9_icdOption.txt"
         with open(openingPath, 'r') as file:

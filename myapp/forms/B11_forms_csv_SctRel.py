@@ -17,7 +17,7 @@ class SctrS0(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/11_octRelOption.txt"
         with open(openingPath, 'r') as file:
@@ -37,7 +37,7 @@ class SctrS0_code(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/11_octRelOption.txt"
         with open(openingPath, 'r') as file:
@@ -57,7 +57,7 @@ class SctrS1(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/11_octRelOption.txt"
         with open(openingPath, 'r') as file:
@@ -77,7 +77,7 @@ class SctrS1_code(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/11_octRelOption.txt"
         with open(openingPath, 'r') as file:

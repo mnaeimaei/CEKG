@@ -15,7 +15,7 @@ class Domain2DomainForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/18_dk62Option.txt"
         with open(openingPath, 'r') as file:
@@ -35,7 +35,7 @@ class Domain2OTCForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/18_dk62Option.txt"
         with open(openingPath, 'r') as file:
@@ -55,7 +55,7 @@ class Domain2SCTCodeForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/18_dk62Option.txt"
         with open(openingPath, 'r') as file:

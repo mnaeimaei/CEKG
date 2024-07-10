@@ -13,7 +13,7 @@ class OenOriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/5_otherEntitiesOption.txt"
         with open(openingPath, 'r') as file:
@@ -31,7 +31,7 @@ class OenIDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/5_otherEntitiesOption.txt"
         with open(openingPath, 'r') as file:
@@ -50,7 +50,7 @@ class OenNameForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/5_otherEntitiesOption.txt"
         with open(openingPath, 'r') as file:
@@ -69,7 +69,7 @@ class OenValueForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/5_otherEntitiesOption.txt"
         with open(openingPath, 'r') as file:
@@ -88,7 +88,7 @@ class OenCategoryForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/5_otherEntitiesOption.txt"
         with open(openingPath, 'r') as file:

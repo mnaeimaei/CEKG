@@ -15,20 +15,21 @@ def SctNodeNeo4jFunc(request):
     import os
     import ast
 
-    confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+    confDirectory = "./myapp/Data/0_DataConf"
     confPath = os.path.realpath(confDirectory)
 
-    pyDirectory = "../mydjangoapp/myapp/utils"
+    pyDirectory = "./myapp/utils"
     script_directory = os.path.realpath(pyDirectory)
 
-    dataDirectory  = '../mydjangoapp/media/uploads/0_Data'
+    svgDirectory = "./myapp/Data/0_svgLocation"
+    downS = os.path.realpath(svgDirectory)
+    svgPath = downS + "/" + '06_OCT_Node'
+
+    dataDirectory  = './media/uploads/0_Data'
     dataPath = os.path.realpath(dataDirectory)
 
-    svgDirectory = "../mydjangoapp/myapp/Data/0_svgLocation"
-    downS = os.path.realpath(svgDirectory)
-    svgPath =  downS + "/" + '06_OCT_Node'
 
-    downloadDir = "../mydjangoapp/media/download/dfgTool"
+    downloadDir = "./media/download/dfgTool"
     downD = os.path.realpath(downloadDir)
     outDir = downD + "/" + '06_OCT_Node'
 

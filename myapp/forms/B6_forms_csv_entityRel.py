@@ -17,7 +17,7 @@ class OerOrigin1Form(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/6_otherEntitiesRelOption.txt"
         with open(openingPath, 'r') as file:
@@ -37,7 +37,7 @@ class OerID1Form(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/6_otherEntitiesRelOption.txt"
         with open(openingPath, 'r') as file:
@@ -57,7 +57,7 @@ class OerOrigin2Form(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/6_otherEntitiesRelOption.txt"
         with open(openingPath, 'r') as file:
@@ -77,7 +77,7 @@ class OerID2Form(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/6_otherEntitiesRelOption.txt"
         with open(openingPath, 'r') as file:

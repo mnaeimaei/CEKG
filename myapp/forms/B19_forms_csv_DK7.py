@@ -15,7 +15,7 @@ class Dk7ActivityValueIdForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/19_dk7Option.txt"
         with open(openingPath, 'r') as file:
@@ -35,7 +35,7 @@ class Dk7DisordersForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/19_dk7Option.txt"
         with open(openingPath, 'r') as file:

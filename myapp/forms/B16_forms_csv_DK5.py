@@ -17,7 +17,7 @@ class Dk5ActivityForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/16_dk5Option.txt"
         with open(openingPath, 'r') as file:
@@ -37,7 +37,7 @@ class Dk5ActivitySynonymForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/16_dk5Option.txt"
         with open(openingPath, 'r') as file:
@@ -57,7 +57,7 @@ class Dk5OtcForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/16_dk5Option.txt"
         with open(openingPath, 'r') as file:
@@ -77,7 +77,7 @@ class Dk5SctCodeForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/16_dk5Option.txt"
         with open(openingPath, 'r') as file:

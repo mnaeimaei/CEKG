@@ -19,13 +19,13 @@ logging.basicConfig(filename='myapp.log', level=logging.INFO)
 logger = logging.getLogger("myapp")
 
 def DK1(request):
-    confDirectory = "../ckegWdb/myapp/Data/0_DataConf"
+    confDirectory = "./myapp/Data/0_DataConf"
     confPath = os.path.realpath(confDirectory)
 
-    pyDirectory = "../ckegWdb/myapp/utils"
+    pyDirectory = "./myapp/utils"
     script_directory = os.path.realpath(pyDirectory)
 
-    dataDirectory  = '../ckegWdb/media/uploads/0_Data'
+    dataDirectory  = './media/uploads/0_Data'
     dataPath = os.path.realpath(dataDirectory)
 
     if request.method == 'POST':

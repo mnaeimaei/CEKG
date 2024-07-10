@@ -17,7 +17,7 @@ class ApIdForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/7_acPropertiesOption.txt"
         with open(openingPath, 'r') as file:
@@ -37,7 +37,7 @@ class ApActivityNameForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/7_acPropertiesOption.txt"
         with open(openingPath, 'r') as file:
@@ -57,7 +57,7 @@ class ApActivitySynonymForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/7_acPropertiesOption.txt"
         with open(openingPath, 'r') as file:
@@ -78,7 +78,7 @@ class ApLabelForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/7_acPropertiesOption.txt"
         with open(openingPath, 'r') as file:
@@ -98,7 +98,7 @@ class ApValueForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/7_acPropertiesOption.txt"
         with open(openingPath, 'r') as file:

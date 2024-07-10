@@ -27,13 +27,13 @@ def SctRel(request):
     import os
     import ast
 
-    confDirectory = "../myapp/Data/0_DataConf"
+    confDirectory = "./myapp/Data/0_DataConf"
     confPath = os.path.realpath(confDirectory)
 
-    pyDirectory = "../myapp/utils"
+    pyDirectory = "./myapp/utils"
     script_directory = os.path.realpath(pyDirectory)
 
-    dataDirectory  = '../media/uploads/0_Data'
+    dataDirectory  = './media/uploads/0_Data'
     dataPath = os.path.realpath(dataDirectory)
 
     if request.method == 'POST':

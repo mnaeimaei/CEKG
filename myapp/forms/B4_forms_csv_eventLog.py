@@ -20,7 +20,7 @@ class EventIdTitleForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -38,7 +38,7 @@ class ActivityForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -57,7 +57,7 @@ class ActivitySynonymForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -76,7 +76,7 @@ class TimestampForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -95,7 +95,7 @@ class ActivityValueIDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -114,7 +114,7 @@ class ActivityPropertiesIDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -134,7 +134,7 @@ class Entity1IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -154,7 +154,7 @@ class Entity2IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -174,7 +174,7 @@ class Entity3IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -194,7 +194,7 @@ class Entity4IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -213,7 +213,7 @@ class Entity5IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -232,7 +232,7 @@ class Entity6IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -250,7 +250,7 @@ class Entity7IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -269,7 +269,7 @@ class Entity8IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -287,7 +287,7 @@ class Entity9IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -306,7 +306,7 @@ class Entity10IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory  = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory  = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -325,7 +325,7 @@ class Entity11IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -343,7 +343,7 @@ class Entity12IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -362,7 +362,7 @@ class Entity13IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -381,7 +381,7 @@ class Entity14IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -400,7 +400,7 @@ class Entity15IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -419,7 +419,7 @@ class Entity16IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -439,7 +439,7 @@ class Entity17IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -459,7 +459,7 @@ class Entity18IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -479,7 +479,7 @@ class Entity19IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -499,7 +499,7 @@ class Entity20IDForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -518,7 +518,7 @@ class Entity1OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -537,7 +537,7 @@ class Entity2OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -555,7 +555,7 @@ class Entity3OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -574,7 +574,7 @@ class Entity4OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -592,7 +592,7 @@ class Entity5OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -611,7 +611,7 @@ class Entity6OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -634,7 +634,7 @@ class Entity7OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -652,7 +652,7 @@ class Entity8OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -671,7 +671,7 @@ class Entity9OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -690,7 +690,7 @@ class Entity10OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -709,7 +709,7 @@ class Entity11OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -728,7 +728,7 @@ class Entity12OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -748,7 +748,7 @@ class Entity13OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -768,7 +768,7 @@ class Entity14OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -788,7 +788,7 @@ class Entity15OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -808,7 +808,7 @@ class Entity16OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -827,7 +827,7 @@ class Entity17OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -846,7 +846,7 @@ class Entity18OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -864,7 +864,7 @@ class Entity19OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:
@@ -883,7 +883,7 @@ class Entity20OriginForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/4_eventLogOption.txt"
         with open(openingPath, 'r') as file:

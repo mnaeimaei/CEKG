@@ -30,10 +30,10 @@ logger = logging.getLogger("myapp")
 def home_view(request):
     import os
 
-    confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+    confDirectory = "./myapp/Data/0_DataConf"
     confPath = os.path.realpath(confDirectory)
 
-    pyDirectory = "../mydjangoapp/myapp/utils"
+    pyDirectory = "./myapp/utils"
     script_directory = os.path.realpath(pyDirectory)
 
     if request.method == 'POST':

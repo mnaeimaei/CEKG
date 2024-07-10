@@ -15,7 +15,7 @@ class Dk4IcdCodeForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/15_dk4Option.txt"
         with open(openingPath, 'r') as file:
@@ -35,7 +35,7 @@ class Dk4OtcForm(forms.Form):
         # Load the choices from a file
 
         import os
-        confDirectory = "../mydjangoapp/myapp/Data/0_DataConf"
+        confDirectory = "./myapp/Data/0_DataConf"
         confPath = os.path.realpath(confDirectory)
         openingPath = confPath + "/15_dk4Option.txt"
         with open(openingPath, 'r') as file:
