@@ -1,7 +1,10 @@
 # In views/__init__.py
 
 from .A1_view_home import home_view
-from .A2_view_downloading import importing_view
+
+from .A02_view_browse import importing_file
+from .A02_view_downloading import importing_view
+
 from .A3_view_preview import preview_view
 from .B4_view_csv_eventLog import event_log
 from .B5_view_csv_otherEntities import otherEntities

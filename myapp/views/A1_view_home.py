@@ -12,7 +12,6 @@ from myapp.forms import InputForm
 from myapp.forms import InputFormDFG6
 from myapp.forms import ActivitySelectionForm
 from myapp.forms import ActivityFormDFG6
-from myapp.forms import BrowsingMethodForm
 from myapp.forms import NextButton1
 import subprocess
 
@@ -127,7 +126,8 @@ def home_view(request):
         subprocess.run(['python', 'A1_Scenario_Step1_Selecting_Software.py'], cwd=script_directory)
         subprocess.run(['python', 'A1_Scenario_Step2.py'], cwd=script_directory)
         subprocess.run(['python', 'A1_Scenario_Step3.py'], cwd=script_directory)
-        return redirect('importingExcel')
+        subprocess.run(['python', 'A2_FileLocation_Step1_Address_Software_Step.py'], cwd=script_directory)
+        return redirect('importingFile')
 
     else:
 

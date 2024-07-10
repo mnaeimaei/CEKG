@@ -18,21 +18,19 @@ confDirectory  = "../Data/0_DataConf"
 confPath = os.path.realpath(confDirectory)
 print(confPath)
 
-fileSource= fileFunc.readFileSource(confPath)
-print("fileSource =", fileSource)
 
-EventLogName, Location= fileFunc.readFileLocation(confPath, fileSource)
-print("EventLogName =", EventLogName)
-print("Location =", Location)
+
+userNameNeo, passWordNeo= fileFunc.readFileLocation(confPath,)
+print("userNameNeo =", userNameNeo)
+print("passWordNeo =", passWordNeo)
 
 
 confDirectory = '../../media/uploads/0_Data'
 confPath = os.path.realpath(confDirectory)
-savingPath = confPath + "/EventLog.xlsx"
-print("savingPath=",savingPath)
 
 
-fileFunc.copyFile(savingPath, fileSource,EventLogName,Location)
+
+fileFunc.rename_first_excel_file(confPath, "EventLog.xlsx")
 
 
 

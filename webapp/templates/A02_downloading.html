@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <link rel="stylesheet" href="../static/css/A02_downloading.css">
+
+</head>
+
+<body>
+<h1>Please enter your Neo4j Aura credentials:</h1>
+
+
+<form id="allForm2" method="post">
+
+    <div id="neoUserDiv" style="display:block;">
+        <h2>Enter Neo4j Username</h2>
+        {% csrf_token %}
+        {{ userNameNeo.as_p }}
+    </div>
+
+    <div id="neoPassDiv" style="display:block;">
+        <h2>Enter Neo4j Password</h2>
+        {% csrf_token %}
+        {{ passWordNeo.as_p }}
+    </div>
+
+
+    <div id="config" data-g-user="{{ defaultUser }}" data-g-pass="{{ defaultPass }}" style="display: none;"></div>
+
+
+
+
+
+    <div id="nextButtonDiv" style="display:block;">
+        {% csrf_token %}
+        {{ nextButton.as_p }}
+    </div>
+
+        <script src="../static/js/A02_downloading_Module.js" type="module"></script>
+
+    <script src="../static/js/A02_downloading.js" type="module"></script>
+
+
+</form>
+
+
+</body>
+</html>

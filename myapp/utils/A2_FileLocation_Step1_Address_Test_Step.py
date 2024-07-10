@@ -10,48 +10,29 @@ fileSource=2
 
 confDirectory  = "../Data/0_DataConf"
 confPath = os.path.realpath(confDirectory)
-print(confPath)
 
-fileFunc.saveFileSource(confPath,fileSource)
+print("confPath =", confPath)
+
 
 
 
 print("#################################### Test ##################################################")
 
-
-EventLogFinalDefault, myCredentialsDefault= fileFunc.existanceFileName(confPath, fileSource)
-print("EventLogFinalDefault =", EventLogFinalDefault)
-print("myCredentialsDefault =", myCredentialsDefault)
-
-
-
-EventLogList = ["EventLog1", "EventLog4", "EventLog5", "EventLog6"]
-EventLogSelector = 4
-
-EventLogFinalTest = EventLogList[EventLogSelector - 1]
-
-
-EventLogFinal = fileFunc.excelFileNameTest(confPath, fileSource,EventLogFinalTest)
-print("EventLogFinal =", EventLogFinal)
+#Read the contents the Two Text Boxes
+userNameNeo, passWordNeo= fileFunc.existanceFileName(confPath)
+print("userNameNeo =", userNameNeo)
+print("passWordNeo =", passWordNeo)
 
 
 
+#update the userNameFIle = 2_downloadingLocal1.txt
 
-if fileSource == 1: #Google
+userNameNeoFile = fileFunc.excelFileNameTest(confPath, userNameNeo)
+print("userNameNeoFile =", userNameNeoFile)
 
-    symPath = '../../media/uploads/gcKey/miladGoogleSheet.json'
-    myCredentials = os.path.realpath(symPath)
-    fileFunc.GCP1_Test(confPath,myCredentials)
-    print("myCredentials =", myCredentials)
-
-
-
-
-if fileSource == 2:  #Local
-
-    importPath = "/home/milad/Downloads/"
-    fileFunc.local1_Test(confPath,importPath)
-    print("importPath =", importPath)
+#update the passWordFIle = 2_downloadingLocal2.txt
+passWordNeoFile=fileFunc.local1_Test(confPath,passWordNeo)
+print("passWordNeoFile =", passWordNeoFile)
 
 
 

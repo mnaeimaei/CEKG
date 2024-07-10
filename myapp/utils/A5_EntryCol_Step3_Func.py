@@ -10,62 +10,48 @@ def readtxtFiles():
     import ast
     confDirectory  = "../Data/0_DataConf"
     confPath = os.path.realpath(confDirectory)
-    #print(confPath)
 
-    fileSourceInt=1
-    value1="X"
-    value2="X"
+
     value3List =[]
 
 
 
-    FilePath0 = confPath + "/2_downloadingFileSource.txt"
-    Google1= confPath + "/2_downloadingGoogleCloud1.txt"
-    Google2= confPath + "/2_downloadingGoogleCloud2.txt"
-    Local1= confPath + "/2_downloadingLocal1.txt"
-    Local2= confPath + "/2_downloadingLocal2.txt"
     theLast = confPath + "/3_previewXConf.txt"
 
 
-    with open(FilePath0, 'r') as file:
+
+    with open(theLast, 'r') as file:
         for line in file:
-            variable_name, fileSource = line.split('=')
-            fileSource = fileSource.strip()
-            fileSourceInt=int(fileSource)
-            if fileSourceInt == 1:
-                with open(Google1, 'r') as file:
-                    for line in file:
-                        variable_name1, value1 = line.split('=')
-                        value1 = value1.strip()
-                with open(Google2, 'r') as file:
-                    for line in file:
-                        variable_name2, value2 = line.split('=')
-                        value2 = value2.strip()
-                with open(theLast, 'r') as file:
-                    for line in file:
-                        variable_name3, value3 = line.split('=')
-                        value3 = value3.strip()
-                        value3List = ast.literal_eval(value3)
+            variable_name3, value3 = line.split('=')
+            value3 = value3.strip()
+            value3List = ast.literal_eval(value3)
 
 
-            if fileSourceInt == 2:
-                with open(Local1, 'r') as file:
-                    for line in file:
-                        variable_name1, value1 = line.split('=')
-                        value1 = value1.strip()
-                with open(Local2, 'r') as file:
-                    for line in file:
-                        variable_name2, value2 = line.split('=')
-                        value2 = value2.strip()
-                with open(theLast, 'r') as file:
-                    for line in file:
-                        variable_name3, value3 = line.split('=')
-                        value3 = value3.strip()
-                        value3List = ast.literal_eval(value3)
 
-    return fileSourceInt, value1, value2, value3List
+    return value3List
 
 
+def existanceFileName(confPath):
+    import os
+    value1=""
+    value2=""
+
+
+    inputTex_FilePath = confPath + "/2_downloadingLocal1.txt"
+    if os.path.exists(inputTex_FilePath):
+        with open(inputTex_FilePath, 'r') as file:
+            for line in file:
+                variable_name, value1 = line.split('=')
+                value1 = value1.strip()
+
+    inputTex_FilePath = confPath + "/2_downloadingLocal2.txt"
+    if os.path.exists(inputTex_FilePath):
+        with open(inputTex_FilePath, 'r') as file:
+            for line in file:
+                variable_name, value2 = line.split('=')
+                value2 = value2.strip()
+
+    return value1, value2
 
 def Other_DefaultMenu(confPath, ED_Event_FileName):
 

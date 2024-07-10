@@ -24,17 +24,6 @@ DK6_2=sc.DK6_2
 DK7=sc.DK7
 
 
-
-
-print("************************** General ****************************************************************************")
-
-driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "12345678"))
-driverUserName="neo4j"
-driverPassword="12345678"
-
-
-selenium=False
-
 Data1 =  '../../media/uploads/0_Data'
 Data = os.path.realpath(Data1)
 Data_Extension = '.csv'
@@ -47,10 +36,30 @@ confDirectory  = "../Data/0_DataConf"
 confPath = os.path.realpath(confDirectory)
 print("confPath=",confPath)
 
-fileSourceInt, value1, value2, sheetTitles=A4_Func.readtxtFiles()
-print("fileSourceInt=", fileSourceInt)
-print("value1=", value1)
-print("value2=", value2)
+
+print("************************** General ****************************************************************************")
+
+
+
+userNameNeo, passWordNeo= A4_Func.existanceFileName(confPath)
+print("userNameNeo =", userNameNeo)
+print("passWordNeo =", passWordNeo)
+
+
+
+driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "12345678"))
+driverUserName="neo4j"
+driverPassword="12345678"
+
+
+
+
+selenium=False
+
+
+
+sheetTitles=A4_Func.readtxtFiles()
+
 print("sheetTitles=", sheetTitles)
 
 

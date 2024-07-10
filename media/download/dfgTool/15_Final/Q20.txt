@@ -1,118 +1,19 @@
 //aggregateDF_AbsoluteProperty
 
         MATCH ( c1 : ActivityPropery ) <-[:MONITORED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:MONITORED]-> ( c2 : ActivityPropery )
-        MATCH (e1) -[:CORR] -> (n:Patient) <-[:CORR]- (e2)
-        WHERE c1.Type = c2.Type AND n.Type = df.Type AND n.ID = df.ID  AND n.Type ="Patient"  
+        MATCH (e1) -[:CORR] -> (n:e1) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type AND n.Type = df.Type AND n.ID = df.ID  AND n.Type ="e1"  
         WITH n.Type as EType,c1,count(df) AS df_freq,c2, n.ID as IDT
-        MERGE ( c1 ) -[rel2:DF_C {Type:"AbsoluteProperty" , count:df_freq , En1_ID:IDT , En2_ID:IDT , En1:"Patient" , En2:"Patient" , Category:"wProperty"}]-> ( c2 ) 
+        MERGE ( c1 ) -[rel2:DF_C {Type:"AbsoluteProperty" , count:df_freq , En1_ID:IDT , En2_ID:IDT , En1:"e1" , En2:"e1" , Category:"wProperty"}]-> ( c2 ) 
         
 
 //aggregateDF_AbsoluteProperty
 
         MATCH ( c1 : ActivityPropery ) <-[:MONITORED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:MONITORED]-> ( c2 : ActivityPropery )
-        MATCH (e1) -[:CORR] -> (n:Admission) <-[:CORR]- (e2)
-        WHERE c1.Type = c2.Type AND n.Type = df.Type AND n.ID = df.ID  AND n.Type ="Admission"  
+        MATCH (e1) -[:CORR] -> (n:e1) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type AND n.Type = df.Type AND n.ID = df.ID  AND n.Type ="e1"  
         WITH n.Type as EType,c1,count(df) AS df_freq,c2, n.ID as IDT
-        MERGE ( c1 ) -[rel2:DF_C {Type:"AbsoluteProperty" , count:df_freq , En1_ID:IDT , En2_ID:IDT , En1:"Admission" , En2:"Admission" , Category:"wProperty"}]-> ( c2 ) 
-        
-
-//aggregateDF_AbsoluteProperty
-
-        MATCH ( c1 : ActivityPropery ) <-[:MONITORED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:MONITORED]-> ( c2 : ActivityPropery )
-        MATCH (e1) -[:CORR] -> (n:Concept) <-[:CORR]- (e2)
-        WHERE c1.Type = c2.Type AND n.Type = df.Type AND n.ID = df.ID  AND n.Type ="Concept"  
-        WITH n.Type as EType,c1,count(df) AS df_freq,c2, n.ID as IDT
-        MERGE ( c1 ) -[rel2:DF_C {Type:"AbsoluteProperty" , count:df_freq , En1_ID:IDT , En2_ID:IDT , En1:"Concept" , En2:"Concept" , Category:"wProperty"}]-> ( c2 ) 
-        
-
-//aggregateDF_AbsoluteProperty
-
-        MATCH ( c1 : ActivityPropery ) <-[:MONITORED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:MONITORED]-> ( c2 : ActivityPropery )
-        MATCH (e1) -[:CORR] -> (n:Patient) <-[:CORR]- (e2)
-        WHERE c1.Type = c2.Type AND n.Type = df.Type AND n.ID = df.ID  AND n.Type ="P_1_2"  
-        WITH n.Type as EType,c1,count(df) AS df_freq,c2, n.ID as IDT
-        MERGE ( c1 ) -[rel2:DF_C {Type:"AbsoluteProperty" , count:df_freq , En1_ID:IDT , En2_ID:IDT , En1:"Patient" , En2:"Patient" , Category:"wProperty"}]-> ( c2 ) 
-        
-
-//aggregateDF_AbsoluteProperty
-
-        MATCH ( c1 : ActivityPropery ) <-[:MONITORED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:MONITORED]-> ( c2 : ActivityPropery )
-        MATCH (e1) -[:CORR] -> (n:Patient) <-[:CORR]- (e2)
-        WHERE c1.Type = c2.Type AND n.Type = df.Type AND n.ID = df.ID  AND n.Type ="P_2_1"  
-        WITH n.Type as EType,c1,count(df) AS df_freq,c2, n.ID as IDT
-        MERGE ( c1 ) -[rel2:DF_C {Type:"AbsoluteProperty" , count:df_freq , En1_ID:IDT , En2_ID:IDT , En1:"Patient" , En2:"Patient" , Category:"wProperty"}]-> ( c2 ) 
-        
-
-//aggregateDF_AbsoluteProperty
-
-        MATCH ( c1 : ActivityPropery ) <-[:MONITORED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:MONITORED]-> ( c2 : ActivityPropery )
-        MATCH (e1) -[:CORR] -> (n:Admission) <-[:CORR]- (e2)
-        WHERE c1.Type = c2.Type AND n.Type = df.Type AND n.ID = df.ID  AND n.Type ="A_11_14"  
-        WITH n.Type as EType,c1,count(df) AS df_freq,c2, n.ID as IDT
-        MERGE ( c1 ) -[rel2:DF_C {Type:"AbsoluteProperty" , count:df_freq , En1_ID:IDT , En2_ID:IDT , En1:"Admission" , En2:"Admission" , Category:"wProperty"}]-> ( c2 ) 
-        
-
-//aggregateDF_AbsoluteProperty
-
-        MATCH ( c1 : ActivityPropery ) <-[:MONITORED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:MONITORED]-> ( c2 : ActivityPropery )
-        MATCH (e1) -[:CORR] -> (n:Admission) <-[:CORR]- (e2)
-        WHERE c1.Type = c2.Type AND n.Type = df.Type AND n.ID = df.ID  AND n.Type ="A_12_13"  
-        WITH n.Type as EType,c1,count(df) AS df_freq,c2, n.ID as IDT
-        MERGE ( c1 ) -[rel2:DF_C {Type:"AbsoluteProperty" , count:df_freq , En1_ID:IDT , En2_ID:IDT , En1:"Admission" , En2:"Admission" , Category:"wProperty"}]-> ( c2 ) 
-        
-
-//aggregateDF_AbsoluteProperty
-
-        MATCH ( c1 : ActivityPropery ) <-[:MONITORED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:MONITORED]-> ( c2 : ActivityPropery )
-        MATCH (e1) -[:CORR] -> (n:Admission) <-[:CORR]- (e2)
-        WHERE c1.Type = c2.Type AND n.Type = df.Type AND n.ID = df.ID  AND n.Type ="A_12_15"  
-        WITH n.Type as EType,c1,count(df) AS df_freq,c2, n.ID as IDT
-        MERGE ( c1 ) -[rel2:DF_C {Type:"AbsoluteProperty" , count:df_freq , En1_ID:IDT , En2_ID:IDT , En1:"Admission" , En2:"Admission" , Category:"wProperty"}]-> ( c2 ) 
-        
-
-//aggregateDF_AbsoluteProperty
-
-        MATCH ( c1 : ActivityPropery ) <-[:MONITORED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:MONITORED]-> ( c2 : ActivityPropery )
-        MATCH (e1) -[:CORR] -> (n:Admission) <-[:CORR]- (e2)
-        WHERE c1.Type = c2.Type AND n.Type = df.Type AND n.ID = df.ID  AND n.Type ="A_13_16"  
-        WITH n.Type as EType,c1,count(df) AS df_freq,c2, n.ID as IDT
-        MERGE ( c1 ) -[rel2:DF_C {Type:"AbsoluteProperty" , count:df_freq , En1_ID:IDT , En2_ID:IDT , En1:"Admission" , En2:"Admission" , Category:"wProperty"}]-> ( c2 ) 
-        
-
-//aggregateDF_AbsoluteProperty
-
-        MATCH ( c1 : ActivityPropery ) <-[:MONITORED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:MONITORED]-> ( c2 : ActivityPropery )
-        MATCH (e1) -[:CORR] -> (n:Admission) <-[:CORR]- (e2)
-        WHERE c1.Type = c2.Type AND n.Type = df.Type AND n.ID = df.ID  AND n.Type ="A_14_11"  
-        WITH n.Type as EType,c1,count(df) AS df_freq,c2, n.ID as IDT
-        MERGE ( c1 ) -[rel2:DF_C {Type:"AbsoluteProperty" , count:df_freq , En1_ID:IDT , En2_ID:IDT , En1:"Admission" , En2:"Admission" , Category:"wProperty"}]-> ( c2 ) 
-        
-
-//aggregateDF_AbsoluteProperty
-
-        MATCH ( c1 : ActivityPropery ) <-[:MONITORED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:MONITORED]-> ( c2 : ActivityPropery )
-        MATCH (e1) -[:CORR] -> (n:Admission) <-[:CORR]- (e2)
-        WHERE c1.Type = c2.Type AND n.Type = df.Type AND n.ID = df.ID  AND n.Type ="A_14_15"  
-        WITH n.Type as EType,c1,count(df) AS df_freq,c2, n.ID as IDT
-        MERGE ( c1 ) -[rel2:DF_C {Type:"AbsoluteProperty" , count:df_freq , En1_ID:IDT , En2_ID:IDT , En1:"Admission" , En2:"Admission" , Category:"wProperty"}]-> ( c2 ) 
-        
-
-//aggregateDF_AbsoluteProperty
-
-        MATCH ( c1 : ActivityPropery ) <-[:MONITORED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:MONITORED]-> ( c2 : ActivityPropery )
-        MATCH (e1) -[:CORR] -> (n:Admission) <-[:CORR]- (e2)
-        WHERE c1.Type = c2.Type AND n.Type = df.Type AND n.ID = df.ID  AND n.Type ="A_15_12"  
-        WITH n.Type as EType,c1,count(df) AS df_freq,c2, n.ID as IDT
-        MERGE ( c1 ) -[rel2:DF_C {Type:"AbsoluteProperty" , count:df_freq , En1_ID:IDT , En2_ID:IDT , En1:"Admission" , En2:"Admission" , Category:"wProperty"}]-> ( c2 ) 
-        
-
-//aggregateDF_AbsoluteProperty
-
-        MATCH ( c1 : ActivityPropery ) <-[:MONITORED]- ( e1 : Event ) -[df:DF]-> ( e2 : Event ) -[:MONITORED]-> ( c2 : ActivityPropery )
-        MATCH (e1) -[:CORR] -> (n:Admission) <-[:CORR]- (e2)
-        WHERE c1.Type = c2.Type AND n.Type = df.Type AND n.ID = df.ID  AND n.Type ="A_16_13"  
-        WITH n.Type as EType,c1,count(df) AS df_freq,c2, n.ID as IDT
-        MERGE ( c1 ) -[rel2:DF_C {Type:"AbsoluteProperty" , count:df_freq , En1_ID:IDT , En2_ID:IDT , En1:"Admission" , En2:"Admission" , Category:"wProperty"}]-> ( c2 ) 
+        MERGE ( c1 ) -[rel2:DF_C {Type:"AbsoluteProperty" , count:df_freq , En1_ID:IDT , En2_ID:IDT , En1:"e1" , En2:"e1" , Category:"wProperty"}]-> ( c2 ) 
         
 
 //DF_AbsolutePropery

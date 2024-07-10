@@ -1,1 +1,1 @@
-importPath=/home/milad/Downloads/
+finalPassWord=myPass

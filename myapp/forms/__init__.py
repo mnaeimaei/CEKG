@@ -15,10 +15,10 @@ from .A1_forms_home import ActivitySelectionForm
 from .A1_forms_home import ActivityFormDFG6
 from .A1_forms_home import NextButton1
 
-from .A2_forms_donwloading import BrowsingMethodForm
-from .A2_forms_donwloading import FileNameBox
-from .A2_forms_donwloading import LocationTextBox
-from .A2_forms_donwloading import ServiceKeyTextBox
+
+
+from .A02_forms_donwloading import UserNameNeo
+from .A02_forms_donwloading import PassWordNeo
 
 
 from .A3_forms_preview import EventLogForm

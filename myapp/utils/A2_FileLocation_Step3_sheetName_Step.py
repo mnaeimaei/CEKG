@@ -6,7 +6,7 @@ import A2_FileLocation_Step3_sheetName_Func as fileFunc
 
 dataDirectory = '../../media/uploads/0_Data'
 dataPath2 = os.path.realpath(dataDirectory)
-print("dataDirectory =", dataDirectory)
+print("dataPath2 =", dataPath2)
 
 
 confDirectory  = "../Data/0_DataConf"

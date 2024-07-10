@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <link rel="stylesheet" href="../static/css/A02_browse.css">
+
+</head>
+<body>
+<h1>Please upload the dataset</h1>
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="excelFile" accept=".xlsx, .xls" required>
+    <button type="submit">Upload File</button>
+</form>
+</body>
+</html>

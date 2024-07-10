@@ -1,5 +1,6 @@
 
-
+from django.conf import settings
+from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, re_path
 
@@ -9,7 +10,8 @@ from myapp.views.A000_view_Directory import browse
 
 
 from myapp.views.A1_view_home import home_view
-from myapp.views.A2_view_downloading import importing_view
+from myapp.views.A02_view_browse import importing_file
+from myapp.views.A02_view_downloading import importing_view
 from myapp.views.A3_view_preview import preview_view
 
 from myapp.views.B4_view_csv_eventLog import event_log
@@ -203,6 +205,8 @@ urlpatterns = [
     re_path(r'^files/(?P<path>.*)$', browse, name='browse'),
 
     path('homePage/', home_view, name='home'),
+
+    path('importingFile/', importing_file, name='importingFile'),
     path('importingExcel/', importing_view, name='importingExcel'),
     path('excelPreview/', preview_view, name='excelPreview'),
 

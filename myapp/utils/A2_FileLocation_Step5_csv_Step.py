@@ -53,11 +53,15 @@ DK7=sc.DK7
 confDirectory = "../Data/0_DataConf"
 confPath = os.path.realpath(confDirectory)
 
-fileSourceInt, value1, value2, sheetTitles=fileFunc.readtxtFiles()
-print("fileSourceInt=", fileSourceInt)
-print("value1=", value1)
-print("value2=", value2)
+sheetTitles=fileFunc.readtxtFiles()
 print("sheetTitles=", sheetTitles)
+
+
+
+excelDirectory = '../../media/uploads/0_Data/EventLog.xlsx'
+excelPath = os.path.realpath(excelDirectory)
+print("excelPath=",excelPath)
+
 
 print("#################################### savingCSV ##################################################")
 
@@ -67,7 +71,7 @@ if EventLog:  # Before Adding Entity
     index_of_x = sc.sheetTitleshelper.index("ED_Event_FileName")
     ED_Event_FileName = sheetTitles[index_of_x]  # C_Log
 
-    fileFunc.saveASCSV(ED_Event_FileName, fileSourceInt, value1, value2)
+    fileFunc.saveASCSV(ED_Event_FileName, excelPath)
 
     savingPath1 = confPath + "/4_eventLogOption.txt"
     savingPathMap = confPath + "/4_eventLogMapping.txt"
@@ -97,7 +101,7 @@ if otherEntities == True:
     index_of_x1 = sc.sheetTitleshelper.index("EnP_PoNode_FileName_1")
     EnP_PoNode_FileName_1 = sheetTitles[index_of_x1]  # C_Log
 
-    fileFunc.saveASCSV(EnP_PoNode_FileName_1, fileSourceInt, value1, value2)
+    fileFunc.saveASCSV(EnP_PoNode_FileName_1, excelPath)
 
     savingPath1 = confPath + "/5_otherEntitiesOption.txt"
     savingPathMap = confPath + "/5_otherEntitiesMapping.txt"
@@ -123,7 +127,7 @@ if otherEntitiesRel == True:
     index_of_x2 = sc.sheetTitleshelper.index("EnP_PoNode_FileName_2")
     EnP_PoNode_FileName_2 = sheetTitles[index_of_x2]  # C_Log
 
-    fileFunc.saveASCSV(EnP_PoNode_FileName_2, fileSourceInt, value1, value2)
+    fileFunc.saveASCSV(EnP_PoNode_FileName_2, excelPath)
     
     
     savingPath1 = confPath + "/6_otherEntitiesRelOption.txt"
@@ -148,7 +152,7 @@ if acProperties:
     index_of_x = sc.sheetTitleshelper.index("AcP_PoNode_FileName")
     AcP_PoNode_FileName = sheetTitles[index_of_x]  # C_Log
 
-    fileFunc.saveASCSV(AcP_PoNode_FileName, fileSourceInt, value1, value2)
+    fileFunc.saveASCSV(AcP_PoNode_FileName, excelPath)
     
     
     savingPath1 = confPath + "/7_acPropertiesOption.txt"
@@ -173,7 +177,7 @@ if Domain:
     index_of_x = sc.sheetTitleshelper.index("ACT_PoNode_FileName")
     ACT_PoNode_FileName = sheetTitles[index_of_x]  # C_Log
 
-    fileFunc.saveASCSV(ACT_PoNode_FileName, fileSourceInt, value1, value2)
+    fileFunc.saveASCSV(ACT_PoNode_FileName, excelPath)
     
     
     savingPath1 = confPath + "/8_domainOption.txt"
@@ -195,7 +199,7 @@ if ICD:
     index_of_x = sc.sheetTitleshelper.index("CE_PoNode_FileName")
     CE_PoNode_FileName = sheetTitles[index_of_x]  # C_Log
 
-    fileFunc.saveASCSV(CE_PoNode_FileName, fileSourceInt, value1, value2)
+    fileFunc.saveASCSV(CE_PoNode_FileName, excelPath)
     
     savingPath1 = confPath + "/9_icdOption.txt"
     savingPathMap = confPath + "/9_icdOptionMapping.txt"
@@ -217,7 +221,7 @@ if octNode == True :
     OCT_OCT_Node_FileName = sheetTitles[index_of_x1]  # C_Log
 
 
-    fileFunc.saveASCSV(OCT_OCT_Node_FileName, fileSourceInt, value1, value2)
+    fileFunc.saveASCSV(OCT_OCT_Node_FileName, excelPath)
     
     savingPath1 = confPath + "/10_octNodeOption.txt"
     savingPathMap = confPath + "/10_octNodeMapping.txt"
@@ -238,7 +242,7 @@ if octRel == True:
     index_of_x2 = sc.sheetTitleshelper.index("OCT_OCT_REL_FileName")
     OCT_OCT_REL_FileName = sheetTitles[index_of_x2]  # C_Log
 
-    fileFunc.saveASCSV(OCT_OCT_REL_FileName, fileSourceInt, value1, value2)
+    fileFunc.saveASCSV(OCT_OCT_REL_FileName, excelPath)
     
     savingPath1 = confPath + "/11_octRelOption.txt"
     savingPathMap = confPath + "/11_octRelMapping.txt"
@@ -261,7 +265,7 @@ if DK1:
     index_of_x = sc.sheetTitleshelper.index("DK1_EnPo_FileName")
     DK1_EnPo_FileName = sheetTitles[index_of_x]  # C_Log
 
-    fileFunc.saveASCSV(DK1_EnPo_FileName, fileSourceInt, value1, value2)
+    fileFunc.saveASCSV(DK1_EnPo_FileName, excelPath)
     
     savingPath1 = confPath + "/12_dk1Option.txt"
     savingPathMap = confPath + "/12_dk1Mapping.txt"
@@ -283,7 +287,7 @@ if DK2:
     index_of_x = sc.sheetTitleshelper.index("DK2_EnPo_FileName")
     DK2_EnPo_FileName = sheetTitles[index_of_x]  # C_Log
 
-    fileFunc.saveASCSV(DK2_EnPo_FileName, fileSourceInt, value1, value2)
+    fileFunc.saveASCSV(DK2_EnPo_FileName, excelPath)
     
     savingPath1 = confPath + "/13_dk2Option.txt"
     savingPathMap = confPath + "/13_dk2Mapping.txt"
@@ -306,7 +310,7 @@ if DK3:
     index_of_x = sc.sheetTitleshelper.index("DK3_Potential_DK3_FileName")
     DK3_Potential_DK3_FileName = sheetTitles[index_of_x]  # C_Log
 
-    fileFunc.saveASCSV(DK3_Potential_DK3_FileName, fileSourceInt, value1, value2)
+    fileFunc.saveASCSV(DK3_Potential_DK3_FileName, excelPath)
     
     savingPath1 = confPath + "/14_dk3Option.txt"
     savingPathMap = confPath + "/14_dk3Mapping.txt"
@@ -329,7 +333,7 @@ if DK4:
     index_of_x = sc.sheetTitleshelper.index("DK4_ICD_OCT_FileName")
     DK4_ICD_OCT_FileName = sheetTitles[index_of_x]  # C_Log
 
-    fileFunc.saveASCSV(DK4_ICD_OCT_FileName, fileSourceInt, value1, value2)
+    fileFunc.saveASCSV(DK4_ICD_OCT_FileName, excelPath)
     
     savingPath1 = confPath + "/15_dk4Option.txt"
     savingPathMap = confPath + "/15_dk4Mapping.txt"
@@ -352,7 +356,7 @@ if DK5:
     index_of_x = sc.sheetTitleshelper.index("DK5_FileName")
     DK5_FileName = sheetTitles[index_of_x]  # C_Log
 
-    fileFunc.saveASCSV(DK5_FileName, fileSourceInt, value1, value2)
+    fileFunc.saveASCSV(DK5_FileName, excelPath)
     
     savingPath1 = confPath + "/16_dk5Option.txt"
     savingPathMap = confPath + "/16_dk5Mapping.txt"
@@ -374,7 +378,7 @@ if DK6_1 == True:
     index_of_x1 = sc.sheetTitleshelper.index("Domain_FileName_1")
     Domain_FileName_1 = sheetTitles[index_of_x1]  # C_Log
 
-    fileFunc.saveASCSV(Domain_FileName_1,fileSourceInt,value1,value2)
+    fileFunc.saveASCSV(Domain_FileName_1,excelPath)
     
     savingPath1 = confPath + "/17_dk61Option.txt"
     savingPathMap = confPath + "/17_dk61Mapping.txt"
@@ -395,7 +399,7 @@ if DK6_2 == True:
     index_of_x2 = sc.sheetTitleshelper.index("Domain_FileName_2")
     Domain_FileName_2 = sheetTitles[index_of_x2]  # C_Log
 
-    fileFunc.saveASCSV(Domain_FileName_2,fileSourceInt,value1,value2)
+    fileFunc.saveASCSV(Domain_FileName_2,excelPath)
     
     savingPath1 = confPath + "/18_dk62Option.txt"
     savingPathMap = confPath + "/18_dk62Mapping.txt"
@@ -416,7 +420,7 @@ if DK7:
     index_of_x = sc.sheetTitleshelper.index("DK7_Activity_DK7_FileName")
     DK7_Activity_DK7_FileName = sheetTitles[index_of_x]  # C_Log
 
-    fileFunc.saveASCSV(DK7_Activity_DK7_FileName, fileSourceInt, value1, value2)
+    fileFunc.saveASCSV(DK7_Activity_DK7_FileName, excelPath)
     
     savingPath1 = confPath + "/19_dk7Option.txt"
     savingPathMap = confPath + "/19_dk7Mapping.txt"

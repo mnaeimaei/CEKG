@@ -1,156 +1,24 @@
 //qCreateDF
 
-        MATCH ( n : Patient ) WHERE n.Type="Patient"
+        MATCH ( n : e1 ) WHERE n.Type="e1"
         MATCH ( n ) <-[:CORR]- ( e )
         WITH n , e as nodes ORDER BY e.timestamp,ID(e)
         WITH n , collect ( nodes ) as nodeList
         UNWIND range(0,size(nodeList)-2) AS i
         WITH n , nodeList[i] as first, nodeList[i+1] as second, n.ID as NewID
-        MERGE ( first ) -[df:DF {Type:"Patient",Name:"Patient", Category:"woProperty"} ]->( second )
+        MERGE ( first ) -[df:DF {Type:"e1",Name:"e1", Category:"woProperty"} ]->( second )
         ON CREATE SET df.ID=NewID 
         
 
 //qCreateDF
 
-        MATCH ( n : Admission ) WHERE n.Type="Admission"
+        MATCH ( n : e1 ) WHERE n.Type="e1"
         MATCH ( n ) <-[:CORR]- ( e )
         WITH n , e as nodes ORDER BY e.timestamp,ID(e)
         WITH n , collect ( nodes ) as nodeList
         UNWIND range(0,size(nodeList)-2) AS i
         WITH n , nodeList[i] as first, nodeList[i+1] as second, n.ID as NewID
-        MERGE ( first ) -[df:DF {Type:"Admission",Name:"Admission", Category:"woProperty"} ]->( second )
-        ON CREATE SET df.ID=NewID 
-        
-
-//qCreateDF
-
-        MATCH ( n : Concept ) WHERE n.Type="Concept"
-        MATCH ( n ) <-[:CORR]- ( e )
-        WITH n , e as nodes ORDER BY e.timestamp,ID(e)
-        WITH n , collect ( nodes ) as nodeList
-        UNWIND range(0,size(nodeList)-2) AS i
-        WITH n , nodeList[i] as first, nodeList[i+1] as second, n.ID as NewID
-        MERGE ( first ) -[df:DF {Type:"Concept",Name:"Concept", Category:"woProperty"} ]->( second )
-        ON CREATE SET df.ID=NewID 
-        
-
-//qCreateDF
-
-        MATCH ( n : Patient ) WHERE n.Type="P_1_2"
-        MATCH ( n ) <-[:CORR]- ( e )
-        WITH n , e as nodes ORDER BY e.timestamp,ID(e)
-        WITH n , collect ( nodes ) as nodeList
-        UNWIND range(0,size(nodeList)-2) AS i
-        WITH n , nodeList[i] as first, nodeList[i+1] as second, n.ID as NewID
-        MERGE ( first ) -[df:DF {Type:"P_1_2",Name:"Patient", Category:"woProperty"} ]->( second )
-        ON CREATE SET df.ID=NewID 
-        
-
-//qCreateDF
-
-        MATCH ( n : Patient ) WHERE n.Type="P_2_1"
-        MATCH ( n ) <-[:CORR]- ( e )
-        WITH n , e as nodes ORDER BY e.timestamp,ID(e)
-        WITH n , collect ( nodes ) as nodeList
-        UNWIND range(0,size(nodeList)-2) AS i
-        WITH n , nodeList[i] as first, nodeList[i+1] as second, n.ID as NewID
-        MERGE ( first ) -[df:DF {Type:"P_2_1",Name:"Patient", Category:"woProperty"} ]->( second )
-        ON CREATE SET df.ID=NewID 
-        
-
-//qCreateDF
-
-        MATCH ( n : Admission ) WHERE n.Type="A_11_14"
-        MATCH ( n ) <-[:CORR]- ( e )
-        WITH n , e as nodes ORDER BY e.timestamp,ID(e)
-        WITH n , collect ( nodes ) as nodeList
-        UNWIND range(0,size(nodeList)-2) AS i
-        WITH n , nodeList[i] as first, nodeList[i+1] as second, n.ID as NewID
-        MERGE ( first ) -[df:DF {Type:"A_11_14",Name:"Admission", Category:"woProperty"} ]->( second )
-        ON CREATE SET df.ID=NewID 
-        
-
-//qCreateDF
-
-        MATCH ( n : Admission ) WHERE n.Type="A_12_13"
-        MATCH ( n ) <-[:CORR]- ( e )
-        WITH n , e as nodes ORDER BY e.timestamp,ID(e)
-        WITH n , collect ( nodes ) as nodeList
-        UNWIND range(0,size(nodeList)-2) AS i
-        WITH n , nodeList[i] as first, nodeList[i+1] as second, n.ID as NewID
-        MERGE ( first ) -[df:DF {Type:"A_12_13",Name:"Admission", Category:"woProperty"} ]->( second )
-        ON CREATE SET df.ID=NewID 
-        
-
-//qCreateDF
-
-        MATCH ( n : Admission ) WHERE n.Type="A_12_15"
-        MATCH ( n ) <-[:CORR]- ( e )
-        WITH n , e as nodes ORDER BY e.timestamp,ID(e)
-        WITH n , collect ( nodes ) as nodeList
-        UNWIND range(0,size(nodeList)-2) AS i
-        WITH n , nodeList[i] as first, nodeList[i+1] as second, n.ID as NewID
-        MERGE ( first ) -[df:DF {Type:"A_12_15",Name:"Admission", Category:"woProperty"} ]->( second )
-        ON CREATE SET df.ID=NewID 
-        
-
-//qCreateDF
-
-        MATCH ( n : Admission ) WHERE n.Type="A_13_16"
-        MATCH ( n ) <-[:CORR]- ( e )
-        WITH n , e as nodes ORDER BY e.timestamp,ID(e)
-        WITH n , collect ( nodes ) as nodeList
-        UNWIND range(0,size(nodeList)-2) AS i
-        WITH n , nodeList[i] as first, nodeList[i+1] as second, n.ID as NewID
-        MERGE ( first ) -[df:DF {Type:"A_13_16",Name:"Admission", Category:"woProperty"} ]->( second )
-        ON CREATE SET df.ID=NewID 
-        
-
-//qCreateDF
-
-        MATCH ( n : Admission ) WHERE n.Type="A_14_11"
-        MATCH ( n ) <-[:CORR]- ( e )
-        WITH n , e as nodes ORDER BY e.timestamp,ID(e)
-        WITH n , collect ( nodes ) as nodeList
-        UNWIND range(0,size(nodeList)-2) AS i
-        WITH n , nodeList[i] as first, nodeList[i+1] as second, n.ID as NewID
-        MERGE ( first ) -[df:DF {Type:"A_14_11",Name:"Admission", Category:"woProperty"} ]->( second )
-        ON CREATE SET df.ID=NewID 
-        
-
-//qCreateDF
-
-        MATCH ( n : Admission ) WHERE n.Type="A_14_15"
-        MATCH ( n ) <-[:CORR]- ( e )
-        WITH n , e as nodes ORDER BY e.timestamp,ID(e)
-        WITH n , collect ( nodes ) as nodeList
-        UNWIND range(0,size(nodeList)-2) AS i
-        WITH n , nodeList[i] as first, nodeList[i+1] as second, n.ID as NewID
-        MERGE ( first ) -[df:DF {Type:"A_14_15",Name:"Admission", Category:"woProperty"} ]->( second )
-        ON CREATE SET df.ID=NewID 
-        
-
-//qCreateDF
-
-        MATCH ( n : Admission ) WHERE n.Type="A_15_12"
-        MATCH ( n ) <-[:CORR]- ( e )
-        WITH n , e as nodes ORDER BY e.timestamp,ID(e)
-        WITH n , collect ( nodes ) as nodeList
-        UNWIND range(0,size(nodeList)-2) AS i
-        WITH n , nodeList[i] as first, nodeList[i+1] as second, n.ID as NewID
-        MERGE ( first ) -[df:DF {Type:"A_15_12",Name:"Admission", Category:"woProperty"} ]->( second )
-        ON CREATE SET df.ID=NewID 
-        
-
-//qCreateDF
-
-        MATCH ( n : Admission ) WHERE n.Type="A_16_13"
-        MATCH ( n ) <-[:CORR]- ( e )
-        WITH n , e as nodes ORDER BY e.timestamp,ID(e)
-        WITH n , collect ( nodes ) as nodeList
-        UNWIND range(0,size(nodeList)-2) AS i
-        WITH n , nodeList[i] as first, nodeList[i+1] as second, n.ID as NewID
-        MERGE ( first ) -[df:DF {Type:"A_16_13",Name:"Admission", Category:"woProperty"} ]->( second )
+        MERGE ( first ) -[df:DF {Type:"e1",Name:"e1", Category:"woProperty"} ]->( second )
         ON CREATE SET df.ID=NewID 
         
 

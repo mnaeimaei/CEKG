@@ -5,7 +5,7 @@
 {"dfg4Mode": ""}
 {"dfg5Mode": ""}
 {"dfg6Mode": ""}
-{"inputMode": "6"}
+{"inputMode": "1"}
 {"inputModeDFG6": ""}
 {"activityMode": "1"}
 {"activityModeDFG6": ""}

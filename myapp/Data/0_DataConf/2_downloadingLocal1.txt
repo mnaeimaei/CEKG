@@ -1,1 +1,1 @@
-EventLogFinal=EventLog6
+finalUsrWord=myUser

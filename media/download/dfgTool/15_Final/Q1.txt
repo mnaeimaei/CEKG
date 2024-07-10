@@ -14,20 +14,14 @@ MATCH () -[r:DF_E]- () DELETE r;
 MATCH (e)-[c:CORR]->(r) where r.Category="Relative" DELETE c;
 
 //deletePartNode
-MATCH (n:Patient)  where n.Category="Relative" delete n;
+MATCH (n:e1)  where n.Category="Relative" delete n;
 
 //deletePartNode
-MATCH (n:Admission)  where n.Category="Relative" delete n;
-
-//deletePartNode
-MATCH (n:Concept)  where n.Category="Relative" delete n;
+MATCH (n:e1)  where n.Category="Relative" delete n;
 
 //deleteProperty
-MATCH (n:Patient)  where n.Category="Absolute" remove n.uID, n.Type;
+MATCH (n:e1)  where n.Category="Absolute" remove n.uID, n.Type;
 
 //deleteProperty
-MATCH (n:Admission)  where n.Category="Absolute" remove n.uID, n.Type;
-
-//deleteProperty
-MATCH (n:Concept)  where n.Category="Absolute" remove n.uID, n.Type;
+MATCH (n:e1)  where n.Category="Absolute" remove n.uID, n.Type;
 

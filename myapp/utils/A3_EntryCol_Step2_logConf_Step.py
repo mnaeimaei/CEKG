@@ -30,10 +30,7 @@ print("##################################### General ###########################
 confDirectory  = "../Data/0_DataConf"
 confPath = os.path.realpath(confDirectory)
 
-fileSourceInt, value1, value2, sheetTitles=entryFunc.readtxtFiles()
-print("fileSourceInt=", fileSourceInt)
-print("value1=", value1)
-print("value2=", value2)
+sheetTitles=entryFunc.readtxtFiles()
 print("sheetTitles=", sheetTitles)
 
 

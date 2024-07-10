@@ -1,11 +1,6 @@
 
 
-def conf3creation(openPath,savePath):
-    with open(openPath, 'r') as file:
-        data=file.read()
-    print("sheetList=", data)
-    with open(savePath, 'w') as file:
-        file.write(f'''sheetList={data}''' + "\n")
+
 
 
 
@@ -39,7 +34,15 @@ def DefaultValue(file1, file2, save):
     with open(save, 'w') as file:
         file.write(f'''{valueList}''')
 
-    print(valueList)
+    print("valueList=",valueList)
+
+
+def conf3creation(openPath,savePath):
+    with open(openPath, 'r') as file:
+        data=file.read()
+    print("sheetList=", data)
+    with open(savePath, 'w') as file:
+        file.write(f'''sheetList={data}''' + "\n")
 
 def readtxtFiles():
     import os
@@ -48,64 +51,28 @@ def readtxtFiles():
     confPath = os.path.realpath(confDirectory)
     #print(confPath)
 
-    fileSourceInt=1
-    value1="X"
-    value2="X"
+
     value3List =[]
 
 
-
-    FilePath0 = confPath + "/2_downloadingFileSource.txt"
-    Google1= confPath + "/2_downloadingGoogleCloud1.txt"
-    Google2= confPath + "/2_downloadingGoogleCloud2.txt"
-    Local1= confPath + "/2_downloadingLocal1.txt"
-    Local2= confPath + "/2_downloadingLocal2.txt"
     theLast = confPath + "/3_previewXConf.txt"
 
 
-    with open(FilePath0, 'r') as file:
+    with open(theLast, 'r') as file:
         for line in file:
-            variable_name, fileSource = line.split('=')
-            fileSource = fileSource.strip()
-            fileSourceInt=int(fileSource)
-            if fileSourceInt == 1:
-                with open(Google1, 'r') as file:
-                    for line in file:
-                        variable_name1, value1 = line.split('=')
-                        value1 = value1.strip()
-                with open(Google2, 'r') as file:
-                    for line in file:
-                        variable_name2, value2 = line.split('=')
-                        value2 = value2.strip()
-                with open(theLast, 'r') as file:
-                    for line in file:
-                        variable_name3, value3 = line.split('=')
-                        value3 = value3.strip()
-                        value3List = ast.literal_eval(value3)
+            variable_name3, value3 = line.split('=')
+            value3 = value3.strip()
+            value3List = ast.literal_eval(value3)
 
 
-            if fileSourceInt == 2:
-                with open(Local1, 'r') as file:
-                    for line in file:
-                        variable_name1, value1 = line.split('=')
-                        value1 = value1.strip()
-                with open(Local2, 'r') as file:
-                    for line in file:
-                        variable_name2, value2 = line.split('=')
-                        value2 = value2.strip()
-                with open(theLast, 'r') as file:
-                    for line in file:
-                        variable_name3, value3 = line.split('=')
-                        value3 = value3.strip()
-                        value3List = ast.literal_eval(value3)
 
-    return fileSourceInt, value1, value2, value3List
+    return value3List
 
 
 
 
 
-def saveASCSV(sheetName,fileSourceInt,value1,value2):
+def saveASCSV(sheetName,excelPath):
 
     import pandas as pd
     import os
@@ -114,7 +81,7 @@ def saveASCSV(sheetName,fileSourceInt,value1,value2):
 
 
 
-    excel_file_path = value2 + value1 + ".xlsx"
+    excel_file_path = excelPath
     xls = pd.ExcelFile(excel_file_path)
 
     df = pd.read_excel(xls, sheet_name=sheetName)
