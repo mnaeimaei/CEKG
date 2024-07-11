@@ -1,0 +1,156 @@
+//aggregateDF_Relative
+
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df1:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df2:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH (e1) -[:CORR] -> (n1:Patient) <-[:CORR]- (e2)
+        MATCH (e1) -[:CORR] -> (n2:Concept) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type 
+        AND n1.Type = df1.Type  AND n1.ID = df1.ID
+        AND n2.Type = df2.Type  AND n2.ID = df2.ID AND n2.ID="91302008"
+        WITH c1,count(df1) AS df_freq,c2, n1.ID as IDT1, n2.ID as IDT2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"Relative" , count:df_freq , En1_ID:IDT1 ,En2_ID:IDT2 , En1:"Patient" , En2:"Concept" , Category:"woProperty"}]-> ( c2 ) 
+        
+
+//aggregateDF_Relative
+
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df1:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df2:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH (e1) -[:CORR] -> (n1:Patient) <-[:CORR]- (e2)
+        MATCH (e1) -[:CORR] -> (n2:Concept) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type 
+        AND n1.Type = df1.Type  AND n1.ID = df1.ID
+        AND n2.Type = df2.Type  AND n2.ID = df2.ID AND n2.ID="127331000119101"
+        WITH c1,count(df1) AS df_freq,c2, n1.ID as IDT1, n2.ID as IDT2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"Relative" , count:df_freq , En1_ID:IDT1 ,En2_ID:IDT2 , En1:"Patient" , En2:"Concept" , Category:"woProperty"}]-> ( c2 ) 
+        
+
+//aggregateDF_Relative
+
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df1:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df2:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH (e1) -[:CORR] -> (n1:Patient) <-[:CORR]- (e2)
+        MATCH (e1) -[:CORR] -> (n2:Concept) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type 
+        AND n1.Type = df1.Type  AND n1.ID = df1.ID
+        AND n2.Type = df2.Type  AND n2.ID = df2.ID AND n2.ID="266096002"
+        WITH c1,count(df1) AS df_freq,c2, n1.ID as IDT1, n2.ID as IDT2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"Relative" , count:df_freq , En1_ID:IDT1 ,En2_ID:IDT2 , En1:"Patient" , En2:"Concept" , Category:"woProperty"}]-> ( c2 ) 
+        
+
+//aggregateDF_Relative
+
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df1:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df2:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH (e1) -[:CORR] -> (n1:Patient) <-[:CORR]- (e2)
+        MATCH (e1) -[:CORR] -> (n2:Concept) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type 
+        AND n1.Type = df1.Type  AND n1.ID = df1.ID
+        AND n2.Type = df2.Type  AND n2.ID = df2.ID AND n2.ID="1085006"
+        WITH c1,count(df1) AS df_freq,c2, n1.ID as IDT1, n2.ID as IDT2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"Relative" , count:df_freq , En1_ID:IDT1 ,En2_ID:IDT2 , En1:"Patient" , En2:"Concept" , Category:"woProperty"}]-> ( c2 ) 
+        
+
+//aggregateDF_Relative
+
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df1:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df2:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH (e1) -[:CORR] -> (n1:Patient) <-[:CORR]- (e2)
+        MATCH (e1) -[:CORR] -> (n2:Concept) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type 
+        AND n1.Type = df1.Type  AND n1.ID = df1.ID
+        AND n2.Type = df2.Type  AND n2.ID = df2.ID AND n2.ID="59621000"
+        WITH c1,count(df1) AS df_freq,c2, n1.ID as IDT1, n2.ID as IDT2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"Relative" , count:df_freq , En1_ID:IDT1 ,En2_ID:IDT2 , En1:"Patient" , En2:"Concept" , Category:"woProperty"}]-> ( c2 ) 
+        
+
+//aggregateDF_Relative
+
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df1:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df2:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH (e1) -[:CORR] -> (n1:Patient) <-[:CORR]- (e2)
+        MATCH (e1) -[:CORR] -> (n2:Concept) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type 
+        AND n1.Type = df1.Type  AND n1.ID = df1.ID
+        AND n2.Type = df2.Type  AND n2.ID = df2.ID AND n2.ID="234347009"
+        WITH c1,count(df1) AS df_freq,c2, n1.ID as IDT1, n2.ID as IDT2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"Relative" , count:df_freq , En1_ID:IDT1 ,En2_ID:IDT2 , En1:"Patient" , En2:"Concept" , Category:"woProperty"}]-> ( c2 ) 
+        
+
+//aggregateDF_Relative
+
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df1:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df2:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH (e1) -[:CORR] -> (n1:Patient) <-[:CORR]- (e2)
+        MATCH (e1) -[:CORR] -> (n2:Concept) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type 
+        AND n1.Type = df1.Type  AND n1.ID = df1.ID
+        AND n2.Type = df2.Type  AND n2.ID = df2.ID AND n2.ID="26517000"
+        WITH c1,count(df1) AS df_freq,c2, n1.ID as IDT1, n2.ID as IDT2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"Relative" , count:df_freq , En1_ID:IDT1 ,En2_ID:IDT2 , En1:"Patient" , En2:"Concept" , Category:"woProperty"}]-> ( c2 ) 
+        
+
+//aggregateDF_Relative
+
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df1:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df2:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH (e1) -[:CORR] -> (n1:Patient) <-[:CORR]- (e2)
+        MATCH (e1) -[:CORR] -> (n2:Concept) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type 
+        AND n1.Type = df1.Type  AND n1.ID = df1.ID
+        AND n2.Type = df2.Type  AND n2.ID = df2.ID AND n2.ID="94181007"
+        WITH c1,count(df1) AS df_freq,c2, n1.ID as IDT1, n2.ID as IDT2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"Relative" , count:df_freq , En1_ID:IDT1 ,En2_ID:IDT2 , En1:"Patient" , En2:"Concept" , Category:"woProperty"}]-> ( c2 ) 
+        
+
+//aggregateDF_Relative
+
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df1:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df2:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH (e1) -[:CORR] -> (n1:Patient) <-[:CORR]- (e2)
+        MATCH (e1) -[:CORR] -> (n2:Concept) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type 
+        AND n1.Type = df1.Type  AND n1.ID = df1.ID
+        AND n2.Type = df2.Type  AND n2.ID = df2.ID AND n2.ID="414916001"
+        WITH c1,count(df1) AS df_freq,c2, n1.ID as IDT1, n2.ID as IDT2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"Relative" , count:df_freq , En1_ID:IDT1 ,En2_ID:IDT2 , En1:"Patient" , En2:"Concept" , Category:"woProperty"}]-> ( c2 ) 
+        
+
+//aggregateDF_Relative
+
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df1:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df2:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH (e1) -[:CORR] -> (n1:Patient) <-[:CORR]- (e2)
+        MATCH (e1) -[:CORR] -> (n2:Concept) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type 
+        AND n1.Type = df1.Type  AND n1.ID = df1.ID
+        AND n2.Type = df2.Type  AND n2.ID = df2.ID AND n2.ID="188154003"
+        WITH c1,count(df1) AS df_freq,c2, n1.ID as IDT1, n2.ID as IDT2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"Relative" , count:df_freq , En1_ID:IDT1 ,En2_ID:IDT2 , En1:"Patient" , En2:"Concept" , Category:"woProperty"}]-> ( c2 ) 
+        
+
+//aggregateDF_Relative
+
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df1:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df2:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH (e1) -[:CORR] -> (n1:Patient) <-[:CORR]- (e2)
+        MATCH (e1) -[:CORR] -> (n2:Concept) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type 
+        AND n1.Type = df1.Type  AND n1.ID = df1.ID
+        AND n2.Type = df2.Type  AND n2.ID = df2.ID AND n2.ID="277547006"
+        WITH c1,count(df1) AS df_freq,c2, n1.ID as IDT1, n2.ID as IDT2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"Relative" , count:df_freq , En1_ID:IDT1 ,En2_ID:IDT2 , En1:"Patient" , En2:"Concept" , Category:"woProperty"}]-> ( c2 ) 
+        
+
+//aggregateDF_Relative
+
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df1:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH ( c1 : Activity ) <-[:OBSERVED]- ( e1 : Event ) -[df2:DF]-> ( e2 : Event ) -[:OBSERVED]-> ( c2 : Activity )
+        MATCH (e1) -[:CORR] -> (n1:Patient) <-[:CORR]- (e2)
+        MATCH (e1) -[:CORR] -> (n2:Concept) <-[:CORR]- (e2)
+        WHERE c1.Type = c2.Type 
+        AND n1.Type = df1.Type  AND n1.ID = df1.ID
+        AND n2.Type = df2.Type  AND n2.ID = df2.ID AND n2.ID="47505003"
+        WITH c1,count(df1) AS df_freq,c2, n1.ID as IDT1, n2.ID as IDT2
+        MERGE ( c1 ) -[rel2:DF_C {Type:"Relative" , count:df_freq , En1_ID:IDT1 ,En2_ID:IDT2 , En1:"Patient" , En2:"Concept" , Category:"woProperty"}]-> ( c2 ) 
+        
+

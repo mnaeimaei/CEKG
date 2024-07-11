@@ -1,0 +1,525 @@
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Patient {Type:"P_1_2"}) - [r1:REL {Type:"Reified"}]->(n1:Patient{ID:"1"})
+               -[r:REL ]->(n2:Patient{ID:"2"})<-[r2:REL {Type:"Reified"}]- (en:Patient {Type:"P_1_2"} )
+                
+                OPTIONAL MATCH    p=(en:Patient {Type:"P_1_2"}) - [r1:REL {Type:"Reified"}]->(n1:Patient)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Patient) <-[r2:REL {Type:"Reified"}]- (en:Patient {Type:"P_1_2"} )
+                where df.Type="P_1_2"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Patient {Type:"P_2_1"}) - [r1:REL {Type:"Reified"}]->(n1:Patient{ID:"2"})
+               -[r:REL ]->(n2:Patient{ID:"1"})<-[r2:REL {Type:"Reified"}]- (en:Patient {Type:"P_2_1"} )
+                
+                OPTIONAL MATCH    p=(en:Patient {Type:"P_2_1"}) - [r1:REL {Type:"Reified"}]->(n1:Patient)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Patient) <-[r2:REL {Type:"Reified"}]- (en:Patient {Type:"P_2_1"} )
+                where df.Type="P_2_1"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Admission {Type:"A_11_14"}) - [r1:REL {Type:"Reified"}]->(n1:Admission{ID:"11"})
+               -[r:REL ]->(n2:Admission{ID:"14"})<-[r2:REL {Type:"Reified"}]- (en:Admission {Type:"A_11_14"} )
+                
+                OPTIONAL MATCH    p=(en:Admission {Type:"A_11_14"}) - [r1:REL {Type:"Reified"}]->(n1:Admission)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Admission) <-[r2:REL {Type:"Reified"}]- (en:Admission {Type:"A_11_14"} )
+                where df.Type="A_11_14"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Admission {Type:"A_12_13"}) - [r1:REL {Type:"Reified"}]->(n1:Admission{ID:"12"})
+               -[r:REL ]->(n2:Admission{ID:"13"})<-[r2:REL {Type:"Reified"}]- (en:Admission {Type:"A_12_13"} )
+                
+                OPTIONAL MATCH    p=(en:Admission {Type:"A_12_13"}) - [r1:REL {Type:"Reified"}]->(n1:Admission)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Admission) <-[r2:REL {Type:"Reified"}]- (en:Admission {Type:"A_12_13"} )
+                where df.Type="A_12_13"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Admission {Type:"A_12_15"}) - [r1:REL {Type:"Reified"}]->(n1:Admission{ID:"12"})
+               -[r:REL ]->(n2:Admission{ID:"15"})<-[r2:REL {Type:"Reified"}]- (en:Admission {Type:"A_12_15"} )
+                
+                OPTIONAL MATCH    p=(en:Admission {Type:"A_12_15"}) - [r1:REL {Type:"Reified"}]->(n1:Admission)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Admission) <-[r2:REL {Type:"Reified"}]- (en:Admission {Type:"A_12_15"} )
+                where df.Type="A_12_15"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Admission {Type:"A_13_16"}) - [r1:REL {Type:"Reified"}]->(n1:Admission{ID:"13"})
+               -[r:REL ]->(n2:Admission{ID:"16"})<-[r2:REL {Type:"Reified"}]- (en:Admission {Type:"A_13_16"} )
+                
+                OPTIONAL MATCH    p=(en:Admission {Type:"A_13_16"}) - [r1:REL {Type:"Reified"}]->(n1:Admission)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Admission) <-[r2:REL {Type:"Reified"}]- (en:Admission {Type:"A_13_16"} )
+                where df.Type="A_13_16"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Admission {Type:"A_14_11"}) - [r1:REL {Type:"Reified"}]->(n1:Admission{ID:"14"})
+               -[r:REL ]->(n2:Admission{ID:"11"})<-[r2:REL {Type:"Reified"}]- (en:Admission {Type:"A_14_11"} )
+                
+                OPTIONAL MATCH    p=(en:Admission {Type:"A_14_11"}) - [r1:REL {Type:"Reified"}]->(n1:Admission)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Admission) <-[r2:REL {Type:"Reified"}]- (en:Admission {Type:"A_14_11"} )
+                where df.Type="A_14_11"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Admission {Type:"A_14_15"}) - [r1:REL {Type:"Reified"}]->(n1:Admission{ID:"14"})
+               -[r:REL ]->(n2:Admission{ID:"15"})<-[r2:REL {Type:"Reified"}]- (en:Admission {Type:"A_14_15"} )
+                
+                OPTIONAL MATCH    p=(en:Admission {Type:"A_14_15"}) - [r1:REL {Type:"Reified"}]->(n1:Admission)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Admission) <-[r2:REL {Type:"Reified"}]- (en:Admission {Type:"A_14_15"} )
+                where df.Type="A_14_15"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Admission {Type:"A_15_12"}) - [r1:REL {Type:"Reified"}]->(n1:Admission{ID:"15"})
+               -[r:REL ]->(n2:Admission{ID:"12"})<-[r2:REL {Type:"Reified"}]- (en:Admission {Type:"A_15_12"} )
+                
+                OPTIONAL MATCH    p=(en:Admission {Type:"A_15_12"}) - [r1:REL {Type:"Reified"}]->(n1:Admission)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Admission) <-[r2:REL {Type:"Reified"}]- (en:Admission {Type:"A_15_12"} )
+                where df.Type="A_15_12"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Admission {Type:"A_16_13"}) - [r1:REL {Type:"Reified"}]->(n1:Admission{ID:"16"})
+               -[r:REL ]->(n2:Admission{ID:"13"})<-[r2:REL {Type:"Reified"}]- (en:Admission {Type:"A_16_13"} )
+                
+                OPTIONAL MATCH    p=(en:Admission {Type:"A_16_13"}) - [r1:REL {Type:"Reified"}]->(n1:Admission)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Admission) <-[r2:REL {Type:"Reified"}]- (en:Admission {Type:"A_16_13"} )
+                where df.Type="A_16_13"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_1085006_127331000119101"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"1085006"})
+               -[r:REL ]->(n2:Concept{ID:"127331000119101"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_1085006_127331000119101"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_1085006_127331000119101"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_1085006_127331000119101"} )
+                where df.Type="C_1085006_127331000119101"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_1085006_26517000"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"1085006"})
+               -[r:REL ]->(n2:Concept{ID:"26517000"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_1085006_26517000"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_1085006_26517000"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_1085006_26517000"} )
+                where df.Type="C_1085006_26517000"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_1085006_94181007"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"1085006"})
+               -[r:REL ]->(n2:Concept{ID:"94181007"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_1085006_94181007"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_1085006_94181007"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_1085006_94181007"} )
+                where df.Type="C_1085006_94181007"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_127331000119101_266096002"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"127331000119101"})
+               -[r:REL ]->(n2:Concept{ID:"266096002"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_127331000119101_266096002"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_127331000119101_266096002"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_127331000119101_266096002"} )
+                where df.Type="C_127331000119101_266096002"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_188154003_234347009"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"188154003"})
+               -[r:REL ]->(n2:Concept{ID:"234347009"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_188154003_234347009"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_188154003_234347009"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_188154003_234347009"} )
+                where df.Type="C_188154003_234347009"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_188154003_277547006"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"188154003"})
+               -[r:REL ]->(n2:Concept{ID:"277547006"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_188154003_277547006"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_188154003_277547006"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_188154003_277547006"} )
+                where df.Type="C_188154003_277547006"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_234347009_47505003"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"234347009"})
+               -[r:REL ]->(n2:Concept{ID:"47505003"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_234347009_47505003"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_234347009_47505003"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_234347009_47505003"} )
+                where df.Type="C_234347009_47505003"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_234347009_91302008"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"234347009"})
+               -[r:REL ]->(n2:Concept{ID:"91302008"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_234347009_91302008"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_234347009_91302008"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_234347009_91302008"} )
+                where df.Type="C_234347009_91302008"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_26517000_414916001"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"26517000"})
+               -[r:REL ]->(n2:Concept{ID:"414916001"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_26517000_414916001"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_26517000_414916001"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_26517000_414916001"} )
+                where df.Type="C_26517000_414916001"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_26517000_59621000"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"26517000"})
+               -[r:REL ]->(n2:Concept{ID:"59621000"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_26517000_59621000"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_26517000_59621000"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_26517000_59621000"} )
+                where df.Type="C_26517000_59621000"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_266096002_127331000119101"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"266096002"})
+               -[r:REL ]->(n2:Concept{ID:"127331000119101"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_266096002_127331000119101"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_266096002_127331000119101"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_266096002_127331000119101"} )
+                where df.Type="C_266096002_127331000119101"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_266096002_91302008"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"266096002"})
+               -[r:REL ]->(n2:Concept{ID:"91302008"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_266096002_91302008"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_266096002_91302008"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_266096002_91302008"} )
+                where df.Type="C_266096002_91302008"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_277547006_414916001"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"277547006"})
+               -[r:REL ]->(n2:Concept{ID:"414916001"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_277547006_414916001"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_277547006_414916001"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_277547006_414916001"} )
+                where df.Type="C_277547006_414916001"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_414916001_188154003"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"414916001"})
+               -[r:REL ]->(n2:Concept{ID:"188154003"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_414916001_188154003"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_414916001_188154003"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_414916001_188154003"} )
+                where df.Type="C_414916001_188154003"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_47505003_234347009"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"47505003"})
+               -[r:REL ]->(n2:Concept{ID:"234347009"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_47505003_234347009"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_47505003_234347009"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_47505003_234347009"} )
+                where df.Type="C_47505003_234347009"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_47505003_26517000"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"47505003"})
+               -[r:REL ]->(n2:Concept{ID:"26517000"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_47505003_26517000"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_47505003_26517000"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_47505003_26517000"} )
+                where df.Type="C_47505003_26517000"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_59621000_234347009"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"59621000"})
+               -[r:REL ]->(n2:Concept{ID:"234347009"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_59621000_234347009"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_59621000_234347009"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_59621000_234347009"} )
+                where df.Type="C_59621000_234347009"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_59621000_91302008"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"59621000"})
+               -[r:REL ]->(n2:Concept{ID:"91302008"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_59621000_91302008"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_59621000_91302008"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_59621000_91302008"} )
+                where df.Type="C_59621000_91302008"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_91302008_1085006"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"91302008"})
+               -[r:REL ]->(n2:Concept{ID:"1085006"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_91302008_1085006"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_91302008_1085006"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_91302008_1085006"} )
+                where df.Type="C_91302008_1085006"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_91302008_127331000119101"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"91302008"})
+               -[r:REL ]->(n2:Concept{ID:"127331000119101"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_91302008_127331000119101"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_91302008_127331000119101"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_91302008_127331000119101"} )
+                where df.Type="C_91302008_127331000119101"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_91302008_266096002"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"91302008"})
+               -[r:REL ]->(n2:Concept{ID:"266096002"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_91302008_266096002"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_91302008_266096002"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_91302008_266096002"} )
+                where df.Type="C_91302008_266096002"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_91302008_59621000"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"91302008"})
+               -[r:REL ]->(n2:Concept{ID:"59621000"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_91302008_59621000"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_91302008_59621000"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_91302008_59621000"} )
+                where df.Type="C_91302008_59621000"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_91302008_94181007"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"91302008"})
+               -[r:REL ]->(n2:Concept{ID:"94181007"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_91302008_94181007"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_91302008_94181007"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_91302008_94181007"} )
+                where df.Type="C_91302008_94181007"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_94181007_1085006"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"94181007"})
+               -[r:REL ]->(n2:Concept{ID:"1085006"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_94181007_1085006"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_94181007_1085006"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_94181007_1085006"} )
+                where df.Type="C_94181007_1085006"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+
+//wrong_reified
+
+                OPTIONAL MATCH   (en:Concept {Type:"C_94181007_91302008"}) - [r1:REL {Type:"Reified"}]->(n1:Concept{ID:"94181007"})
+               -[r:REL ]->(n2:Concept{ID:"91302008"})<-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_94181007_91302008"} )
+                
+                OPTIONAL MATCH    p=(en:Concept {Type:"C_94181007_91302008"}) - [r1:REL {Type:"Reified"}]->(n1:Concept)<-[:CORR]- 
+                (e1:Event) -[df:DF ]->   (e2:Event)   
+                -[:CORR]-> (n2:Concept) <-[r2:REL {Type:"Reified"}]- (en:Concept {Type:"C_94181007_91302008"} )
+                where df.Type="C_94181007_91302008"
+                
+                with p,r,r1,r2,en
+                where p is null
+                delete r,r1,r2,en
+                
+

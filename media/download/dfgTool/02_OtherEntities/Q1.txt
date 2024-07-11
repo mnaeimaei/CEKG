@@ -41,7 +41,13 @@ MATCH () -[r:DF_E]- () DELETE r;
 MATCH () -[r:INCLUDED {Type:"last"}]- () DELETE r;
 
 //DeleteNodes
-MATCH (n:newMorbids) DELETE n;
+MATCH (n:age) DELETE n;
+
+//DeleteNodes
+MATCH (n:gender) DELETE n;
+
+//DeleteNodes
+MATCH (n:untreatedMorbids) DELETE n;
 
 //DeleteNodes
 MATCH (n:treatedMorbids) DELETE n;
@@ -50,16 +56,10 @@ MATCH (n:treatedMorbids) DELETE n;
 MATCH (n:Multimorbidity) DELETE n;
 
 //DeleteNodes
-MATCH (n:untreatedMorbids) DELETE n;
-
-//DeleteNodes
 MATCH (n:Disorder) DELETE n;
 
 //DeleteNodes
-MATCH (n:age) DELETE n;
-
-//DeleteNodes
-MATCH (n:gender) DELETE n;
+MATCH (n:newMorbids) DELETE n;
 
 //DeleteNodes
 MATCH (n:Feature) DELETE n;

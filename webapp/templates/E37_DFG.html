@@ -37,26 +37,6 @@
     </code></pre>
         </div>
 
-        <div class="neo4j-svg">
-            <h1 class="neo4j-svg-heading">neo4j Output:</h1>
-            <button onclick="window.open('{% url 'serve_svg_name' %}', '_blank');">Open SVG in New Tab</button>
-            <iframe src="{% url 'serve_svg_name' %}" style="width:100%; height:800px;" frameborder="0">
-                This browser does not support PDFs. Please download the PDF to view it: <a href="{{ pdf_url }}">Download
-                PDF</a>.
-            </iframe>
-        </div>
-
-
-        <div class="neo4j-queries">
-            <h1 class="neo4j-queries-heading">These are the queries used for creating these graph by neo4j:</h1>
-
-
-            <button onclick="window.open('{% url 'serve_neo4jQ_name' %}', '_blank');">Open Neo4J Queries in New Tab
-            </button>
-            <pre><code class="graphql">
-        {{ neo4jQuery }}
-    </code></pre>
-        </div>
 
         <script src="../static/highlight/languages/graphql.js"></script>
 

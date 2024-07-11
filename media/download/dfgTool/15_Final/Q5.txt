@@ -1,0 +1,315 @@
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Patient ) -[rel:REL {Type:"P_1_2"}]-> ( n2:Patient )
+            MATCH ( en : Patient ) where 
+            en.uID="P"+toString("1")+toString("2")+toString("1")+toString("2")
+            AND en.Type= "P_1_2"
+            AND en.ID=toString("1")+"_"+toString("2") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Patient ) -[rel:REL {Type:"P_2_1"}]-> ( n2:Patient )
+            MATCH ( en : Patient ) where 
+            en.uID="P"+toString("2")+toString("1")+toString("2")+toString("1")
+            AND en.Type= "P_2_1"
+            AND en.ID=toString("2")+"_"+toString("1") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Admission ) -[rel:REL {Type:"A_11_14"}]-> ( n2:Admission )
+            MATCH ( en : Admission ) where 
+            en.uID="A"+toString("11")+toString("14")+toString("11")+toString("14")
+            AND en.Type= "A_11_14"
+            AND en.ID=toString("11")+"_"+toString("14") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Admission ) -[rel:REL {Type:"A_12_13"}]-> ( n2:Admission )
+            MATCH ( en : Admission ) where 
+            en.uID="A"+toString("12")+toString("13")+toString("12")+toString("13")
+            AND en.Type= "A_12_13"
+            AND en.ID=toString("12")+"_"+toString("13") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Admission ) -[rel:REL {Type:"A_12_15"}]-> ( n2:Admission )
+            MATCH ( en : Admission ) where 
+            en.uID="A"+toString("12")+toString("15")+toString("12")+toString("15")
+            AND en.Type= "A_12_15"
+            AND en.ID=toString("12")+"_"+toString("15") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Admission ) -[rel:REL {Type:"A_13_16"}]-> ( n2:Admission )
+            MATCH ( en : Admission ) where 
+            en.uID="A"+toString("13")+toString("16")+toString("13")+toString("16")
+            AND en.Type= "A_13_16"
+            AND en.ID=toString("13")+"_"+toString("16") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Admission ) -[rel:REL {Type:"A_14_11"}]-> ( n2:Admission )
+            MATCH ( en : Admission ) where 
+            en.uID="A"+toString("14")+toString("11")+toString("14")+toString("11")
+            AND en.Type= "A_14_11"
+            AND en.ID=toString("14")+"_"+toString("11") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Admission ) -[rel:REL {Type:"A_14_15"}]-> ( n2:Admission )
+            MATCH ( en : Admission ) where 
+            en.uID="A"+toString("14")+toString("15")+toString("14")+toString("15")
+            AND en.Type= "A_14_15"
+            AND en.ID=toString("14")+"_"+toString("15") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Admission ) -[rel:REL {Type:"A_15_12"}]-> ( n2:Admission )
+            MATCH ( en : Admission ) where 
+            en.uID="A"+toString("15")+toString("12")+toString("15")+toString("12")
+            AND en.Type= "A_15_12"
+            AND en.ID=toString("15")+"_"+toString("12") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Admission ) -[rel:REL {Type:"A_16_13"}]-> ( n2:Admission )
+            MATCH ( en : Admission ) where 
+            en.uID="A"+toString("16")+toString("13")+toString("16")+toString("13")
+            AND en.Type= "A_16_13"
+            AND en.ID=toString("16")+"_"+toString("13") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_1085006_127331000119101"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("1085006")+toString("127331000119101")+toString("1085006")+toString("127331000119101")
+            AND en.Type= "C_1085006_127331000119101"
+            AND en.ID=toString("1085006")+"_"+toString("127331000119101") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_1085006_26517000"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("1085006")+toString("26517000")+toString("1085006")+toString("26517000")
+            AND en.Type= "C_1085006_26517000"
+            AND en.ID=toString("1085006")+"_"+toString("26517000") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_1085006_94181007"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("1085006")+toString("94181007")+toString("1085006")+toString("94181007")
+            AND en.Type= "C_1085006_94181007"
+            AND en.ID=toString("1085006")+"_"+toString("94181007") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_127331000119101_266096002"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("127331000119101")+toString("266096002")+toString("127331000119101")+toString("266096002")
+            AND en.Type= "C_127331000119101_266096002"
+            AND en.ID=toString("127331000119101")+"_"+toString("266096002") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_188154003_234347009"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("188154003")+toString("234347009")+toString("188154003")+toString("234347009")
+            AND en.Type= "C_188154003_234347009"
+            AND en.ID=toString("188154003")+"_"+toString("234347009") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_188154003_277547006"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("188154003")+toString("277547006")+toString("188154003")+toString("277547006")
+            AND en.Type= "C_188154003_277547006"
+            AND en.ID=toString("188154003")+"_"+toString("277547006") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_234347009_47505003"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("234347009")+toString("47505003")+toString("234347009")+toString("47505003")
+            AND en.Type= "C_234347009_47505003"
+            AND en.ID=toString("234347009")+"_"+toString("47505003") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_234347009_91302008"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("234347009")+toString("91302008")+toString("234347009")+toString("91302008")
+            AND en.Type= "C_234347009_91302008"
+            AND en.ID=toString("234347009")+"_"+toString("91302008") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_26517000_414916001"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("26517000")+toString("414916001")+toString("26517000")+toString("414916001")
+            AND en.Type= "C_26517000_414916001"
+            AND en.ID=toString("26517000")+"_"+toString("414916001") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_26517000_59621000"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("26517000")+toString("59621000")+toString("26517000")+toString("59621000")
+            AND en.Type= "C_26517000_59621000"
+            AND en.ID=toString("26517000")+"_"+toString("59621000") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_266096002_127331000119101"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("266096002")+toString("127331000119101")+toString("266096002")+toString("127331000119101")
+            AND en.Type= "C_266096002_127331000119101"
+            AND en.ID=toString("266096002")+"_"+toString("127331000119101") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_266096002_91302008"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("266096002")+toString("91302008")+toString("266096002")+toString("91302008")
+            AND en.Type= "C_266096002_91302008"
+            AND en.ID=toString("266096002")+"_"+toString("91302008") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_277547006_414916001"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("277547006")+toString("414916001")+toString("277547006")+toString("414916001")
+            AND en.Type= "C_277547006_414916001"
+            AND en.ID=toString("277547006")+"_"+toString("414916001") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_414916001_188154003"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("414916001")+toString("188154003")+toString("414916001")+toString("188154003")
+            AND en.Type= "C_414916001_188154003"
+            AND en.ID=toString("414916001")+"_"+toString("188154003") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_47505003_234347009"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("47505003")+toString("234347009")+toString("47505003")+toString("234347009")
+            AND en.Type= "C_47505003_234347009"
+            AND en.ID=toString("47505003")+"_"+toString("234347009") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_47505003_26517000"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("47505003")+toString("26517000")+toString("47505003")+toString("26517000")
+            AND en.Type= "C_47505003_26517000"
+            AND en.ID=toString("47505003")+"_"+toString("26517000") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_59621000_234347009"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("59621000")+toString("234347009")+toString("59621000")+toString("234347009")
+            AND en.Type= "C_59621000_234347009"
+            AND en.ID=toString("59621000")+"_"+toString("234347009") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_59621000_91302008"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("59621000")+toString("91302008")+toString("59621000")+toString("91302008")
+            AND en.Type= "C_59621000_91302008"
+            AND en.ID=toString("59621000")+"_"+toString("91302008") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_91302008_1085006"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("91302008")+toString("1085006")+toString("91302008")+toString("1085006")
+            AND en.Type= "C_91302008_1085006"
+            AND en.ID=toString("91302008")+"_"+toString("1085006") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_91302008_127331000119101"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("91302008")+toString("127331000119101")+toString("91302008")+toString("127331000119101")
+            AND en.Type= "C_91302008_127331000119101"
+            AND en.ID=toString("91302008")+"_"+toString("127331000119101") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_91302008_266096002"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("91302008")+toString("266096002")+toString("91302008")+toString("266096002")
+            AND en.Type= "C_91302008_266096002"
+            AND en.ID=toString("91302008")+"_"+toString("266096002") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_91302008_59621000"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("91302008")+toString("59621000")+toString("91302008")+toString("59621000")
+            AND en.Type= "C_91302008_59621000"
+            AND en.ID=toString("91302008")+"_"+toString("59621000") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_91302008_94181007"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("91302008")+toString("94181007")+toString("91302008")+toString("94181007")
+            AND en.Type= "C_91302008_94181007"
+            AND en.ID=toString("91302008")+"_"+toString("94181007") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_94181007_1085006"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("94181007")+toString("1085006")+toString("94181007")+toString("1085006")
+            AND en.Type= "C_94181007_1085006"
+            AND en.ID=toString("94181007")+"_"+toString("1085006") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+
+//RelatingReifiedEntitiesAndEntities
+
+            MATCH ( n1 : Concept ) -[rel:REL {Type:"C_94181007_91302008"}]-> ( n2:Concept )
+            MATCH ( en : Concept ) where 
+            en.uID="C"+toString("94181007")+toString("91302008")+toString("94181007")+toString("91302008")
+            AND en.Type= "C_94181007_91302008"
+            AND en.ID=toString("94181007")+"_"+toString("91302008") 
+            CREATE (n1) <-[:REL {Type:"Reified"}]- (en) -[:REL {Type:"Reified"}]-> (n2)
+

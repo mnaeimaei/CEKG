@@ -1,1 +1,1 @@
-['eventLogName', 'convertingNeo4jName', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16']
+['eventLogName', 'otherEntitiesName', 'entityRelName', 'DomainName', '4', 'ICDName', 'SctNodeName', 'SctRelName', 'DK3Name', '9', '10', 'DK4Name', 'DK5Name', 'DK61Name', 'DK62Name', 'DK7Name', 'convertingNeo4jName']

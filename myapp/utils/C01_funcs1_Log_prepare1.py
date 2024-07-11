@@ -141,8 +141,8 @@ def Create_CSV_in_Neo4J_import(csvLog, Neo4JImport, outputFileName, EntityIDColu
     #------converting IDs Columns values to list in dataframe-------
     for i in range(len(EntityIDColumnList)):
         item=EntityIDColumnList[i]
-        #print(item)
-        #print(logSamples[item])
+        print("item=",item)
+        print(logSamples[item])
         logSamples[item] = logSamples[item].map(lambda x: x.split(",") if ("," in str(x) and str(x) != 'nan')
                                                      else (list(x.split(" ")) if ("," not in str(x) and str(x) != 'nan')
                                                      else "Unknown" )

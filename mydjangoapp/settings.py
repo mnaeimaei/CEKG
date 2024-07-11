@@ -158,25 +158,25 @@ ASGI_APPLICATION = 'mydjangoapp.asgi.application'
 
 # Configure the Channel Layer For Local
 
-#CHANNEL_LAYERS = {
-#    'default': {
-#        'BACKEND': 'channels_redis.core.RedisChannelLayer',
-#        'CONFIG': {
-#            "hosts": [('127.0.0.1', 6379)],  # Configure Redis server
-#        },
-#    },
-#}
-
-# Configure the Channel Layer For Heroku
-
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
         'CONFIG': {
-            "hosts": [os.environ.get('REDIS_URL', 'redis://localhost:6379')],
+            "hosts": [('127.0.0.1', 6379)],  # Configure Redis server
         },
     },
 }
+
+# Configure the Channel Layer For Heroku
+
+#CHANNEL_LAYERS = {
+#    'default': {
+#        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+#        'CONFIG': {
+#            "hosts": [os.environ.get('REDIS_URL', 'redis://localhost:6379')],
+#        },
+#    },
+#}
 
 
 

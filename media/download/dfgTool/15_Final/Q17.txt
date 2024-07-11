@@ -1,0 +1,160 @@
+//relEntity
+
+        MATCH (a1:Admission) where a1.ID="11"
+        MATCH (a2:Admission) where a2.ID="12"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"Admission",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:Admission) where a1.ID="12"
+        MATCH (a2:Admission) where a2.ID="13"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"Admission",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:Admission) where a1.ID="14"
+        MATCH (a2:Admission) where a2.ID="15"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"Admission",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:Admission) where a1.ID="15"
+        MATCH (a2:Admission) where a2.ID="16"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"Admission",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:Multimorbidity) where a1.ID="1"
+        MATCH (a2:Multimorbidity) where a2.ID="2"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"Multimorbidity",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:Multimorbidity) where a1.ID="2"
+        MATCH (a2:Multimorbidity) where a2.ID="3"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"Multimorbidity",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:Multimorbidity) where a1.ID="4"
+        MATCH (a2:Multimorbidity) where a2.ID="5"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"Multimorbidity",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:Multimorbidity) where a1.ID="5"
+        MATCH (a2:Multimorbidity) where a2.ID="6"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"Multimorbidity",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:untreatedMorbids) where a1.ID="1"
+        MATCH (a2:untreatedMorbids) where a2.ID="2"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"untreatedMorbids",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:untreatedMorbids) where a1.ID="2"
+        MATCH (a2:untreatedMorbids) where a2.ID="3"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"untreatedMorbids",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:untreatedMorbids) where a1.ID="4"
+        MATCH (a2:untreatedMorbids) where a2.ID="5"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"untreatedMorbids",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:untreatedMorbids) where a1.ID="5"
+        MATCH (a2:untreatedMorbids) where a2.ID="6"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"untreatedMorbids",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:treatedMorbids) where a1.ID="1"
+        MATCH (a2:treatedMorbids) where a2.ID="2"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"treatedMorbids",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:treatedMorbids) where a1.ID="2"
+        MATCH (a2:treatedMorbids) where a2.ID="3"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"treatedMorbids",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:treatedMorbids) where a1.ID="4"
+        MATCH (a2:treatedMorbids) where a2.ID="5"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"treatedMorbids",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:treatedMorbids) where a1.ID="5"
+        MATCH (a2:treatedMorbids) where a2.ID="6"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"treatedMorbids",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:newMorbids) where a1.ID="1"
+        MATCH (a2:newMorbids) where a2.ID="2"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"newMorbids",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:newMorbids) where a1.ID="2"
+        MATCH (a2:newMorbids) where a2.ID="3"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"newMorbids",  Source:"Patient" , sourceID:"1"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:newMorbids) where a1.ID="4"
+        MATCH (a2:newMorbids) where a2.ID="5"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"newMorbids",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) 
+
+        
+
+//relEntity
+
+        MATCH (a1:newMorbids) where a1.ID="5"
+        MATCH (a2:newMorbids) where a2.ID="6"
+        MERGE ( a1 ) -[:DF_E {Type:"One" , Base:"newMorbids",  Source:"Patient" , sourceID:"2"  }]-> ( a2 ) 
+
+        
+

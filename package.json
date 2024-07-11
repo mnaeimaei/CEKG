@@ -2,5 +2,26 @@
   "dependencies": {
     "highlight.js": "^11.9.0",
     "react-toastify": "^10.0.5"
-  }
+  },
+  "name": "ckegweb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "electron": "^31.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnaeimaei/cekgPrivate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnaeimaei/cekgPrivate/issues"
+  },
+  "homepage": "https://github.com/mnaeimaei/cekgPrivate#readme",
+  "description": ""
 }

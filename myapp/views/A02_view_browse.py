@@ -39,7 +39,14 @@ def importing_file(request):
             logger.info(f"File uploaded at {uploaded_file_url}")
 
 
-        return redirect('importingExcel')
+        scripts = [
+            'A2_FileLocation_Step2_xlsx_Step.py',
+            'A2_FileLocation_Step3_sheetName_Step.py'
+        ]
+
+        ProgressBar.run_scripts_asynchronously(script_directory, scripts)
+
+        return redirect('excelPreview')
 
     else:
 

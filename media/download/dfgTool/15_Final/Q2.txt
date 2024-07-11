@@ -1,0 +1,160 @@
+//modifyEntities
+
+            MATCH (n:Patient) WHERE n.ID = "1"
+            SET
+                n.Type= "Patient",
+                n.uID="P"+toString("1")+toString("1")
+                
+
+//modifyEntities
+
+            MATCH (n:Patient) WHERE n.ID = "2"
+            SET
+                n.Type= "Patient",
+                n.uID="P"+toString("2")+toString("2")
+                
+
+//modifyEntities
+
+            MATCH (n:Admission) WHERE n.ID = "11"
+            SET
+                n.Type= "Admission",
+                n.uID="A"+toString("11")+toString("11")
+                
+
+//modifyEntities
+
+            MATCH (n:Admission) WHERE n.ID = "12"
+            SET
+                n.Type= "Admission",
+                n.uID="A"+toString("12")+toString("12")
+                
+
+//modifyEntities
+
+            MATCH (n:Admission) WHERE n.ID = "13"
+            SET
+                n.Type= "Admission",
+                n.uID="A"+toString("13")+toString("13")
+                
+
+//modifyEntities
+
+            MATCH (n:Admission) WHERE n.ID = "14"
+            SET
+                n.Type= "Admission",
+                n.uID="A"+toString("14")+toString("14")
+                
+
+//modifyEntities
+
+            MATCH (n:Admission) WHERE n.ID = "15"
+            SET
+                n.Type= "Admission",
+                n.uID="A"+toString("15")+toString("15")
+                
+
+//modifyEntities
+
+            MATCH (n:Admission) WHERE n.ID = "16"
+            SET
+                n.Type= "Admission",
+                n.uID="A"+toString("16")+toString("16")
+                
+
+//modifyEntities
+
+            MATCH (n:Concept) WHERE n.ID = "91302008"
+            SET
+                n.Type= "Concept",
+                n.uID="C"+toString("91302008")+toString("91302008")
+                
+
+//modifyEntities
+
+            MATCH (n:Concept) WHERE n.ID = "127331000119101"
+            SET
+                n.Type= "Concept",
+                n.uID="C"+toString("127331000119101")+toString("127331000119101")
+                
+
+//modifyEntities
+
+            MATCH (n:Concept) WHERE n.ID = "266096002"
+            SET
+                n.Type= "Concept",
+                n.uID="C"+toString("266096002")+toString("266096002")
+                
+
+//modifyEntities
+
+            MATCH (n:Concept) WHERE n.ID = "1085006"
+            SET
+                n.Type= "Concept",
+                n.uID="C"+toString("1085006")+toString("1085006")
+                
+
+//modifyEntities
+
+            MATCH (n:Concept) WHERE n.ID = "59621000"
+            SET
+                n.Type= "Concept",
+                n.uID="C"+toString("59621000")+toString("59621000")
+                
+
+//modifyEntities
+
+            MATCH (n:Concept) WHERE n.ID = "234347009"
+            SET
+                n.Type= "Concept",
+                n.uID="C"+toString("234347009")+toString("234347009")
+                
+
+//modifyEntities
+
+            MATCH (n:Concept) WHERE n.ID = "26517000"
+            SET
+                n.Type= "Concept",
+                n.uID="C"+toString("26517000")+toString("26517000")
+                
+
+//modifyEntities
+
+            MATCH (n:Concept) WHERE n.ID = "94181007"
+            SET
+                n.Type= "Concept",
+                n.uID="C"+toString("94181007")+toString("94181007")
+                
+
+//modifyEntities
+
+            MATCH (n:Concept) WHERE n.ID = "414916001"
+            SET
+                n.Type= "Concept",
+                n.uID="C"+toString("414916001")+toString("414916001")
+                
+
+//modifyEntities
+
+            MATCH (n:Concept) WHERE n.ID = "188154003"
+            SET
+                n.Type= "Concept",
+                n.uID="C"+toString("188154003")+toString("188154003")
+                
+
+//modifyEntities
+
+            MATCH (n:Concept) WHERE n.ID = "277547006"
+            SET
+                n.Type= "Concept",
+                n.uID="C"+toString("277547006")+toString("277547006")
+                
+
+//modifyEntities
+
+            MATCH (n:Concept) WHERE n.ID = "47505003"
+            SET
+                n.Type= "Concept",
+                n.uID="C"+toString("47505003")+toString("47505003")
+                
+

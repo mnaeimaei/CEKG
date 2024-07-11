@@ -1,0 +1,245 @@
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Patient)<-[:CORR ]-(e1:Event) -[df:DF {Type: "P_1_2" }]->(e2:Event)-[:CORR ]->(n2:Patient)
+            where n1.ID="2" and n2.ID="1"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Patient)<-[:CORR ]-(e1:Event) -[df:DF {Type: "P_2_1" }]->(e2:Event)-[:CORR ]->(n2:Patient)
+            where n1.ID="1" and n2.ID="2"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Admission)<-[:CORR ]-(e1:Event) -[df:DF {Type: "A_11_14" }]->(e2:Event)-[:CORR ]->(n2:Admission)
+            where n1.ID="14" and n2.ID="11"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Admission)<-[:CORR ]-(e1:Event) -[df:DF {Type: "A_12_13" }]->(e2:Event)-[:CORR ]->(n2:Admission)
+            where n1.ID="13" and n2.ID="12"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Admission)<-[:CORR ]-(e1:Event) -[df:DF {Type: "A_12_15" }]->(e2:Event)-[:CORR ]->(n2:Admission)
+            where n1.ID="15" and n2.ID="12"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Admission)<-[:CORR ]-(e1:Event) -[df:DF {Type: "A_13_16" }]->(e2:Event)-[:CORR ]->(n2:Admission)
+            where n1.ID="16" and n2.ID="13"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Admission)<-[:CORR ]-(e1:Event) -[df:DF {Type: "A_14_11" }]->(e2:Event)-[:CORR ]->(n2:Admission)
+            where n1.ID="11" and n2.ID="14"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Admission)<-[:CORR ]-(e1:Event) -[df:DF {Type: "A_14_15" }]->(e2:Event)-[:CORR ]->(n2:Admission)
+            where n1.ID="15" and n2.ID="14"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Admission)<-[:CORR ]-(e1:Event) -[df:DF {Type: "A_15_12" }]->(e2:Event)-[:CORR ]->(n2:Admission)
+            where n1.ID="12" and n2.ID="15"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Admission)<-[:CORR ]-(e1:Event) -[df:DF {Type: "A_16_13" }]->(e2:Event)-[:CORR ]->(n2:Admission)
+            where n1.ID="13" and n2.ID="16"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_1085006_127331000119101" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="127331000119101" and n2.ID="1085006"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_1085006_26517000" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="26517000" and n2.ID="1085006"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_1085006_94181007" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="94181007" and n2.ID="1085006"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_127331000119101_266096002" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="266096002" and n2.ID="127331000119101"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_188154003_234347009" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="234347009" and n2.ID="188154003"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_188154003_277547006" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="277547006" and n2.ID="188154003"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_234347009_47505003" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="47505003" and n2.ID="234347009"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_234347009_91302008" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="91302008" and n2.ID="234347009"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_26517000_414916001" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="414916001" and n2.ID="26517000"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_26517000_59621000" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="59621000" and n2.ID="26517000"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_266096002_127331000119101" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="127331000119101" and n2.ID="266096002"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_266096002_91302008" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="91302008" and n2.ID="266096002"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_277547006_414916001" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="414916001" and n2.ID="277547006"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_414916001_188154003" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="188154003" and n2.ID="414916001"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_47505003_234347009" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="234347009" and n2.ID="47505003"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_47505003_26517000" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="26517000" and n2.ID="47505003"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_59621000_234347009" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="234347009" and n2.ID="59621000"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_59621000_91302008" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="91302008" and n2.ID="59621000"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_91302008_1085006" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="1085006" and n2.ID="91302008"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_91302008_127331000119101" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="127331000119101" and n2.ID="91302008"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_91302008_266096002" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="266096002" and n2.ID="91302008"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_91302008_59621000" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="59621000" and n2.ID="91302008"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_91302008_94181007" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="94181007" and n2.ID="91302008"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_94181007_1085006" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="1085006" and n2.ID="94181007"
+            DELETE df;           
+            
+
+//deleteExtra_Reified_DF
+
+            MATCH (n1:Concept)<-[:CORR ]-(e1:Event) -[df:DF {Type: "C_94181007_91302008" }]->(e2:Event)-[:CORR ]->(n2:Concept)
+            where n1.ID="91302008" and n2.ID="94181007"
+            DELETE df;           
+            
+
