@@ -1,0 +1,102 @@
+//DFC_based_on_Origins
+     
+                            MATCH (c1:ActivityPropery {Type:"ActivityPropery"}) -[df:DF_C {Category:"wProperty"} ]-> (c2:ActivityPropery {Type:"ActivityPropery"})
+                            MATCH (d1)<-[:TYPE_OF]-(c1:ActivityPropery {Type:"ActivityPropery"})
+                            MATCH (c2:ActivityPropery {Type:"ActivityPropery"})-[:TYPE_OF]->(d2)
+                            match (c1:ActivityPropery)-[:MAPPED_TO]->(m1)
+                            match (c2:ActivityPropery)-[:MAPPED_TO]->(m2)
+                            WHERE df.count >= 1 and df.Type = "AllProperty" and df.En1="Patient" and df.En1_ID="0"    
+                            return c1,df,c2,d1,d2,m1,m2  
+                        
+
+//DFC_based_on_Origins
+     
+                            MATCH (c1:ActivityPropery {Type:"ActivityPropery"}) -[df:DF_C {Category:"wProperty"} ]-> (c2:ActivityPropery {Type:"ActivityPropery"})
+                            MATCH (d1)<-[:TYPE_OF]-(c1:ActivityPropery {Type:"ActivityPropery"})
+                            MATCH (c2:ActivityPropery {Type:"ActivityPropery"})-[:TYPE_OF]->(d2)
+                            match (c1:ActivityPropery)-[:MAPPED_TO]->(m1)
+                            match (c2:ActivityPropery)-[:MAPPED_TO]->(m2)
+                            WHERE df.count >= 1 and df.Type = "AllProperty" and df.En1="Admission" and df.En1_ID="0"    
+                            return c1,df,c2,d1,d2,m1,m2  
+                        
+
+//DFC_based_on_Origins
+     
+                            MATCH (c1:ActivityPropery {Type:"ActivityPropery"}) -[df:DF_C {Category:"wProperty"} ]-> (c2:ActivityPropery {Type:"ActivityPropery"})
+                            MATCH (d1)<-[:TYPE_OF]-(c1:ActivityPropery {Type:"ActivityPropery"})
+                            MATCH (c2:ActivityPropery {Type:"ActivityPropery"})-[:TYPE_OF]->(d2)
+                            match (c1:ActivityPropery)-[:MAPPED_TO]->(m1)
+                            match (c2:ActivityPropery)-[:MAPPED_TO]->(m2)
+                            WHERE df.count >= 1 and df.Type = "AllProperty" and df.En1="Concept" and df.En1_ID="0"    
+                            return c1,df,c2,d1,d2,m1,m2  
+                        
+
+//DFC_Adding_Entities
+     
+                            MATCH (c1:ActivityPropery {Type:"ActivityPropery"}) -[df:DF_C {Category:"wProperty"} ]-> (c2:ActivityPropery {Type:"ActivityPropery"})
+                            MATCH (d1)<-[:TYPE_OF]-(c1:ActivityPropery {Type:"ActivityPropery"})
+                            MATCH (c2:ActivityPropery {Type:"ActivityPropery"})-[:TYPE_OF]->(d2)
+                            WHERE df.count >= 1 and df.Type = "AllProperty" and df.En1="Patient" and df.En1_ID="0"    
+                            return c1,df,c2,d1,d2
+                        
+
+//DFC_Adding_Entities
+     
+                            MATCH (c1:ActivityPropery {Type:"ActivityPropery"}) -[df:DF_C {Category:"wProperty"} ]-> (c2:ActivityPropery {Type:"ActivityPropery"})
+                            MATCH (d1)<-[:TYPE_OF]-(c1:ActivityPropery {Type:"ActivityPropery"})
+                            MATCH (c2:ActivityPropery {Type:"ActivityPropery"})-[:TYPE_OF]->(d2)
+                            WHERE df.count >= 1 and df.Type = "AllProperty" and df.En1="Admission" and df.En1_ID="0"    
+                            return c1,df,c2,d1,d2
+                        
+
+//DFC_Adding_Entities
+     
+                            MATCH (c1:ActivityPropery {Type:"ActivityPropery"}) -[df:DF_C {Category:"wProperty"} ]-> (c2:ActivityPropery {Type:"ActivityPropery"})
+                            MATCH (d1)<-[:TYPE_OF]-(c1:ActivityPropery {Type:"ActivityPropery"})
+                            MATCH (c2:ActivityPropery {Type:"ActivityPropery"})-[:TYPE_OF]->(d2)
+                            WHERE df.count >= 1 and df.Type = "AllProperty" and df.En1="Concept" and df.En1_ID="0"    
+                            return c1,df,c2,d1,d2
+                        
+
+//Adding_Domains_Colors_Hint
+     
+                            MATCH (d1)<-[:TYPE_OF]-(c1:ActivityPropery {Type:"ActivityPropery"}) -[df:DF_C {Category:"wProperty"}]-> (c2:ActivityPropery {Type:"ActivityPropery"})-[:TYPE_OF]->(d2)
+                            WHERE df.count >= 1 and df.Type = "AllProperty" and df.En1="Patient" and df.En1_ID="0"    
+                            return c1,df,c2,d1,d2
+                        
+
+//Adding_Domains_Colors_Hint
+     
+                            MATCH (d1)<-[:TYPE_OF]-(c1:Activity {Type:"ActivityPropery"}) 
+                              
+                            return c1,d1
+                        
+
+//Adding_Domains_Colors_Hint
+     
+                            MATCH (d1)<-[:TYPE_OF]-(c1:ActivityPropery {Type:"ActivityPropery"}) -[df:DF_C {Category:"wProperty"}]-> (c2:ActivityPropery {Type:"ActivityPropery"})-[:TYPE_OF]->(d2)
+                            WHERE df.count >= 1 and df.Type = "AllProperty" and df.En1="Admission" and df.En1_ID="0"    
+                            return c1,df,c2,d1,d2
+                        
+
+//Adding_Domains_Colors_Hint
+     
+                            MATCH (d1)<-[:TYPE_OF]-(c1:Activity {Type:"ActivityPropery"}) 
+                              
+                            return c1,d1
+                        
+
+//Adding_Domains_Colors_Hint
+     
+                            MATCH (d1)<-[:TYPE_OF]-(c1:ActivityPropery {Type:"ActivityPropery"}) -[df:DF_C {Category:"wProperty"}]-> (c2:ActivityPropery {Type:"ActivityPropery"})-[:TYPE_OF]->(d2)
+                            WHERE df.count >= 1 and df.Type = "AllProperty" and df.En1="Concept" and df.En1_ID="0"    
+                            return c1,df,c2,d1,d2
+                        
+
+//Adding_Domains_Colors_Hint
+     
+                            MATCH (d1)<-[:TYPE_OF]-(c1:Activity {Type:"ActivityPropery"}) 
+                              
+                            return c1,d1
+                        
+

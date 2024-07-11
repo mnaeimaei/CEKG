@@ -1,0 +1,48 @@
+//DFC_based_on_Origins
+     
+                            MATCH (c1:Activity {Type:"Activity"}) -[df:DF_C {Category:"woProperty"}]-> (c2:Activity {Type:"Activity"})
+                            match (c1:Activity)-[:MAPPED_TO]->(m1)
+                            match (c2:Activity)-[:MAPPED_TO]->(m2)
+                            WHERE df.count >= 1 and df.Type = "All" and df.En1="Patient" and df.En1_ID="0"
+                            return c1,df,c2,m1,m2  
+                        
+
+//DFC_based_on_Origins
+     
+                            MATCH (c1:Activity {Type:"Activity"}) -[df:DF_C {Category:"woProperty"}]-> (c2:Activity {Type:"Activity"})
+                            match (c1:Activity)-[:MAPPED_TO]->(m1)
+                            match (c2:Activity)-[:MAPPED_TO]->(m2)
+                            WHERE df.count >= 1 and df.Type = "All" and df.En1="Admission" and df.En1_ID="0"
+                            return c1,df,c2,m1,m2  
+                        
+
+//DFC_based_on_Origins
+     
+                            MATCH (c1:Activity {Type:"Activity"}) -[df:DF_C {Category:"woProperty"}]-> (c2:Activity {Type:"Activity"})
+                            match (c1:Activity)-[:MAPPED_TO]->(m1)
+                            match (c2:Activity)-[:MAPPED_TO]->(m2)
+                            WHERE df.count >= 1 and df.Type = "All" and df.En1="Disorder" and df.En1_ID="0"
+                            return c1,df,c2,m1,m2  
+                        
+
+//DFC_Adding_Entities
+     
+                            MATCH (c1:Activity {Type:"Activity"}) -[df:DF_C {Category:"woProperty"}]-> (c2:Activity {Type:"Activity"})
+                            WHERE df.count >= 1 and df.Type = "All" and df.En1="Patient" and df.En1_ID="0"
+                            return c1,df,c2
+                        
+
+//DFC_Adding_Entities
+     
+                            MATCH (c1:Activity {Type:"Activity"}) -[df:DF_C {Category:"woProperty"}]-> (c2:Activity {Type:"Activity"})
+                            WHERE df.count >= 1 and df.Type = "All" and df.En1="Admission" and df.En1_ID="0"
+                            return c1,df,c2
+                        
+
+//DFC_Adding_Entities
+     
+                            MATCH (c1:Activity {Type:"Activity"}) -[df:DF_C {Category:"woProperty"}]-> (c2:Activity {Type:"Activity"})
+                            WHERE df.count >= 1 and df.Type = "All" and df.En1="Disorder" and df.En1_ID="0"
+                            return c1,df,c2
+                        
+

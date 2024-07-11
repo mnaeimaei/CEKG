@@ -1,0 +1,1060 @@
+//DF_based_on_Entities
+     
+                        match (n1:Patient {Type:"Patient"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Patient", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Patient {Type:"Patient"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="1" and df.ID="1"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Patient {Type:"Patient"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="1"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Patient {Type:"Patient"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Patient", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Patient {Type:"Patient"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="2" and df.ID="2"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Patient {Type:"Patient"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="2"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Admission {Type:"Admission"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Admission", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="11" and df.ID="11"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="11"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Admission {Type:"Admission"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Admission", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="12" and df.ID="12"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="12"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Admission {Type:"Admission"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Admission", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="13" and df.ID="13"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="13"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Admission {Type:"Admission"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Admission", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="14" and df.ID="14"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="14"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Admission {Type:"Admission"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Admission", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="15" and df.ID="15"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="15"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Admission {Type:"Admission"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Admission", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="16" and df.ID="16"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="16"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Concept {Type:"Concept"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Concept", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="91302008" and df.ID="91302008"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="91302008"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Concept {Type:"Concept"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Concept", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="127331000119101" and df.ID="127331000119101"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="127331000119101"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Concept {Type:"Concept"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Concept", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="266096002" and df.ID="266096002"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="266096002"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Concept {Type:"Concept"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Concept", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="1085006" and df.ID="1085006"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="1085006"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Concept {Type:"Concept"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Concept", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="59621000" and df.ID="59621000"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="59621000"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Concept {Type:"Concept"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Concept", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="234347009" and df.ID="234347009"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="234347009"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Concept {Type:"Concept"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Concept", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="26517000" and df.ID="26517000"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="26517000"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Concept {Type:"Concept"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Concept", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="94181007" and df.ID="94181007"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="94181007"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Concept {Type:"Concept"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Concept", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="414916001" and df.ID="414916001"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="414916001"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Concept {Type:"Concept"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Concept", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="188154003" and df.ID="188154003"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="188154003"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Concept {Type:"Concept"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Concept", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="277547006" and df.ID="277547006"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="277547006"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//DF_based_on_Entities
+     
+                        match (n1:Concept {Type:"Concept"}) <- [: CORR] -(e1: Event) -[df: DF{Type:"Concept", Category:"woProperty" }]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                        match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                        match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2)
+                        match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                        match (e2)-[:OBSERVED]->(a2)-[:MAPPED_TO]->(m2)
+                        WHERE n1.ID="47505003" and df.ID="47505003"     
+                        return  distinct a1,e1, df, e2,a2,d1,d2 ,m1,m2   
+                        
+
+//DF_based_on_Entities
+   
+                    match(e1: Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e1)-[:OBSERVED]->(a1)-[:MAPPED_TO]->(m1)
+                    WHERE n1.ID="47505003"     
+                    return e1,a1,d1,m1  
+
+
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Patient)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Patient" and n1.ID="1"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Patient)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Patient" and n1.ID="2"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Admission)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Admission" and n1.ID="11"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Admission)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Admission" and n1.ID="12"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Admission)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Admission" and n1.ID="13"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Admission)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Admission" and n1.ID="14"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Admission)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Admission" and n1.ID="15"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Admission)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Admission" and n1.ID="16"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Concept)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Concept" and n1.ID="91302008"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Concept)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Concept" and n1.ID="127331000119101"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Concept)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Concept" and n1.ID="266096002"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Concept)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Concept" and n1.ID="1085006"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Concept)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Concept" and n1.ID="59621000"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Concept)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Concept" and n1.ID="234347009"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Concept)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Concept" and n1.ID="26517000"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Concept)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Concept" and n1.ID="94181007"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Concept)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Concept" and n1.ID="414916001"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Concept)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Concept" and n1.ID="188154003"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Concept)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Concept" and n1.ID="277547006"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities_ID_ForFirstEvent
+   
+                    MATCH(e: Event) -[corr: CORR]-> (n1:Concept)
+                    match (e)-[:OBSERVED]->(a)-[:TYPE_OF]->(d) 
+                    WHERE n1.Type = "Concept" and n1.ID="47505003"  
+                      
+                      
+                    return e, n1
+                    order by e.timestamp, e.idx
+                    limit 1
+                        
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Patient"}]-> (e2:Event) -[: CORR]-> (n1:Patient {Type:"Patient"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="1"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Patient"}]-> (e2:Event) -[: CORR]-> (n1:Patient {Type:"Patient"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="2"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Admission"}]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="11"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Admission"}]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="12"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Admission"}]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="13"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Admission"}]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="14"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Admission"}]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="15"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Admission"}]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="16"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="91302008"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="127331000119101"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="266096002"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="1085006"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="59621000"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="234347009"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="26517000"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="94181007"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="414916001"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="188154003"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="277547006"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Entities
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="47505003"       
+                    return a1,e1, df, e2,a2
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Patient"}]-> (e2:Event) -[: CORR]-> (n1:Patient {Type:"Patient"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="1"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Patient"}]-> (e2:Event) -[: CORR]-> (n1:Patient {Type:"Patient"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="2"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Admission"}]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="11"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Admission"}]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="12"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Admission"}]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="13"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Admission"}]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="14"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Admission"}]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="15"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Admission"}]-> (e2:Event) -[: CORR]-> (n1:Admission {Type:"Admission"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="16"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="91302008"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="127331000119101"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="266096002"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="1085006"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="59621000"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="234347009"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="26517000"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="94181007"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="414916001"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="188154003"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="277547006"       
+                    return d1,e1, df, e2,d2
+
+                            
+
+//Adding_Domains_Colors_Hint
+   
+                    match(e1: Event) -[df: DF{Type:"Concept"}]-> (e2:Event) -[: CORR]-> (n1:Concept {Type:"Concept"})
+                    match (e1)-[:OBSERVED]->(a1)-[:TYPE_OF]->(d1) 
+                    match (e2)-[:OBSERVED]->(a2)-[:TYPE_OF]->(d2) 
+                    WHERE n1.ID="47505003"       
+                    return d1,e1, df, e2,d2
+
+                            
+

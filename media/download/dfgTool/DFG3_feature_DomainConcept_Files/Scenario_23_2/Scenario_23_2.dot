@@ -1,0 +1,737 @@
+// Query Result
+digraph {
+	graph [margin=0 rankdir=LR]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	1358 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1363 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1358 -> 1363 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1358 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1359 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1358 -> 1359 [label=2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1359 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1360 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1359 -> 1360 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1359 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1364 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1359 -> 1364 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1360 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1372 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1360 -> 1372 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1360 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1361 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1360 -> 1361 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1361 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1362 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1361 -> 1362 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1362 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1363 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1362 -> 1363 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1363 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1371 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1363 -> 1371 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1363 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1364 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1363 -> 1364 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1364 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1371 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1364 -> 1371 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1364 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1365 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1364 -> 1365 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1365 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1360 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1365 -> 1360 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1365 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1366 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1365 -> 1366 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1366 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1367 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1366 -> 1367 [label=2 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1366 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1366 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1366 -> 1366 [label=3 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1367 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1368 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1367 -> 1368 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1367 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1375 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1367 -> 1375 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1368 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1368 -> 1369 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1373 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1369 -> 1373 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1370 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1369 -> 1370 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1377 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1369 -> 1377 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1371 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1365 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1371 -> 1365 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1371 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1366 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1371 -> 1366 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1372 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1372 -> 1369 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1373 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1374 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1373 -> 1374 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1374 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1358 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1374 -> 1358 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1375 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1376 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1375 -> 1376 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	1376 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1376 -> 1369 [label=1 color="#e31a1c" fontcolor="#e31a1c" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	1358 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1359 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1358 -> 1359 [label=2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1358 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1363 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1358 -> 1363 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1359 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1360 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1359 -> 1360 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1359 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1364 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1359 -> 1364 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1360 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1361 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1360 -> 1361 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1362 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1363 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1362 -> 1363 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1363 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1364 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1363 -> 1364 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1363 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1371 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1363 -> 1371 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1364 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1365 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1364 -> 1365 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1364 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1371 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1364 -> 1371 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1365 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1360 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1365 -> 1360 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1365 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1366 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1365 -> 1366 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1366 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1367 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1366 -> 1367 [label=2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1366 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1366 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1366 -> 1366 [label=2 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1367 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1368 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1367 -> 1368 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1367 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1375 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1367 -> 1375 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1368 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1368 -> 1369 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1377 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1369 -> 1377 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1370 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1369 -> 1370 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1373 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1369 -> 1373 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1371 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1365 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1371 -> 1365 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1372 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1372 -> 1369 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1373 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1374 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1373 -> 1374 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1374 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1358 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1374 -> 1358 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1375 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1376 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1375 -> 1376 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	1376 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1376 -> 1369 [label=1 color="#1f78b4" fontcolor="#1f78b4" fontname=Helvetica fontsize=8 penwidth=1]
+	node [fixedsize=false fontname=Helvetica fontsize=8 height=0.4 margin=0 shape=square width=0.4]
+	1358 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1364 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1358 -> 1364 [label=4 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1358 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1363 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1358 -> 1363 [label=8 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1358 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1358 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1358 -> 1358 [label=8 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1359 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1364 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1359 -> 1364 [label=5 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1359 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1371 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1359 -> 1371 [label=2 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1360 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1361 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1360 -> 1361 [label=2 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1360 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1360 -> 1369 [label=6 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1360 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1372 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1360 -> 1372 [label=2 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1360 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1360 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1360 -> 1360 [label=6 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1361 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1372 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1361 -> 1372 [label=7 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1361 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1360 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1361 -> 1360 [label=2 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1362 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1363 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1362 -> 1363 [label=6 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1363 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1358 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1363 -> 1358 [label=6 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1363 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1360 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1363 -> 1360 [label=6 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1363 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1359 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1363 -> 1359 [label=2 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1364 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1365 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1364 -> 1365 [label=5 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1364 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1371 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1364 -> 1371 [label=5 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1365 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1360 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1365 -> 1360 [label=3 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1365 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1359 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1365 -> 1359 [label=5 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1366 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1368 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1366 -> 1368 [label=1 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1366 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1367 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1366 -> 1367 [label=3 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1366 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1366 [label="Blood
+sample
+sent
+to
+microbiology
+laboratory" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1366 -> 1366 [label=16 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1367 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1375 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1367 -> 1375 [label=2 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1367 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1367 -> 1369 [label=10 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1367 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1368 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1367 -> 1368 [label=2 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1368 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1368 -> 1369 [label=2 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1368 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1370 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1368 -> 1370 [label=9 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1367 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1369 -> 1367 [label=5 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1373 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1369 -> 1373 [label=2 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1377 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1369 -> 1377 [label=2 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1370 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1369 -> 1370 [label=2 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1370 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1367 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1370 -> 1367 [label=2 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1370 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1375 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1370 -> 1375 [label=9 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1371 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1367 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1371 -> 1367 [label=1 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1371 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1365 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1371 -> 1365 [label=2 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1371 [label=Ward color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1368 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1371 -> 1368 [label=4 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1372 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1373 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1372 -> 1373 [label=7 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1372 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1372 -> 1369 [label=2 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1373 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1374 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1373 -> 1374 [label=7 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1374 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1368 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1374 -> 1368 [label=2 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1374 [label="Analysis
+of
+arterial
+blood
+gases
+and
+pH" color="#000000" fillcolor=tomato2 penwidth=2 style=filled]
+	1362 [label="Hospital
+admission" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1374 -> 1362 [label=5 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1375 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1376 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1375 -> 1376 [label=9 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1376 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1377 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1376 -> 1377 [label=9 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	1376 [label="Microbiology
+procedure" color="#000000" fillcolor=goldenrod3 penwidth=2 style=filled]
+	1369 [label="Discharge
+from
+hospital" color="#000000" fillcolor=violetred1 penwidth=2 style=filled]
+	1376 -> 1369 [label=2 color="#33a02c" fontcolor="#33a02c" fontname=Helvetica fontsize=8 penwidth=1]
+	// name2
+	subgraph cluster_0 {
+		node [fixedsize=True fontname=Helvetica fontsize=8 height=0.2 margin=0 shape=rectangle width=0.8]
+		color="#ffffff" style=filled
+		label="
+Entity:"
+		1000 [label=Patient color="#ffffff" fillcolor="#ffffff:#ffffff:#ffffff:#e31a1c" fontcolor="#000000" style=striped]
+	}
+	// name2
+	subgraph cluster_0 {
+		node [fixedsize=True fontname=Helvetica fontsize=8 height=0.2 margin=0 shape=rectangle width=0.8]
+		color="#ffffff" style=filled
+		label="
+Entity:"
+		1001 [label=Admission color="#ffffff" fillcolor="#ffffff:#ffffff:#ffffff:#1f78b4" fontcolor="#000000" style=striped]
+	}
+	// name2
+	subgraph cluster_0 {
+		node [fixedsize=True fontname=Helvetica fontsize=8 height=0.2 margin=0 shape=rectangle width=0.8]
+		color="#ffffff" style=filled
+		label="
+Entity:"
+		1002 [label=Concept color="#ffffff" fillcolor="#ffffff:#ffffff:#ffffff:#33a02c" fontcolor="#000000" style=striped]
+	}
+	// name2
+	subgraph cluster_1 {
+		node [fixedsize=True fontname=Helvetica fontsize=8 height=0.2 margin=0 shape=rectangle width=0.8]
+		color="#ffffff" style=filled
+		label="Domains:"
+		10000000 [label="Transfer summary report" color="#ffffff" fillcolor="#ffffff:#ffffff:#ffffff:violetred1" fontcolor="#000000" style=striped]
+	}
+	// name2
+	subgraph cluster_1 {
+		node [fixedsize=True fontname=Helvetica fontsize=8 height=0.2 margin=0 shape=rectangle width=0.8]
+		color="#ffffff" style=filled
+		label="Domains:"
+		10000001 [label="Laboratory test finding" color="#ffffff" fillcolor="#ffffff:#ffffff:#ffffff:tomato2" fontcolor="#000000" style=striped]
+	}
+	// name2
+	subgraph cluster_1 {
+		node [fixedsize=True fontname=Helvetica fontsize=8 height=0.2 margin=0 shape=rectangle width=0.8]
+		color="#ffffff" style=filled
+		label="Domains:"
+		10000002 [label="Microbiology report" color="#ffffff" fillcolor="#ffffff:#ffffff:#ffffff:goldenrod3" fontcolor="#000000" style=striped]
+	}
+}
