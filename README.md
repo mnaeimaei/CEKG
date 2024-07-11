@@ -1,1 +1,1 @@
-For the installation guide, please refer to Installation_Guide.pdf.
+For the installation guide, please refer to INSTALLATION_GUIDE.pdf.
